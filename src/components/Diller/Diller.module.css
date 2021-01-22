@@ -1,0 +1,109 @@
+.Main{
+    height: 100%;
+    width: 100%;
+    /* background-color: #3c475b0e; */
+    /* border: 1px solid green; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-weight: bold;
+    color:  #3C475B;
+    /* margin-top: 40px; */
+    font-size: 1.3rem;
+}
+.Container{
+    height: 100%;
+    width: 100%;
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px; */
+}
+
+.Diller_container{
+    flex:1;
+    min-width: 300px;
+    max-width: 450px;
+    height: 150px;
+    
+    /* border: 1px solid black; */
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.Diller_container:hover{
+    transform: scale(1.03);
+    transition: 0.3s;
+  
+
+}
+
+.Diller{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border: 1px rgba(128, 128, 128, 0.048) solid;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.097);
+}
+
+.Diller:hover{
+   /* background-color: #78c47b1e;  */
+   transition: 0.3s;
+   box-shadow: 0 0 10px rgba(128, 128, 128, 0.616);
+}
+
+.Picture{
+    width: 50%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.Image{
+    width: 100%;
+    max-height: 90%;
+}
+.Text_item{
+    padding: 5px;
+    width: 50%;
+    height: 100%;
+    /* background-color: indianred; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   text-align: -webkit-center; 
+    color: #3C475B;
+}
+
+@media (max-width: 414px){
+
+    .Diller_container{
+        flex:1;
+        min-width: 350px;
+        max-width: 450px;
+        height: 120px;
+       
+        /* border: 1px solid black; */
+        padding: 5px;
+        transition: 0.2s;
+    }
+    .Container{
+        margin:0;
+    }
+}

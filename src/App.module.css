@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.Main{
+    width:100%;
+    
+    /* min-height: 1030px;
+    height: auto;
+    flex: content; */
+    /* overflow: hidden; */
+    /* overflow: auto; */
+    /* background-color: lightcoral;  */
+    overflow: hidden;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+.Header{
+    position: relative;
+    width: 100%;
+    height: 50px; 
+    /* background-color: orangered;  */
+}
+
+.Navbar{
+    position: relative;
+    width: 100%;
+    height: 48px;
+    background-color: white;
+    
+    z-index: 9999;
+}
+
+.slider{
+    width: 100%;
+    height: 400px;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+}
+
+.FastLink{
+    /* position: relative; */
+    width: 100%;
+    /* background-color: khaki; */
+    height: 700px;
+}
+.Lider_of_sale{
+    width:100%;
+    height:350px;
+    /* color: black; */
+}
+.Rasprodaga{
+    width:100%;
+    height:350px;
+    /* color: black; */
+    /* background-color: #FAFAFA; */
+}
+
+.Diller_main{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    /* height: 400px;  */
+    width: 100%;
+    /* background-color: red; */
+}
+
+.Lider_main{
+    /* position: absolute; */
+    width: 100%;
+    height: 2rem;
+      /* background-color: cornflowerblue;     */
+  
+    margin-top:10px;
+ 
+}
+.Lider_text{
+    font-weight: bold;
+    color:  #3C475B;
+   text-align: -webkit-center;
+    font-size: 1.3rem;
+    padding-top:13px;
+}
+.Content{
+    position: relative;
+    width: 100%;
+    min-height: 1250px;
+    height: max-content;
+    
+    /* padding-bottom: 30px; */
+    
+    /* height: 500px; */
+    /* background-color: cornflowerblue;  */
+    /* z-index: -1; */
+}
+
+.Content_Rout{
+    position: relative;
+    width: 100%;
+  
+    /* height: 100%; 
+    /* background-color: red;   */
+}
+
+.FooterContainer{
+    width: 100%;
+    height: 200px;
+    background-color: red;
+}
+
+@media (max-width: 920px){
+    .Header{
+        display: none;
+    }
+}

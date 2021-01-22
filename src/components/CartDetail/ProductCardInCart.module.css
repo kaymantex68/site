@@ -1,0 +1,199 @@
+.ProductCard_container {
+    width: 100%;
+    max-width: 900px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(128, 128, 128, 0.192);
+    margin-bottom: 5px;
+    display: flex;
+    /* padding-left:20px; */
+    align-items: center;
+    transition: 0.2s;
+}
+
+.ProductCard_container:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.589);
+    transition: 0.2s;
+}
+
+.ProductCard_picture {
+    height: 90%;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.ProducCard_picture_img {
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.ProductCard_description {
+    width: 230px;
+}
+
+.Model_name {
+    color: #3C475B;
+    font-size: 1rem;
+}
+.Model_name:hover {
+    font-weight: bold;
+}
+
+.Model_description {
+    color: #3C475B;
+    font-size: 0.7rem;
+}
+
+.ProductCard_count {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-left: 1px solid rgba(128, 128, 128, 0.199);
+    width: 70px;
+    height: 90%;
+}
+
+.Model_description_count {
+    color: #3C475B;
+    font-size: 0.9rem;
+}
+
+.count_input{
+    width: 50px;
+    border: none;
+    text-align: center;
+}
+
+
+.ProductCard_coast {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-left: 1px solid rgba(128, 128, 128, 0.199);
+    width: 100px;
+    height: 90%;
+
+}
+
+.Model_description_coast {
+    color: #3C475B;
+    font-size: 0.9rem;
+}
+
+.ProductCard_summ {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-left: 1px solid rgba(128, 128, 128, 0.199);
+    width: 100px;
+    height: 90%;
+
+}
+
+.Model_description_summ {
+    color: #3C475B;
+    font-size: 0.9rem;
+}
+
+
+.ProductCard_button_plus {
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+  
+    /* width: 100px; */
+    height: 90%;
+
+}
+
+.Buttons{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    padding:10px;
+    height: 90%;
+    border-left: 1px solid rgba(128, 128, 128, 0.199);
+    /* width: 200px; */
+   
+}
+
+.button_plus {
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.227);
+    color: white;
+    font-size: 0.9rem;
+    box-shadow: 0 0 8px rgba(128, 128, 128, 0.248);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.button_plus:hover{
+    transform: scale(1.06);
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.734);
+    background-color: rgba(255, 0, 0, 0.583);
+    transition: 0.2s;
+}
+
+
+.ProductCard_button_minus {
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    
+    /* width: 100px; */
+    height: 90%;
+    margin-right: 10px;
+   
+}
+
+.button_minus {
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    background-color: rgba(0, 128, 0, 0.193);
+    color: white;
+    font-size: 0.9rem;
+    box-shadow: 0 0 8px rgba(128, 128, 128, 0.248);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.button_minus:hover{
+    transform: scale(1.06);
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.734);
+    background-color: rgba(0, 128, 0, 0.638);
+    transition: 0.2s;
+}
+
+.ProductCard_button_remove {
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    
+    /* width: 100px; */
+    height: 90%;
+    margin-left: 10px;
+}
+
+.button_remove {
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    background-color: #3c475b65;
+    color: white;
+    font-size: 0.9rem;
+    box-shadow: 0 0 8px rgba(128, 128, 128, 0.248);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.button_remove:hover{
+    transform: scale(1.06);
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.734);
+    background-color: #3c475bd9;;
+    transition: 0.2s;
+}
+
