@@ -92,7 +92,7 @@ function Navbar(props) {
                                             </div>
                                         </li>
                                         <li className={classes.Dropdown_Links}>
-                                            <Link to="/catalog/ahd">AHD камеры</Link>
+                                            <Link to="/catalog/ahd">CVI-TVI-AHD-CVBS камеры</Link>
                                             <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                 <ul>
                                                     <li className={classes.Dropdown_Links}>
@@ -101,6 +101,9 @@ function Navbar(props) {
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/ahd/outdoor/ST">ST</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/ahd/outdoor/EZ-IP">EZ-IP</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -118,23 +121,7 @@ function Navbar(props) {
                                                 </ul>
                                             </div>
                                         </li>
-                                        <li className={classes.Dropdown_Links}>
-                                            <Link to="/catalog/micro">Микрофоны</Link>
-                                            <div className={`${classes.Dropdown} ${classes.Second}`} >
-                                                <ul>
-                                                    <li className={classes.Dropdown_Links}>
-                                                        <Link to="/catalog/micro/analog">Аналоговые</Link>
-                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
-                                                            <ul>
-                                                                <li className={classes.Dropdown_Links}>
-                                                                    <Link to="/catalog/micro/analog/ST">ST</Link>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </li>
+                                       
                                         <li className={classes.Dropdown_Links}>
                                             <Link to="/catalog/reg">Регистраторы</Link>
                                             <div className={`${classes.Dropdown} ${classes.Second}`} >
@@ -149,11 +136,17 @@ function Navbar(props) {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/reg/nvr/HiWatch">HiWatch</Link>
                                                                 </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/reg/nvr/EZ-IP">EZ-IP</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/reg/nvr/Atis">Atis</Link>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </li>
                                                     <li className={classes.Dropdown_Links}>
-                                                        <Link to="/catalog/reg/xvr">XVR</Link>
+                                                        <Link to="/catalog/reg/xvr">Гибридные регистраторы</Link>
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
@@ -161,6 +154,9 @@ function Navbar(props) {
                                                                 </li>
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/reg/xvr/HiWatch">HiWatch</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/reg/xvr/EZ-IP">EZ-IP</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -194,6 +190,23 @@ function Navbar(props) {
                                                                 </li>
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/storage/sd/SanDisk">SanDisk</Link>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li className={classes.Dropdown_Links}>
+                                            <Link to="/catalog/micro">Микрофоны</Link>
+                                            <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                <ul>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/micro/analog">Аналоговые</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/micro/analog/ST">ST</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -898,9 +911,9 @@ function Navbar(props) {
                                     </ul>
                                 </div>
                             </li>
-                            <li className={classes.Links}>
+                            {/* <li className={classes.Links}>
                                 <a href="#">Монтаж</a>
-                            </li>
+                            </li> */}
                             <li className={classes.Links}>
                                 <Link to="/contacts/adress">Контакты</Link>
                             </li>
