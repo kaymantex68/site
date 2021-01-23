@@ -121,13 +121,12 @@ function Navbar(props) {
                                                 </ul>
                                             </div>
                                         </li>
-                                       
                                         <li className={classes.Dropdown_Links}>
                                             <Link to="/catalog/reg">Регистраторы</Link>
                                             <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                 <ul>
                                                     <li className={classes.Dropdown_Links}>
-                                                        <Link to="/catalog/reg/nvr">NVR</Link>
+                                                        <Link to="/catalog/reg/nvr">Сетевые</Link>
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
@@ -146,7 +145,7 @@ function Navbar(props) {
                                                         </div>
                                                     </li>
                                                     <li className={classes.Dropdown_Links}>
-                                                        <Link to="/catalog/reg/xvr">Гибридные регистраторы</Link>
+                                                        <Link to="/catalog/reg/xvr">Гибридные</Link>
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
