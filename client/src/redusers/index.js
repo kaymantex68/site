@@ -5,6 +5,7 @@ import sales from './sales'
 import slider from './slider'
 import dillers from './dillers'
 import cart from './cart'
+import client from './clientInformation'
 
 
 const rootReducers=combineReducers({
@@ -13,7 +14,8 @@ const rootReducers=combineReducers({
     sales,
     slider,
     dillers,
-    cart
+    cart,
+    client
 })
 
 export default rootReducers;

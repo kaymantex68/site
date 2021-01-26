@@ -12,9 +12,6 @@ const Unic = (cart) => {
     const unicCart =uniqBy(cart.items, o => o.model);
     const Cart=cart.items;
     let newUniCart=[];
-    // console.info('unicCart', unicCart);
-    // console.info('Cart', Cart);
-
     for (let i=0; i<unicCart.length;i++){
         let count=0;
         for(let j=0; j<Cart.length;j++){
@@ -25,16 +22,16 @@ const Unic = (cart) => {
         newUniCart.push({...unicCart[i],count: count})
         count=0;
     }
-    // console.info('NEW UNICART',newUniCart)
     return newUniCart
 }
 
 
-const mapStateToProps = ({ cart }) => {
+const mapStateToProps = ({ cart, client }) => {
     return {
         cartUniq: orderBy(Unic(cart), o=> o.model),
         cartCount: cart.items.length,
-        cartSumm: cart.items.reduce((count, product) => count + product.coast, 0)
+        cartSumm: cart.items.reduce((count, product) => count + product.coast, 0),
+        clientInformation: client.items
     }
 }
 

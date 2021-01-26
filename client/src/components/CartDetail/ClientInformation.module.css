@@ -1,0 +1,30 @@
+.container_client{
+    display: flex;
+    min-width: 600px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 8px rgba(128, 128, 128, 0.192);
+   
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+
+.form_client{
+ 
+   width: 70%;
+}
+
+.form_client_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.client_input{
+    border: 1px solid rgba(128, 128, 128, 0.364);
+    border-radius: 5px;
+}

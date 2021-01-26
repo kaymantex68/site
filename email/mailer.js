@@ -16,6 +16,7 @@ const mailer = message => {
     transporter.sendMail(message, (err, info) => {
         if (err) return console.log(err)
         console.log('email send: ', info)
+        console.log(message)
     })
 }
 
