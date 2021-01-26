@@ -20,11 +20,11 @@ const Catalog = (props) => {
      * по хорошему, ее бы отсюда перенести в контейнер
      */
 
-    if (sort.sort === "UP_COAST") {
+    if (sort.sort === "DOWN_COAST") {
         products.sort((a, b) => +a.coast > +b.coast ? 1 : -1)
     }
-
-    if (sort.sort === "DOWN_COAST") {
+    
+    if (sort.sort === "UP_COAST") {
         products.sort((a, b) => +a.coast < +b.coast ? 1 : -1)
     }
 
