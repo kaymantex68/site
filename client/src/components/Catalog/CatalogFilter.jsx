@@ -2,7 +2,9 @@ import React from 'react'
 import classes from './CatalogFilter.module.css'
 
 const CatalogFilter = (props) => {
-    const { setSort, products } = props
+
+    const { setSort, products, params, url } = props
+    console.log(params)
     const [sort, setFilter] = React.useState(
         {
             sort: 'ALL',
@@ -13,18 +15,30 @@ const CatalogFilter = (props) => {
         }
     )
 
-   
+    // 
 
     /**
      * ============================================================ уникальные бренды
      */
     let unic = []
-    products.filter(item => unic.push(item.brand));
-    unic = [...new Set(unic)].sort((a, b) => a > b ? 1 : -1)
+    // products.filter(item => unic.push(item.brand));
+    // unic = [...new Set(unic)].sort((a, b) => a > b ? 1 : -1)
+
+    products.map((item, index) => {
+        if (params.cat == item.type[1]) {
+            unic.push(item.brand);
+            unic = [...new Set(unic)];
+        }
+
+        if (url == '/catalog') {
+            unic.push(item.brand);
+            unic = [...new Set(unic)];
+        }
+    })
 
     React.useEffect(() => {
         setSort(sort)
-    }, [sort,setSort])
+    }, [sort, setSort])
 
 
 
@@ -37,11 +51,11 @@ const CatalogFilter = (props) => {
             </div>
             <div className={classes.checkbox_block}>
                 <label className={classes.label_checkbox} for="id_stock">Акция</label>
-                <input className={classes.checkbox} id="id_stock" name="stock" type="checkbox" value={sort.stock} onChange={(e) => { setFilter({ ...sort, [e.target.name]: e.target.checked })  }} ></input>
+                <input className={classes.checkbox} id="id_stock" name="stock" type="checkbox" value={sort.stock} onChange={(e) => { setFilter({ ...sort, [e.target.name]: e.target.checked }) }} ></input>
             </div>
             <div className={classes.checkbox_block}>
                 <label className={classes.label_checkbox} for="id_sale">Распродажа</label>
-                <input className={classes.checkbox} id="id_sale" name="sale" type="checkbox" value={sort.sale} onChange={(e) => { setFilter({ ...sort, [e.target.name]: e.target.checked })  }} ></input>
+                <input className={classes.checkbox} id="id_sale" name="sale" type="checkbox" value={sort.sale} onChange={(e) => { setFilter({ ...sort, [e.target.name]: e.target.checked }) }} ></input>
             </div>
             <div className={classes.Sort}>
                 <select className={classes.SelectBrand} name="brand" onChange={(e) => { setFilter({ ...sort, [e.target.name]: e.target.value }) }}>

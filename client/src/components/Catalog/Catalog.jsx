@@ -14,23 +14,24 @@ import filter from 'lodash/filter'
 const Catalog = (props) => {
     let { products, sort } = props;
     let { params, url } = props.match;
-    // console.log('sort: ', sort)
+    // console.log('sort: ', url)
     /**
      * ============================================================ сортировка
      * по хорошему, ее бы отсюда перенести в контейнер
      */
-
-    if (sort.sort === "DOWN_COAST") {
-        products.sort((a, b) => +a.coast > +b.coast ? 1 : -1)
-    }
-    
-    if (sort.sort === "UP_COAST") {
-        products.sort((a, b) => +a.coast < +b.coast ? 1 : -1)
-    }
-
     if (sort.sort === "ALL") {
         products.sort((a, b) => a.brand > b.brand ? 1 : -1)
     }
+
+    if (sort.sort === "UP_COAST") {
+        products.sort((a, b) => +a.coast > +b.coast ? 1 : -1)
+    }
+
+    if (sort.sort === "DOWN_COAST") {
+        products.sort((a, b) => +a.coast < +b.coast ? 1 : -1)
+    }
+
+
 
     if (sort.sort === "ALFA_MAX") {
         products.sort((a, b) => a.model > b.model ? 1 : -1)
@@ -61,7 +62,7 @@ const Catalog = (props) => {
    */
 
     if (sort.brand === "All_BRAND") {
-        products.sort((a, b) => a.brand > b.brand ? 1 : -1)
+        // products.sort((a, b) => a.brand > b.brand ? 1 : -1)
     } else {
         products = products.filter(product => product.brand === sort.brand)
     }
@@ -102,7 +103,7 @@ const Catalog = (props) => {
             <Helmet>
                 <title>{`Видеонаблюдение Тамбов Кайман`}</title>
             </Helmet>
-            <CatalogFilter />
+            <CatalogFilter params={params} url={url} />
             <div className={classes.catalog_container_block}>
                 {
                     products.map((product, key) => {
