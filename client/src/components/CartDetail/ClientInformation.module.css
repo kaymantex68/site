@@ -28,3 +28,9 @@
     border: 1px solid rgba(128, 128, 128, 0.364);
     border-radius: 5px;
 }
+
+.message{
+    margin: 5px;
+    font-size: 0.8rem;
+    color: gray;
+}

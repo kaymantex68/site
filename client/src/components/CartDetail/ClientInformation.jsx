@@ -1,6 +1,7 @@
 import React from 'react'
 import classes from './ClientInformation.module.css'
 export const ClientInformation = (props) => {
+    console.log(props)
     const {clientInformation, setClientInformation} = props;
     const [formData, setFormData] = React.useState(
         {
@@ -38,6 +39,8 @@ export const ClientInformation = (props) => {
                     onChange={(e) => setFormData({ ...formData, [e.target.name]: e.target.value })}
                     />
                 </div>
+                {props.message && <div className={classes.message}>все поля должны быть заполнены</div>}
+                {props.response && <div className={classes.message}>заявка отправлена</div>}
             </form>
 
         </div>
