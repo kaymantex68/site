@@ -14,35 +14,59 @@ import filter from 'lodash/filter'
 const Catalog = (props) => {
     let { products, sort } = props;
     let { params, url } = props.match;
-    
+    console.log('sort: ', sort)
     /**
      * ============================================================ сортировка
      * по хорошему, ее бы отсюда перенести в контейнер
      */
 
-    if (sort.max == true) {
+    if (sort.sort === "UP_COAST") {
         products.sort((a, b) => +a.coast > +b.coast ? 1 : -1)
     }
 
-    if (sort.min == true) {
+    if (sort.sort === "DOWN_COAST") {
         products.sort((a, b) => +a.coast < +b.coast ? 1 : -1)
     }
 
-    if (sort.all == true) {
+    if (sort.sort === "ALL") {
         products.sort((a, b) => a.brand > b.brand ? 1 : -1)
     }
 
-    if (sort.alfa_max == true) {
+    if (sort.sort === "ALFA_MAX") {
         products.sort((a, b) => a.model > b.model ? 1 : -1)
     }
 
-    if (sort.alfa_min == true) {
+    if (sort.sort === "ALFA_MIN") {
         products.sort((a, b) => a.model < b.model ? 1 : -1)
     }
 
     /**
-   * ============================================================ сортировка
+    * ============================================================ checkbox
+    */
+
+    if (sort.available === true) {
+        products = products.filter(product => product.inStock_outStock === 1)
+    }
+
+    if (sort.stock === true) {
+        products = products.filter(product => product.akciya)
+    }
+
+    if (sort.sale === true) {
+        products = products.filter(product => product.rasprodaja)
+    }
+
+    /**
+   * ============================================================ brand
    */
+
+    if (sort.brand === "All_BRAND") {
+        products.sort((a, b) => a.brand > b.brand ? 1 : -1)
+    } else {
+        products = products.filter(product => product.brand === sort.brand)
+    }
+
+
 
     if (params.cat) {
         products = filter(products, function (item) {

@@ -55,7 +55,7 @@ function App(props) {
   }
 
   React.useState(() => {
-    Load().then(response=>console.log(response))
+    Load().then(response=>response)
   }, [])
 
   return (
