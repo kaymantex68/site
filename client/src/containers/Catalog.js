@@ -11,6 +11,7 @@ import Catalog from '../components/Catalog/Catalog'
 const mapStateToProps = (state) => {
     return {
         products: state.producst.items,
+        sort: state.filter.items
     }
 }
 

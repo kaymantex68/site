@@ -22,7 +22,7 @@ const CartDetail = (props) => {
         console.log(message)
         setMessageRes(message)
     }
-    console.log('res', messageRes)
+
 
 
     if (clientInformation.length !== 0 && clientInformation.name.length !== 0 && clientInformation.email.length !== 0 && clientInformation.phone.length !== 0) {

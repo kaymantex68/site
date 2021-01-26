@@ -1,9 +1,9 @@
 import React from 'react'
-// import { Link } from 'react-router-dom'
+
 import { Helmet } from 'react-helmet'
 
 import ProductsCard from '../../containers/ProductsCard'
-// import CatalogFilter from './CatalogFilter'
+import CatalogFilter from '../../containers/CatalogFilter'
 
 import classes from './Catalog.module.css'
 
@@ -12,11 +12,37 @@ import filter from 'lodash/filter'
 
 
 const Catalog = (props) => {
-    let { products } = props;
+    let { products, sort } = props;
     let { params, url } = props.match;
-    // console.info('CATALOG PROPS: ', props)
-    // console.info('CATALOG Products: ', products)
-    // console.info('CATALOG MATCH PARAMS: ', props.match)
+    
+    /**
+     * ============================================================ сортировка
+     * по хорошему, ее бы отсюда перенести в контейнер
+     */
+
+    if (sort.max == true) {
+        products.sort((a, b) => +a.coast > +b.coast ? 1 : -1)
+    }
+
+    if (sort.min == true) {
+        products.sort((a, b) => +a.coast < +b.coast ? 1 : -1)
+    }
+
+    if (sort.all == true) {
+        products.sort((a, b) => a.brand > b.brand ? 1 : -1)
+    }
+
+    if (sort.alfa_max == true) {
+        products.sort((a, b) => a.model > b.model ? 1 : -1)
+    }
+
+    if (sort.alfa_min == true) {
+        products.sort((a, b) => a.model < b.model ? 1 : -1)
+    }
+
+    /**
+   * ============================================================ сортировка
+   */
 
     if (params.cat) {
         products = filter(products, function (item) {
@@ -50,9 +76,9 @@ const Catalog = (props) => {
 
         <div className={classes.catalog_container}>
             <Helmet>
-                <title>{ `Видеонаблюдение Тамбов Кайман`}</title>
+                <title>{`Видеонаблюдение Тамбов Кайман`}</title>
             </Helmet>
-            {/* <CatalogFilter /> */}
+            <CatalogFilter />
             <div className={classes.catalog_container_block}>
                 {
                     products.map((product, key) => {
@@ -74,16 +100,14 @@ const Catalog = (props) => {
                         }
                         return (
                             <div key={`catalog-product-${key}`} className={classes.catalog_container_product_container}>
-                                {/* <Link to={`${url2}/${product.model}`}> */}
-                                    <ProductsCard {...product} link={url2} />
-                                {/* </Link> */}
+
+                                <ProductsCard {...product} link={url2} />
                             </div>
                         )
                     })
                 }
             </div>
-            {/* <div className={classes.Romb1}></div>
-            <div className={classes.Romb2}></div> */}
+
         </div>
     )
 }

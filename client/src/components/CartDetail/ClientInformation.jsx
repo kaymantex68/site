@@ -1,8 +1,7 @@
 import React from 'react'
 import classes from './ClientInformation.module.css'
 export const ClientInformation = (props) => {
-    console.log(props)
-    const {clientInformation, setClientInformation} = props;
+    const { setClientInformation} = props;
     const [formData, setFormData] = React.useState(
         {
             email: '',
@@ -11,6 +10,8 @@ export const ClientInformation = (props) => {
         }
     )
     setClientInformation(formData);
+
+    React.useEffect(()=>{},[formData])
     return (
 
         <div className={classes.container_client}>

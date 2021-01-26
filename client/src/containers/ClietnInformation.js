@@ -3,12 +3,12 @@ import { bindActionCreators } from 'redux';
 import * as clientActions from '../actions/clientInformation'
 
 
-import {ClientInformation} from '../components/CartDetail/ClientInformation'
+import { ClientInformation } from '../components/CartDetail/ClientInformation'
 
 
 
 
-const mapStateToProps = ({client}) => {
+const mapStateToProps = ({ client }) => {
     return {
         clientInformation: client.items,
     }

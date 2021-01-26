@@ -6,6 +6,7 @@ import slider from './slider'
 import dillers from './dillers'
 import cart from './cart'
 import client from './clientInformation'
+import filter from './catalogFilter'
 
 
 const rootReducers=combineReducers({
@@ -15,7 +16,8 @@ const rootReducers=combineReducers({
     slider,
     dillers,
     cart,
-    client
+    client,
+    filter
 })
 
 export default rootReducers;
