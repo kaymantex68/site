@@ -6,14 +6,14 @@ const CatalogFilter = (props) => {
     const [sort, setFilter] = React.useState(
         {
             sort: 'ALL',
-            brand: 'ALL',
+            brand: 'All_BRAND',
             available: false,
             stock: false,
             sale: false
         }
     )
 
-    console.log(sort)
+   
 
     /**
      * ============================================================ уникальные бренды
