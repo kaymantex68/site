@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.530a2fb0.chunk.css",
-    "main.js": "/static/js/main.01338952.chunk.js",
-    "main.js.map": "/static/js/main.01338952.chunk.js.map",
+    "main.js": "/static/js/main.65da4306.chunk.js",
+    "main.js.map": "/static/js/main.65da4306.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8818279e.js",
     "runtime-main.js.map": "/static/js/runtime-main.8818279e.js.map",
     "static/css/2.67810363.chunk.css": "/static/css/2.67810363.chunk.css",
@@ -34,7 +34,7 @@
     "static/media/iron_logic_brand.e2cc8e04.png": "/static/media/iron_logic_brand.e2cc8e04.png",
     "static/media/itk_brand.43e0e782.png": "/static/media/itk_brand.43e0e782.png",
     "static/media/kadron_brand.1d30b7b4.png": "/static/media/kadron_brand.1d30b7b4.png",
-    "static/media/logo.46833c25.svg": "/static/media/logo.46833c25.svg",
+    "static/media/logo.fb164f88.svg": "/static/media/logo.fb164f88.svg",
     "static/media/navigator_brand.57b7e00c.png": "/static/media/navigator_brand.57b7e00c.png",
     "static/media/noname_brand.0a89cd59.png": "/static/media/noname_brand.0a89cd59.png",
     "static/media/optimus_brand.cce9f161.png": "/static/media/optimus_brand.cce9f161.png",
@@ -76,6 +76,6 @@
     "static/css/2.67810363.chunk.css",
     "static/js/2.9985da1b.chunk.js",
     "static/css/main.530a2fb0.chunk.css",
-    "static/js/main.01338952.chunk.js"
+    "static/js/main.65da4306.chunk.js"
   ]
 }
