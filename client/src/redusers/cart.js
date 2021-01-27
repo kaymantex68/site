@@ -22,7 +22,7 @@ const cart = (state = initialState, action) => {
     switch (action.type) {
         case 'SET_CART':
             return {
-                items: [],
+                items: [...action.payload],
             }
         case 'CLEAR_CART':
             return {

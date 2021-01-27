@@ -9,6 +9,7 @@ const mapStateToProps = ({ cart }, { model }) => ({
     addedCount: cart.items.reduce(
         (count, product) => count + (product.model === model ? 1 : 0), 0
     ),
+    cart: cart.items
 })
 
 const mapDispatchToProps = (dispatch) => ({

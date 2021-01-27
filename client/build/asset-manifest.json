@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.250886b8.chunk.css",
-    "main.js": "/static/js/main.a22d45b3.chunk.js",
-    "main.js.map": "/static/js/main.a22d45b3.chunk.js.map",
+    "main.js": "/static/js/main.bdecd492.chunk.js",
+    "main.js.map": "/static/js/main.bdecd492.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8818279e.js",
     "runtime-main.js.map": "/static/js/runtime-main.8818279e.js.map",
     "static/css/2.67810363.chunk.css": "/static/css/2.67810363.chunk.css",
-    "static/js/2.788cb2e1.chunk.js": "/static/js/2.788cb2e1.chunk.js",
-    "static/js/2.788cb2e1.chunk.js.map": "/static/js/2.788cb2e1.chunk.js.map",
+    "static/js/2.5dcd646e.chunk.js": "/static/js/2.5dcd646e.chunk.js",
+    "static/js/2.5dcd646e.chunk.js.map": "/static/js/2.5dcd646e.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.67810363.chunk.css.map": "/static/css/2.67810363.chunk.css.map",
     "static/css/main.250886b8.chunk.css.map": "/static/css/main.250886b8.chunk.css.map",
-    "static/js/2.788cb2e1.chunk.js.LICENSE.txt": "/static/js/2.788cb2e1.chunk.js.LICENSE.txt",
+    "static/js/2.5dcd646e.chunk.js.LICENSE.txt": "/static/js/2.5dcd646e.chunk.js.LICENSE.txt",
     "static/media/1.9b4451ff.png": "/static/media/1.9b4451ff.png",
     "static/media/3.09e1f41a.png": "/static/media/3.09e1f41a.png",
     "static/media/D-Link_brand.78dd7268.png": "/static/media/D-Link_brand.78dd7268.png",
@@ -74,8 +74,8 @@
   "entrypoints": [
     "static/js/runtime-main.8818279e.js",
     "static/css/2.67810363.chunk.css",
-    "static/js/2.788cb2e1.chunk.js",
+    "static/js/2.5dcd646e.chunk.js",
     "static/css/main.250886b8.chunk.css",
-    "static/js/main.a22d45b3.chunk.js"
+    "static/js/main.bdecd492.chunk.js"
   ]
 }

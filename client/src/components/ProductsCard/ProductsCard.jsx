@@ -3,8 +3,9 @@ import classes from './ProductsCard.module.css'
 import { Link } from 'react-router-dom'
 
 const ProductCard = (model) => {
-    const { addProductToCart, addedCount } = model;
+    const { addProductToCart, addedCount} = model;
 
+    
 
     // console.info('PRODUCT CARD: ', addedCount)
     return (

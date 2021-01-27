@@ -16,6 +16,9 @@ import { DillerData } from '../Data/DillerData/DataDiler'
 import { Data } from '../Data/ProductsData/Data'
 import { SliderData } from '../Data/SliderData/SliderData'
 
+import store from '../store'
+
+
 
 
 /**
@@ -23,8 +26,16 @@ import { SliderData } from '../Data/SliderData/SliderData'
  *  connect
  */
 function App(props) {
-  // const { products } = props;
-  // console.info('PROPS APPS: ', props)
+  const { cart, setCart } = props;
+  
+  localStorage.getItem('cart') && console.log('local storage:', JSON.parse(localStorage.getItem('cart')).cart)
+
+  React.useState(() => {
+    localStorage.getItem('cart')  && setCart([...JSON.parse(localStorage.getItem('cart')).cart])
+    
+  }, [])
+
+
   // console.info('DILLER APPS: ', DillerData)
   /**
    *  При первом запуске сайта весь массив product товаров
@@ -34,7 +45,7 @@ function App(props) {
    */
 
   const [isReadyAll, setIsReadyAll] = React.useState(false)
-  const { setProducts, setLiders, setSales, setSlides, setDillers } = props;
+  const { setProducts, setLiders, setSales, setSlides, setDillers,  } = props;
 
   // const delay = (ms) => {
   //   return new Promise((resolve, regect) => {
@@ -51,12 +62,19 @@ function App(props) {
     const slides = await setSlides(SliderData)
     const dillers = await setDillers(DillerData)
     await setIsReadyAll(true)
-    return {status:'load'}
+    return { status: 'load' }
   }
 
+
+
+
   React.useState(() => {
-    Load().then(response=>response)
+    Load().then(response => response)
   }, [])
+
+  React.useMemo(() => { localStorage.setItem('cart', JSON.stringify({ cart })) }, [cart])
+
+
 
   return (
     <>

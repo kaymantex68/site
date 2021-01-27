@@ -11,10 +11,11 @@ import App from '../components/App'
 
 
 const mapStateToProps = (state) => {
+
     return {
         products: state.producst.items,
         slides: state.slider.items,
-        // dillers: state.dillers.items,
+        cart: state.cart.items,
     }
 }
 
