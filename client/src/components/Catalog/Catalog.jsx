@@ -19,13 +19,13 @@ const Catalog = (props) => {
    
 
 
-    // console.log('sort: ', url)
+   
     /**
      * ============================================================ сортировка
      * по хорошему, ее бы отсюда перенести в контейнер
      */
     if (sort.sort === "ALL") {
-        products.sort((a, b) => a.brand > b.brand ? 1 : -1)
+        // products.sort((a, b) => a.brand > b.brand ? 1 : -1)
     }
 
     if (sort.sort === "UP_COAST") {

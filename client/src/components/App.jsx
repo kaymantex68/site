@@ -52,7 +52,7 @@ function App(props) {
   // }
 
   const Load = async () => {
-   
+
     await setProducts(Data)
     await setLiders(Data)
     await setSales(Data)
@@ -65,20 +65,26 @@ function App(props) {
 
 
   React.useState(() => {
-    Load()
+    Load().then(() => { setLoad(true) })
   }, [])
 
 
 
-  
-  if (localStorage.getItem('cart')) {
-    console.log('we are here')
-    const LocalCart = JSON.parse(localStorage.getItem('cart'))
-    LocalCart.forEach(item=>console.log(item))
-    // products.map(item=>console.log(item.model))
-  }
 
- 
+  React.useState(() => {
+    if (localStorage.getItem('cart')) {
+      const LocalCart = JSON.parse(localStorage.getItem('cart'))
+      LocalCart.forEach(element => {
+        addProductToCart(Data.find(prod => prod.model === element))
+      });
+    }
+  }, [])
+
+
+
+
+
+
 
 
 
@@ -88,7 +94,6 @@ function App(props) {
       const ProductStorage = []
       cart.map(product => ProductStorage.push(product.model))
       localStorage.setItem('cart', JSON.stringify(ProductStorage))
-      // localStorage.setItem('cart', JSON.stringify({ cart }))
     } catch (e) {
       if (e) {
         alert('Превышен лимит');
