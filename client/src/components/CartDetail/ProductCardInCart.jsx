@@ -6,7 +6,7 @@ const ProductCardInCart = (props) => {
     // console.info('CART PRODUct: ', props)
     const { model, brand, type, info, count, coast } = props;
     const { addProductToCart, removeProductFromCart, removePositionFromCart } = props;
-
+    console.log('productCadrinCart: ', props)
 
     const [changeInput, setChangeInput] = React.useState(false);
     const reloadPages = (e) => {

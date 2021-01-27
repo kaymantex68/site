@@ -55,7 +55,7 @@ const CartDetail = (props) => {
                     } */}
                     {cartUniq.map((product, key) => {
                         return (
-                            <ProductCardInCart key={`Product_${key}`} {...product} />
+                            <ProductCardInCart key={`Product_${key}`} {...product} {...props} />
                         )
                     })}
                 </div>
