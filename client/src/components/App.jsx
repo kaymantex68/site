@@ -26,14 +26,10 @@ import store from '../store'
  *  connect
  */
 function App(props) {
-  const { cart, setCart } = props;
-  
-  localStorage.getItem('cart') && console.log('local storage:', JSON.parse(localStorage.getItem('cart')).cart)
+  const [load, setLoad] = React.useState(false)
+  const { cart, products, addProductToCart } = props;
 
-  React.useState(() => {
-    localStorage.getItem('cart')  && setCart([...JSON.parse(localStorage.getItem('cart')).cart])
-    
-  }, [])
+
 
 
   // console.info('DILLER APPS: ', DillerData)
@@ -45,7 +41,7 @@ function App(props) {
    */
 
   const [isReadyAll, setIsReadyAll] = React.useState(false)
-  const { setProducts, setLiders, setSales, setSlides, setDillers,  } = props;
+  const { setProducts, setLiders, setSales, setSlides, setDillers, } = props;
 
   // const delay = (ms) => {
   //   return new Promise((resolve, regect) => {
@@ -56,23 +52,56 @@ function App(props) {
   // }
 
   const Load = async () => {
-    const products = await setProducts(Data)
-    const liders = await setLiders(Data)
-    const sales = await setSales(Data)
-    const slides = await setSlides(SliderData)
-    const dillers = await setDillers(DillerData)
+   
+    await setProducts(Data)
+    await setLiders(Data)
+    await setSales(Data)
+    await setSlides(SliderData)
+    await setDillers(DillerData)
     await setIsReadyAll(true)
-    return { status: 'load' }
   }
 
 
 
 
   React.useState(() => {
-    Load().then(response => response)
+    Load()
   }, [])
 
-  React.useMemo(() => { localStorage.setItem('cart', JSON.stringify({ cart })) }, [cart])
+
+
+  
+  if (localStorage.getItem('cart')) {
+    console.log('we are here')
+    const LocalCart = JSON.parse(localStorage.getItem('cart'))
+    LocalCart.forEach(item=>console.log(item))
+    // products.map(item=>console.log(item.model))
+  }
+
+ 
+
+
+
+
+  React.useMemo(() => {
+    try {
+      const ProductStorage = []
+      cart.map(product => ProductStorage.push(product.model))
+      localStorage.setItem('cart', JSON.stringify(ProductStorage))
+      // localStorage.setItem('cart', JSON.stringify({ cart }))
+    } catch (e) {
+      if (e) {
+        alert('Превышен лимит');
+      }
+    }
+  }, [cart])
+
+
+
+
+
+
+
 
 
 

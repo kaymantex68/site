@@ -14,12 +14,11 @@ const CartDetail = (props) => {
 
     const [messageRes, setMessageRes] = React.useState(null)
     const [openModal, setOpenModal] = React.useState(false)
-    console.log('openmodal', openModal)
 
     let wrongDataClient = true
     const sendMail = async (message) => {
         await axios.post('/api/sendMail', message).then(response => console.log(response.data.message))
-        console.log(message)
+
         setMessageRes(message)
     }
 

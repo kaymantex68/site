@@ -3,7 +3,6 @@ import classes from './ModalWindow.module.css'
 
 export const ModalWindow = (props) => {
     const {active, setActive, children} = props
-    console.log('props modal: ', props)
     return (
 
         <div className={active? `${classes.modal} ${classes.active}`: `${classes.modal}` } onClick={()=>{setActive(false)}}>
