@@ -104,3 +104,11 @@
     /* background-color: #78C47A; */
 }
 
+.modal_button_box{
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
