@@ -12,8 +12,13 @@ import filter from 'lodash/filter'
 
 
 const Catalog = (props) => {
-    let { products, sort } = props;
+    let { products, sort} = props;
     let { params, url } = props.match;
+
+
+   
+
+
     // console.log('sort: ', url)
     /**
      * ============================================================ сортировка
