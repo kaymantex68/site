@@ -6,7 +6,8 @@ export const ClientInformation = (props) => {
         {
             email: '',
             name: '',
-            phone: ''
+            phone: '',
+            area: ''
         }
     )
     setClientInformation(formData);
@@ -41,6 +42,14 @@ export const ClientInformation = (props) => {
                         name="name"
                         placeholder="Имя"
                         value={formData.name}
+                        onChange={(e) => setFormData({ ...formData, [e.target.name]: e.target.value })}
+                    />
+                    <span className={classes.Span_info_2}>Комментарий к заказу (* необязательное поле)</span>
+                    <textarea
+                        className={classes.client_area}
+                        name="area"
+                        placeholder="Комментарий к заказу - (Упаковка, транспортная компания, наличный-безналичный расчет, прочие пожелания...)"
+                        value={formData.area}
                         onChange={(e) => setFormData({ ...formData, [e.target.name]: e.target.value })}
                     />
                 </div>

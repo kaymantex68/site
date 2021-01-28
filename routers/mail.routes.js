@@ -11,8 +11,8 @@ router.post('/sendMail', async (req, res) => {
         console.log(text)
         const message = {
             from: 'CAYMAN-ZAKAZ <kaymantex68@yandex.ru>',
-            to: "andrey.s.h.68@yandex.ru",
-            subject: 'ZAKAZ SITE',
+            to: "smktmb@yandex.ru",
+            subject: 'ZAKAZ-SITE',
             text: text
         }
         await mailer(message)

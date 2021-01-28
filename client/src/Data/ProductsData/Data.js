@@ -3618,12 +3618,12 @@ export const Data = [
         model: 'DH-PFB203W',
         id: 'DH_PFB203W',
         brand: 'Dahua',
-        type: ['Монтажная коробка', 'montaj', 'mbox'],
+        type: ['Настенный кронштейн', 'montaj', 'mbox'],
         description: 'Настенный кроштейн для купольных видеокамер серий HDBWxxR-Z/VF,HDWxxR-Z, HDBWxxE, HDWxxE, HDWxxS,SD22 ; Размеры:160*122*76mm; Вес: 0.5Kg',
         path: '/',
         // pic: imou_cue_2,
         pic_brand: dahua_brand,
-        coast: 850,
+        coast: 1190,
         old_coast: false,
         // rasprodaja: true,
         // small_item: '0.67rem',
@@ -3644,7 +3644,7 @@ export const Data = [
         model: 'DH-PFB204W',
         id: 'DH_PFB204W',
         brand: 'Dahua',
-        type: ['Монтажная коробка', 'montaj', 'mbox'],
+        type: ['Настенный кронштейн', 'montaj', 'mbox'],
         description: 'Настенный кроштейн для купольных камер Dahua серий HDBWxxF и HDWxxM ; Размеры:	160 × 122 × 76 мм; Вес: 0,49Kg',
         path: '/',
         // pic: imou_cue_2,
@@ -5897,7 +5897,7 @@ export const Data = [
    *  ТЕКО Securityhub
    */
     {
-        model: 'Securityhub',
+        model: 'Security Hub',
         id: 'Securityhub',
         brand: 'TEKO',
         type: ['Головное устройство', 'security', 'head_unit'],
@@ -5947,7 +5947,7 @@ export const Data = [
   *  ТЕКО Securityhub (стартовый комплект)
   */
     {
-        model: 'Securityhub (стартовый комплект)',
+        model: 'Security Hub (стартовый комплект)',
         id: 'Securityhub (стартовый комплект)',
         brand: 'TEKO',
         type: ['Комплект сигнализации', 'security', 'head_unit'],
@@ -5988,7 +5988,7 @@ export const Data = [
             text28: ['Масса без АКБ: ', '0,14 кг'],
             text29: ['Диапазон температур: ', 'от - 10 до + 50 °С'],
             text30: ['Относительная влажность воздуха без конденсации влаги: ', 'до 98 % при + 40 °С'],
-            text31: ['Комплект: ', 'Контроллер «Security Hub», Датчик движения Астра-5121, Датчик открытия двери/окна Астра-3321, Видеокамера 1,3 Мпикс, 1/3” CMOS  2,3 мм'],
+            text31: ['Комплект: ', 'Контроллер «Security Hub», Датчик движения Астра-5121, Датчик открытия двери/окна Астра-3321'],
 
         },
 
@@ -10919,7 +10919,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 2,
         // rasprodaja: false,
-        coast: 7490,
+        coast: 6290,
         old_coast: false,
         info: {
             text: ['Разрешение: ', '4MP'],
@@ -10960,7 +10960,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 2,
         // rasprodaja: false,
-        coast: 7490,
+        coast: 6290,
         old_coast: false,
         info: {
             text: ['Разрешение: ', '4MP'],

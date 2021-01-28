@@ -29,12 +29,12 @@ const CartDetail = (props) => {
     }
 
 
-    const client = `${clientInformation.name} ${clientInformation.email} ${clientInformation.phone}`
+    const client = `${clientInformation.name} ${clientInformation.email} ${clientInformation.phone}\n${clientInformation.area}`
 
 
     let message = [`Сумма заказа: ${cartSumm}`]
     message = [client, ...message, ...cartUniq.map((model, key) => {
-        return `${model.model} | количество: ${model.count} | цена: ${model.coast}`
+        return `${model.model} |--------------- количество: ${model.count} |--------------- цена: ${model.coast}`
     })]
 
     return (
@@ -42,7 +42,7 @@ const CartDetail = (props) => {
             <div className={classes.CartDetail_block}>
                 <div className={classes.CartDetail_global_operation}>
                     {/* {cartSumm > 0 && <button className={classes.Сheckout} onClick={() => !wrongDataClient && sendMail(message)}>оформить заказ</button>} */}
-                    {cartSumm > 0 &&  <button className={classes.Сheckout} onClick={() => { setOpenModal(!openModal) }}>оформить заказ</button>}
+                    {cartSumm > 0 && <button className={classes.Сheckout} onClick={() => { setOpenModal(!openModal) }}>оформить заказ</button>}
                     <span className={classes.Summa_fixed}>{`сумма: ${cartSumm} руб.`}</span>
                     <span className={classes.Remove_all_button_span} onClick={() => clearCart([])}>очистить корзину</span>
                 </div>
@@ -65,7 +65,7 @@ const CartDetail = (props) => {
                     <>
                         <ClientInformation message={wrongDataClient} response={messageRes} />
                         <div className={classes.modal_button_box}>
-                         <button className={classes.Сheckout} onClick={() => !wrongDataClient && sendMail(message)}>оформить заказ</button>
+                            <button className={classes.Сheckout} onClick={() => !wrongDataClient && sendMail(message)}>оформить заказ</button>
                             <button className={classes.Сheckout} onClick={() => setOpenModal(!openModal)}>закрыть</button>
                         </div>
                     </>
