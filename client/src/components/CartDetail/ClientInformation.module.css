@@ -40,28 +40,52 @@
     transform: scale(1.03);
 }
 
+.client_area{
+    height: 80px;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.364);
+    border-radius: 5px;
+    margin: 5px;
+    padding-top: 10px;
+   padding-left:10px;
+    transition: 0.3s;
+}
+
+.client_area:hover{
+    transform: scale(1.03);
+}
+
 .message_error{
     padding: 10px;
     border-radius: 12px;
-    background-color: rgba(255, 127, 80, 0.419);
+    background-color:#3C475B;
     margin: 5px;
     font-size: 0.8rem;
-    color: #3C475B;
+    color: white;
 }
 
 .message_send{
     padding: 10px;
     border-radius: 12px;
-    background-color: rgba(255, 0, 0, 0.392);
+    background-color: #78C47A;
     margin: 5px;
     font-size: 0.8rem;
-    color: #3C475B;
+    color: white;
 }
 
 .Span_info{
     margin-left: 5px;
-    color: #3c475b95;
+    color: #a04a4ac1;
     font-size: 0.7rem;
 }
+
+
+.Span_info_2{
+    margin-left: 5px;
+    color: #3c475b8e;
+    font-size: 0.7rem;
+}
+
+
 
 

@@ -29,12 +29,12 @@ const CartDetail = (props) => {
     }
 
 
-    const client = `${clientInformation.name} ${clientInformation.email} ${clientInformation.phone}`
+    const client = `${clientInformation.name} ${clientInformation.email} ${clientInformation.phone}\n${clientInformation.area}`
 
 
     let message = [`Сумма заказа: ${cartSumm}`]
     message = [client, ...message, ...cartUniq.map((model, key) => {
-        return `${model.model} |----- количество: ${model.count} |----- цена: ${model.coast}`
+        return `${model.model} |--------------- количество: ${model.count} |--------------- цена: ${model.coast}`
     })]
 
     return (
