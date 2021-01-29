@@ -355,6 +355,17 @@ function Navbar(props) {
                                             <Link to="/catalog/skud">Контроль доступа</Link>
                                             <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                 <ul>
+                                                <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/skud/gsm_controller"> GSM контроллеры</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/skud/gsm_controller/Сибирский Арсенал">Сибирский Арсенал</Link>
+                                                                </li>
+                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </li>
                                                     <li className={classes.Dropdown_Links}>
                                                         <Link to="/catalog/skud/controller">Контроллеры</Link>
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
