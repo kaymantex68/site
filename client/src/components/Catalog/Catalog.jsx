@@ -12,40 +12,40 @@ import filter from 'lodash/filter'
 
 
 const Catalog = (props) => {
-    let { products, sort} = props;
+    let { products, sort } = props;
     let { params, url } = props.match;
 
 
-   
+
+    React.useMemo(() => {
+
+        /**
+         * ============================================================ сортировка
+         * по хорошему, ее бы отсюда перенести в контейнер
+         */
+        if (sort.sort === "ALL") {
+            // products.sort((a, b) => a.brand > b.brand ? 1 : -1)
+        }
+
+        if (sort.sort === "UP_COAST") {
+            products.sort((a, b) => +a.coast > +b.coast ? 1 : -1)
+        }
+
+        if (sort.sort === "DOWN_COAST") {
+            products.sort((a, b) => +a.coast < +b.coast ? 1 : -1)
+        }
 
 
-   
-    /**
-     * ============================================================ сортировка
-     * по хорошему, ее бы отсюда перенести в контейнер
-     */
-    if (sort.sort === "ALL") {
-        // products.sort((a, b) => a.brand > b.brand ? 1 : -1)
-    }
 
-    if (sort.sort === "UP_COAST") {
-        products.sort((a, b) => +a.coast > +b.coast ? 1 : -1)
-    }
+        if (sort.sort === "ALFA_MAX") {
+            products.sort((a, b) => a.model > b.model ? 1 : -1)
+        }
 
-    if (sort.sort === "DOWN_COAST") {
-        products.sort((a, b) => +a.coast < +b.coast ? 1 : -1)
-    }
+        if (sort.sort === "ALFA_MIN") {
+            products.sort((a, b) => a.model < b.model ? 1 : -1)
+        }
 
-
-
-    if (sort.sort === "ALFA_MAX") {
-        products.sort((a, b) => a.model > b.model ? 1 : -1)
-    }
-
-    if (sort.sort === "ALFA_MIN") {
-        products.sort((a, b) => a.model < b.model ? 1 : -1)
-    }
-
+    }, [sort])
     /**
     * ============================================================ checkbox
     */
@@ -71,6 +71,11 @@ const Catalog = (props) => {
     } else {
         products = products.filter(product => product.brand === sort.brand)
     }
+    /**
+   * ============================================================
+   */
+
+
 
 
 
