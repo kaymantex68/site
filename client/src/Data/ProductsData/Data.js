@@ -76,6 +76,7 @@ export const Data = [
         lider: true,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2 Мп'],
             text1: ['Оптический зум:', '22х'],
@@ -130,6 +131,7 @@ export const Data = [
         coast: 280,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Материал: ', 'Пластик'],
             text1: ['Цвет: ', 'Белый'],
@@ -156,6 +158,7 @@ export const Data = [
         coast: 6990,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Диапазон: ', '2.4 ГГц'],
             text1: ['Интерфейс: ', '10/100BASE-TX'],
@@ -179,6 +182,7 @@ export const Data = [
         coast: 4490,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Диапазон: ', '2.4 ГГц'],
             text1: ['Интерфейс: ', '10/100BASE-TX'],
@@ -209,6 +213,7 @@ export const Data = [
         coast: 32,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Максимальное сечение: ', '4 кв'],
             text1: ['Минимальное сечение: ', '0.08 кв'],
@@ -232,6 +237,7 @@ export const Data = [
         coast: 42,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Максимальное сечение: ', '4 кв'],
             text1: ['Минимальное сечение: ', '0.08 кв'],
@@ -255,6 +261,7 @@ export const Data = [
         coast: 52,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Максимальное сечение: ', '4 кв'],
             text1: ['Минимальное сечение: ', '0.08 кв'],
@@ -285,6 +292,7 @@ export const Data = [
         coast: 490,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Материал: ', 'Металл'],
             text1: ['Звуковое давление: ', '105 дБ'],
@@ -311,6 +319,7 @@ export const Data = [
         coast: 160,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Материал:', 'Пластик'],
             text1: ['Питание:', '9…13.8 В'],
@@ -338,6 +347,7 @@ export const Data = [
         coast: 200,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Материал: ', 'Пластик'],
             text1: ['Тип: ', '2-х проводный'],
@@ -364,6 +374,7 @@ export const Data = [
         coast: 360,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Материал: ', 'Пластик'],
             text1: ['Чувствит.: ', '0.05…0.2 дБ/м'],
@@ -390,6 +401,7 @@ export const Data = [
         coast: 290,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Материал: ', 'Пластик'],
             text1: ['Чувствит. :', '0.05…0.2 дБ/м'],
@@ -420,6 +432,7 @@ export const Data = [
         coast: 220,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Материал:', 'Пластик'],
             text1: ['Звуковое давление:', '105 дБ'],
@@ -446,6 +459,7 @@ export const Data = [
         coast: 390,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Материал:', 'Пластик'],
             text1: ['Звуковое давление:', '105 дБ'],
@@ -478,6 +492,7 @@ export const Data = [
         coast: 70,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Тип контактов: ', 'НЗ'],
             text1: ['Материал: ', 'Пластик'],
@@ -501,6 +516,7 @@ export const Data = [
         coast: 60,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Тип контактов: ', 'НЗ'],
             text1: ['Материал: ', 'Пластик'],
@@ -526,6 +542,7 @@ export const Data = [
         coast: 95,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Тип контактов: ', 'НЗ'],
             text1: ['Материал: ', 'Пластик'],
@@ -550,6 +567,7 @@ export const Data = [
         coast: 65,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Тип контактов: ', 'НЗ'],
             text1: ['Материал: ', 'Пластик'],
@@ -582,6 +600,7 @@ export const Data = [
         coast: 1660,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Расстояние считывания: ', '8 см'],
             text1: ['Материал корпуса: ', 'пластик '],
@@ -608,6 +627,7 @@ export const Data = [
         old_coast: false,
 
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Расстояние считывания: ', '8 см'],
             text1: ['Материал корпуса: ', 'пластик '],
@@ -639,6 +659,7 @@ export const Data = [
         old_coast: false,
 
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Расстояние считывания: ', '8 см'],
             text1: ['Материал корпуса: ', 'б/к '],
@@ -667,6 +688,7 @@ export const Data = [
         old_coast: false,
 
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Расстояние считывания: ', '8 см'],
             text1: ['Материал корпуса: ', 'пластик'],
@@ -700,6 +722,7 @@ export const Data = [
         coast: 1250,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Cчитывания: ', 'до 10 см'],
             text1: ['Материал корпуса: ', 'пластик '],
@@ -728,6 +751,7 @@ export const Data = [
         coast: 25,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Интерфейс: ', 'EM-Marine'],
             text1: ['Материал: ', 'Пластик'],
@@ -749,6 +773,7 @@ export const Data = [
         coast: 25,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Интерфейс: ', 'EM-Marine'],
             text1: ['Материал: ', 'Пластик'],
@@ -773,6 +798,7 @@ export const Data = [
         coast: 20,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Интерфейс: ', 'Mifare 1K'],
             text1: ['Материал: ', 'Пластик'],
@@ -794,6 +820,7 @@ export const Data = [
         coast: 20,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Интерфейс: ', 'EM Marine'],
             text1: ['Материал: ', 'Пластик'],
@@ -815,6 +842,7 @@ export const Data = [
         coast: 30,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Интерфейс: ', 'Touch Memory'],
             text1: ['Материал: ', 'Пластик'],
@@ -838,6 +866,7 @@ export const Data = [
         coast: 200,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Интерфейс: ', 'Touch Memory'],
             text1: ['Материал: ', 'Металл '],
@@ -858,6 +887,7 @@ export const Data = [
         coast: 200,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Интерфейс: ', 'Touch Memory'],
             text1: ['Материал: ', 'Металл '],
@@ -886,6 +916,7 @@ export const Data = [
         new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Тип: ', 'Накладная'],
             text1: ['Материал: ', 'Металл'],
@@ -916,6 +947,7 @@ export const Data = [
         coast: 630,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Напряжение: ', '12 В'],
             text1: ['Емкость: ', '4.5/ч'],
@@ -943,6 +975,7 @@ export const Data = [
         coast: 520,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Напряжение: ', '12 В'],
             text1: ['Емкость: ', '2,2/ч'],
@@ -976,6 +1009,7 @@ export const Data = [
         coast: 26,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Тип: ', 'КВК уличный'],
             text1: ['Проводник, мм: ', '7х0.12'],
@@ -988,41 +1022,41 @@ export const Data = [
     /** 
       * -------------------------------------------------------------------------------Сибирский Арсенал
       **/
-      /** 
-     * ------------------------------------------------------------Сибирский Арсенал gsm контроллеры
-     **/
+    /** 
+   * ------------------------------------------------------------Сибирский Арсенал gsm контроллеры
+   **/
     /**
     *   Сибирский Арсенал ИО 329-17 Сонар
     */
-   {
-    model: 'Лидер GSM',
-    id: 'Лидер GSM',
-    brand: 'Сибирский Арсенал',
-    type: ['GSM контроллер', 'skud', 'gsm_controller'],
-    description: 'Прибор управления доступом по GSM-каналу ЛИДЕР GSM предназначен для расширения функциональных возможностей исполнительных устройств управления доступом (шлагбаумы, цепные барьеры, домовые калитки, автоматические ворота различных типов и т.п., далее – оборудование доступа). Прибор осуществляет управление оборудованием доступа по каналам связи GSM, а также контроль состояния устройств (имеющих выход типа «сухой контакт») и передачу информации об изменении состояния на телефоны оповещения. Электропитание прибора (+12 В или +24 В) может осуществляться от источника питания управляемого оборудования.',
-    pic_brand: sib_arsenal_brand,
-    coast: 6990,
-    old_coast: false,
-    inStock_outStock: 1,
-    picture: 1,
-    info: {
-        text: ['Выходы реле:', '2'],
-        text1: ['Количество входов контроля: ', '3'],
-        text2: ['Стандарты работы GSM модуля:', 'GSM-850/900/1800/1900'],
-        text3: ['Максимальное количество номеров телефонов доступа:', '5000'],
-        text4: ['Коммутируемый ток выходных реле, не более: ', '1 А'],
-        text5: ['Коммутируемое постоянное напряжение, не более:', '= 24 В'],
-        text6: ['Коммутируемое переменное напряжение, не более:', '~ 120 В'],
-        text7: ['Напряжение питания прибора постоянного тока:', '+ 12 В или + 24 В (от + 10,8 В до + 26,5 В)'],
-        text8: ['Ток потребления в «Дежурном» режиме, не более (оба реле в состоянии «выключено»):', '110 мА'],
-        text9: ['Максимальное количество номеров телефонов оповещения:', '6'],
-        text10: ['Степень защиты, не менее:', '	IP40'],
-        text10: ['Габаритные размеры, без подключенной GSM-антенны, не более:', '90x60x34 мм'],
-        text10: ['Масса, не более:', '100 г'],
-        text10: ['Диапазон рабочих температур:', 'минус 40… 55 °С'],
-        text10: ['Относительная влажность воздуха при температуре +35°С, без конденсации влаги, не более:', '93 %'],
+    {
+        model: 'Лидер GSM',
+        id: 'Лидер GSM',
+        brand: 'Сибирский Арсенал',
+        type: ['GSM контроллер', 'skud', 'gsm_controller'],
+        description: 'Прибор управления доступом по GSM-каналу ЛИДЕР GSM предназначен для расширения функциональных возможностей исполнительных устройств управления доступом (шлагбаумы, цепные барьеры, домовые калитки, автоматические ворота различных типов и т.п., далее – оборудование доступа). Прибор осуществляет управление оборудованием доступа по каналам связи GSM, а также контроль состояния устройств (имеющих выход типа «сухой контакт») и передачу информации об изменении состояния на телефоны оповещения. Электропитание прибора (+12 В или +24 В) может осуществляться от источника питания управляемого оборудования.',
+        pic_brand: sib_arsenal_brand,
+        coast: 6990,
+        old_coast: false,
+        inStock_outStock: 1,
+        picture: 1,
+        info: {
+            text: ['Выходы реле:', '2'],
+            text1: ['Количество входов контроля: ', '3'],
+            text2: ['Стандарты работы GSM модуля:', 'GSM-850/900/1800/1900'],
+            text3: ['Максимальное количество номеров телефонов доступа:', '5000'],
+            text4: ['Коммутируемый ток выходных реле, не более: ', '1 А'],
+            text5: ['Коммутируемое постоянное напряжение, не более:', '= 24 В'],
+            text6: ['Коммутируемое переменное напряжение, не более:', '~ 120 В'],
+            text7: ['Напряжение питания прибора постоянного тока:', '+ 12 В или + 24 В (от + 10,8 В до + 26,5 В)'],
+            text8: ['Ток потребления в «Дежурном» режиме, не более (оба реле в состоянии «выключено»):', '110 мА'],
+            text9: ['Максимальное количество номеров телефонов оповещения:', '6'],
+            text10: ['Степень защиты, не менее:', '	IP40'],
+            text10: ['Габаритные размеры, без подключенной GSM-антенны, не более:', '90x60x34 мм'],
+            text10: ['Масса, не более:', '100 г'],
+            text10: ['Диапазон рабочих температур:', 'минус 40… 55 °С'],
+            text10: ['Относительная влажность воздуха при температуре +35°С, без конденсации влаги, не более:', '93 %'],
+        },
     },
-},
     /** 
      * ------------------------------------------------------------Сибирский Арсенал Извещатели
      **/
@@ -1041,6 +1075,7 @@ export const Data = [
         coast: 710,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Материал:', 'Пластик'],
             text1: ['Питание:', '7 - 15DC'],
@@ -1069,6 +1104,7 @@ export const Data = [
         coast: 420,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Материал:', 'Пластик'],
             text1: ['Питание:', '9...30 В'],
@@ -1096,6 +1132,7 @@ export const Data = [
         coast: 330,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Материал: ', 'Пластик'],
             text1: ['Тип: ', '2-х проводный'],
@@ -1125,6 +1162,7 @@ export const Data = [
         coast: 620,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Материал: ', 'Пластик'],
             text1: ['Питание: ', '9 - 14 В'],
@@ -1151,6 +1189,7 @@ export const Data = [
         coast: 380,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Материал:', 'Пластик'],
             text1: ['Напряжение питания:', '9 - 14 В'],
@@ -1176,6 +1215,7 @@ export const Data = [
         coast: 390,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Материал:', 'Металл'],
             text1: ['Питание:', '9 - 14 В'],
@@ -1202,6 +1242,7 @@ export const Data = [
         coast: 550,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Материал:', 'Пластик'],
             text1: ['Звуковое давление:', '85 дБ'],
@@ -1231,6 +1272,7 @@ export const Data = [
         coast: 140,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Тип контактов: ', 'НЗ'],
             text1: ['Материал: ', 'Пластик'],
@@ -1259,6 +1301,7 @@ export const Data = [
         coast: 5580,
         old_coast: false,
         inStock_outStock: 0,
+        picture: 1,
         info: {
             text: ['Шлейфы сигнализации: ', '12 шт'],
             text1: ['Кол-во видов извещений : ', '18'],
@@ -1302,6 +1345,7 @@ export const Data = [
         coast: 5925,
         old_coast: false,
         inStock_outStock: 0,
+        picture: 1,
         info: {
             text: ['Шлейфы сигнализации: ', '16 шт'],
             text1: ['Кол-во видов извещений : ', '17'],
@@ -1345,6 +1389,7 @@ export const Data = [
         coast: 6560,
         old_coast: false,
         inStock_outStock: 0,
+        picture: 1,
         info: {
             text: ['Шлейфы сигнализации: ', '24 шт'],
             text1: ['Кол-во видов извещений : ', '17'],
@@ -1388,6 +1433,7 @@ export const Data = [
         coast: 5060,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Шлейфы сигнализации: ', '8 шт'],
             text1: ['Кол-во видов извещений : ', '18'],
@@ -1434,6 +1480,7 @@ export const Data = [
         coast: 1140,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Питание прибора: ', 'от 9 до 15 В'],
             text1: ['Потребляемый ток: ', '100 мА'],
@@ -1462,6 +1509,7 @@ export const Data = [
         coast: 5110,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Количество ШС: ', '2'],
             text1: ['Питание (внешнее): ', '5В 1А'],
@@ -1507,6 +1555,7 @@ export const Data = [
         coast: 9990,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Доп.: ', 'с ВЕРСЕТ-GSM 02'],
             text1: ['Питание (внешнее): ', '5В 1А'],
@@ -1544,6 +1593,7 @@ export const Data = [
         old_coast: 4995,
         rasprodaja: true,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Дальность обнаружения: ', '10 м'],
             text1: ['Радиобрелок(дальность): ', '50 м'],
@@ -1578,6 +1628,7 @@ export const Data = [
         old_coast: 8040,
         rasprodaja: true,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Дальность обнаружения: ', '10 м'],
             text1: ['Радиобрелок(дальность): ', '50 м'],
@@ -1619,6 +1670,7 @@ export const Data = [
         old_coast: 4665,
         rasprodaja: true,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Время оповещения : ', '20-40 с'],
             text1: ['Кол-во номеров: ', '6'],
@@ -1647,6 +1699,7 @@ export const Data = [
         old_coast: 13370,
         rasprodaja: true,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Кол-во номеров: ', '6'],
             text1: ['Кол-во датчиков: ', 'до 20'],
@@ -1722,6 +1775,7 @@ export const Data = [
         coast: 1100,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Напряжение: ', '12 В'],
             text1: ['Сила тока: ', '10A'],
@@ -1765,6 +1819,7 @@ export const Data = [
         new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Материал: ', 'Пластик'],
             text1: ['Управления замком: ', 'НО/НЗ'],
@@ -1794,6 +1849,7 @@ export const Data = [
         new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Тип: ', 'Электромеханический'],
             text1: ['Питание: ', '+ 9-12 В'],
@@ -1821,6 +1877,7 @@ export const Data = [
         new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Тип: ', 'Электромеханический'],
             text1: ['Питание: ', '+ 9-12 В'],
@@ -1850,6 +1907,7 @@ export const Data = [
         coast: 550,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Расстояние считывания: ', '8 см'],
             text1: ['Материал корпуса: ', 'пластик '],
@@ -1875,6 +1933,7 @@ export const Data = [
         coast: 750,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Расстояние считывания: ', '8 см'],
             text1: ['Материал корпуса: ', 'пластик '],
@@ -1903,6 +1962,7 @@ export const Data = [
         coast: 690,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Считывание: ', '5…15 см'],
             text1: ['Материал: ', 'Пластик'],
@@ -1928,6 +1988,7 @@ export const Data = [
         coast: 990,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Cчитывание: ', '5…15 см'],
             text1: ['Материал корпуса: ', 'пластик '],
@@ -1953,6 +2014,7 @@ export const Data = [
         coast: 1850,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Напряжение питания: ', '9-12 В'],
             text1: ['Цвет: ', 'Черный'],
@@ -1986,6 +2048,7 @@ export const Data = [
         new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Тип: ', 'Накладная'],
             text1: ['Напряжение: ', '12 DC'],
@@ -2018,6 +2081,7 @@ export const Data = [
         new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Тип: ', 'Накладная'],
             text1: ['Напряжение: ', '12 DC'],
@@ -2050,6 +2114,7 @@ export const Data = [
         new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Тип: ', 'Накладная'],
             text1: ['Напряжение: ', '12 DC'],
@@ -2085,6 +2150,7 @@ export const Data = [
         new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Вес полотна: ', '40-75 кг'],
             text1: ['Ширина полотна: ', '830-950'],
@@ -2116,6 +2182,7 @@ export const Data = [
         new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Вес полотна: ', '25-50 кг'],
             text1: ['Ширина полотна: ', '830-950'],
@@ -2150,6 +2217,7 @@ export const Data = [
         new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Тип: ', 'Электромагнитный'],
             text1: ['Питание: ', '12 В'],
@@ -2178,6 +2246,7 @@ export const Data = [
         new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Тип: ', 'Электромагнитный'],
             text1: ['Питание: ', '12 В'],
@@ -2207,6 +2276,7 @@ export const Data = [
         rasprodaja: false,
         // small_item: '0.67rem',
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Размеры:', '140 х 36 х 36 мм'],
             text1: ['Масса: ', ' 0,24 кг'],
@@ -2232,6 +2302,7 @@ export const Data = [
         new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Размеры:', '140 х 33 х 26 мм'],
             text1: ['Масса: ', ' 0,16 кг'],
@@ -2257,6 +2328,7 @@ export const Data = [
         new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Размеры:', '180 х 39 х 28 мм'],
             text1: ['Масса: ', ' 0,27 кг'],
@@ -2288,6 +2360,7 @@ export const Data = [
         new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Тип: ', 'Переговорный модуль'],
             text1: ['Управление: ', 'Кнопочное'],
@@ -2322,6 +2395,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
 
+        picture: 1,
         info: {
             text: ['Тип : ', 'Разъём RJ-45'],
             text1: ['Материал : ', 'Пластик'],
@@ -2348,6 +2422,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
 
+        picture: 1,
         info: {
             text: ['Тип : ', 'Разъём RJ-45'],
             text1: ['Материал : ', 'Пластик'],
@@ -2375,6 +2450,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
 
+        picture: 1,
         info: {
             text: ['Тип : ', 'Колпачок RJ-45'],
             text1: ['Материал : ', 'Пластик'],
@@ -2404,6 +2480,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Категория : ', '5Е'],
             text1: ['Количество жил: ', '8'],
@@ -2429,6 +2506,7 @@ export const Data = [
         small_item: '0.73rem',
         // new: true,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Категория : ', '5Е'],
             text1: ['Количество жил: ', '8'],
@@ -2455,6 +2533,7 @@ export const Data = [
         small_item: '0.63rem',
         // new: true,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Категория : ', '5Е'],
             text1: ['Количество жил: ', '8'],
@@ -2481,6 +2560,7 @@ export const Data = [
         small_item: '0.63rem',
         // new: true,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Категория : ', '5Е'],
             text1: ['Количество жил: ', '8'],
@@ -2514,6 +2594,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Длинна провода : ', '1.8 м'],
             text1: ['Кол-во розеток: ', '5'],
@@ -2543,6 +2624,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Длинна провода : ', '3 м'],
             text1: ['Кол-во розеток: ', '5'],
@@ -2578,6 +2660,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Размер : ', '140x140x60'],
             text1: ['Цвет : ', 'белый'],
@@ -2604,6 +2687,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Размер : ', '140x140x60'],
             text1: ['Цвет : ', 'белый'],
@@ -2636,6 +2720,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Размер : ', '130x130x42'],
             text1: ['Цвет : ', 'белый'],
@@ -2649,10 +2734,10 @@ export const Data = [
     /** 
      * ---------------------------------------------------Hikvision домофоны
      **/
-     /**
-        *  Hikvision DS-KH6320-TE1
-        */
-       {
+    /**
+       *  Hikvision DS-KH6320-TE1
+       */
+    {
         model: 'DS-KH6320-TE1',
         id: 'DS-KH6320-TE1_Видеодомофон',
         brand: 'Hikvision',
@@ -2668,6 +2753,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Тип: ', 'Видеодомофон'],
             text1: ['Экран: ', '7"'],
@@ -2684,10 +2770,10 @@ export const Data = [
     /** 
      * ---------------------------------------------------Hikvision вызывные панели
      **/
-     /**
-        *  Hikvision DS-KV6113-PE1
-        */
-       {
+    /**
+       *  Hikvision DS-KV6113-PE1
+       */
+    {
         model: 'DS-KV6113-PE1',
         id: 'DS-KV6113-PE1_Вызывная_панель',
         brand: 'Hikvision',
@@ -2703,6 +2789,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Тип: ', 'IP-видеопанель'],
             text1: ['Разрешение камеры: ', '2Мп'],
@@ -2737,6 +2824,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Размер : ', '100×43.2×129мм'],
             text1: ['Кол-во вводов : ', '2'],
@@ -2769,6 +2857,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Внешний диаметр : ', '20 мм'],
             text1: ['Цвет : ', 'Серый'],
@@ -2797,6 +2886,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Внешний диаметр : ', '16 мм'],
             text1: ['Цвет : ', 'Серый'],
@@ -2825,6 +2915,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Внешний диаметр : ', '26 мм'],
             text1: ['Цвет : ', 'Оранжевый'],
@@ -2853,6 +2944,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Внешний диаметр : ', '26 мм'],
             text1: ['Цвет : ', 'Черный'],
@@ -2884,6 +2976,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Цвет : ', 'Белый'],
             text1: ['Количество : ', '100'],
@@ -2912,6 +3005,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Размер : ', 'D25'],
             text1: ['Количество : ', '100'],
@@ -2940,6 +3034,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Размер : ', 'D20'],
             text1: ['Количество : ', '100'],
@@ -2968,6 +3063,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Размер : ', 'D16'],
             text1: ['Количество : ', '100'],
@@ -2999,6 +3095,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Размер : ', '85x85x40'],
             text1: ['Кол-во вводов : ', '6'],
@@ -3029,6 +3126,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Размер : ', '100x100x50'],
             text1: ['Кол-во вводов : ', '6'],
@@ -3059,6 +3157,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Размер : ', '150x110x70'],
             text1: ['Кол-во вводов : ', '6'],
@@ -3095,6 +3194,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Размер : ', '200x140x75'],
             text1: ['Кол-во вводов : ', '10'],
@@ -3125,6 +3225,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Размер : ', '150x110x70'],
             text1: ['Кол-во вводов : ', '10'],
@@ -3156,6 +3257,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Размер : ', '240x195x90'],
             text1: ['Кол-во вводов : ', '10'],
@@ -3193,6 +3295,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Поколение сети : ', '3G/4G'],
             text1: ['Коэффициент усиления : ', '5'],
@@ -3230,6 +3333,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Объем: ', '4 Tb'],
             text1: ['Форм-фактор: ', '3.5'],
@@ -3266,6 +3370,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Объем: ', '3 Tb'],
             text1: ['Форм-фактор: ', '3.5'],
@@ -3296,6 +3401,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Объем: ', '2 Tb'],
             text1: ['Форм-фактор: ', '3.5'],
@@ -3327,6 +3433,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Объем: ', '1 Tb'],
             text1: ['Форм-фактор: ', '3.5'],
@@ -3364,6 +3471,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Объем: ', '128 ГБ'],
             text1: ['Класс скорости : ', 'UHS-I U3'],
@@ -3397,6 +3505,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Объем: ', '64 ГБ'],
             text1: ['Класс скорости : ', 'UHS-I U3'],
@@ -3436,6 +3545,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Объем: ', '128 ГБ'],
             text1: ['Класс скорости : ', 'UHS-I Class 1'],
@@ -3464,6 +3574,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Объем: ', '64 ГБ'],
             text1: ['Класс скорости : ', 'UHS-I Class 1'],
@@ -3492,6 +3603,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Объем: ', '32 ГБ'],
             text1: ['Класс скорости : ', 'UHS-I Class 1'],
@@ -3527,6 +3639,7 @@ export const Data = [
         new: true,
         inStock_outStock: 1,
 
+        picture: 1,
         info: {
             text: ['Порты: ', '	4 * PoE + 2 * UpLink'],
             text1: ['Питание:', 'DC 54V 1.11A'],
@@ -3553,7 +3666,7 @@ export const Data = [
     /**
         *  Dahua DHI-VTO2211G-WP
         */
-       {
+    {
         model: 'DHI-VTO2211G-WP',
         id: 'DHI-VTO2211G-WP_Вызывная_панель',
         brand: 'Dahua',
@@ -3569,6 +3682,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Тип: ', 'IP-видеопанель'],
             text1: ['Разрешение камеры: ', '2Мп'],
@@ -3605,6 +3719,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Тип крепления : ', 'настенный'],
             text1: ['Размер : ', '90 x 33.7 мм'],
@@ -3635,6 +3750,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Тип крепления : ', 'настенный'],
             text1: ['Размер : ', '122 x 33.7 мм'],
@@ -3665,6 +3781,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Тип крепления : ', 'настенный'],
             text1: ['Размер : ', '160x122x76'],
@@ -3691,6 +3808,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Тип крепления : ', 'настенный'],
             text1: ['Размер : ', '	160 × 122 × 76 мм'],
@@ -3720,6 +3838,7 @@ export const Data = [
         new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Разрешение: ', '4 МП'],
             text1: ['Объектив:', '2.8мм'],
@@ -3763,6 +3882,7 @@ export const Data = [
         new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Разрешение: ', '3 МП'],
             text1: ['Объектив:', '2.8мм'],
@@ -3787,7 +3907,7 @@ export const Data = [
     /**
         *  Dahua DH-IPC-K35P
         */
-       {
+    {
         model: 'DH-IPC-K35P',
         id: 'DH_IPC_K35P',
         brand: 'Dahua',
@@ -3802,6 +3922,7 @@ export const Data = [
         new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Разрешение: ', '3 МП'],
             text1: ['Объектив:', '2.8мм'],
@@ -3841,6 +3962,7 @@ export const Data = [
         new: true,
         inStock_outStock: 1,
         small_item: '0.68rem',
+        picture: 1,
         info: {
             text: ['Разрешение: ', '4 МП'],
             text1: ['Объектив:', '3.6мм'],
@@ -3899,6 +4021,7 @@ export const Data = [
         new: true,
         inStock_outStock: 1,
         small_item: '0.68rem',
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2 МП'],
             text1: ['Объектив:', '2.8мм'],
@@ -3952,6 +4075,7 @@ export const Data = [
         pic_brand: zyxel_brand,
         new: true,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Тип: ', 'роутер/ретранслятор'],
             text1: ['Порты:', '10/100BASE-TX'],
@@ -3973,7 +4097,7 @@ export const Data = [
             text17: ['Размер (ШхВхГ):', '107 х 91 х 26 мм'],
             text18: ['Вес:', '132гр'],
         },
-        
+
 
     },
     /**
@@ -3990,6 +4114,7 @@ export const Data = [
         pic_brand: zyxel_brand,
         new: true,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Тип: ', 'роутер/ретранслятор'],
             text1: ['Порты:', '110/100BASE-TX/4G'],
@@ -4029,6 +4154,7 @@ export const Data = [
         pic_brand: zyxel_brand,
         new: true,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Тип: ', 'роутер/ретранслятор'],
             text1: ['Порты:', '110/100BASE-TX/4G'],
@@ -4074,6 +4200,7 @@ export const Data = [
         pic_brand: tp_link_brand,
         new: true,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Беспроводной интернет: ', 'есть'],
             text1: ['Порты:', '1x10/100Mbs'],
@@ -4114,6 +4241,7 @@ export const Data = [
         pic_brand: zte_brand,
         new: true,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Встроенный модем: ', '2G/3G/4G'],
             text1: ['Порты:', '4x10/100/1000Mbs'],
@@ -4159,6 +4287,7 @@ export const Data = [
         pic_brand: zte_brand,
         new: true,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Модем: ', '2G/3G/4G'],
             text1: ['Тип:', 'внешний'],
@@ -4203,6 +4332,7 @@ export const Data = [
         pic_brand: d_link_brand,
         new: true,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Количество портов: ', '5 up-link'],
             text1: ['Питание:', 'DC 5В/1А'],
@@ -4245,6 +4375,7 @@ export const Data = [
         pic_brand: d_link_brand,
         new: true,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Порты: ', '8х10/100/1000Base-T'],
             text1: ['Питание:', 'DC 5В/1А'],
@@ -4287,6 +4418,7 @@ export const Data = [
         pic_brand: d_link_brand,
         new: true,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Порты: ', '8х10/100Base-TX'],
             text1: ['Питание:', 'DC 5В/1А'],
@@ -4329,6 +4461,7 @@ export const Data = [
         pic_brand: d_link_brand,
         new: true,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Порты: ', '5х10/100Base-TX'],
             text1: ['Питание:', 'DC 5В/1А'],
@@ -4371,6 +4504,7 @@ export const Data = [
         pic_brand: d_link_brand,
         new: true,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Порты: ', '16х10/100Base-TX'],
             text1: ['Питание:', 'DC 5В/1А'],
@@ -4420,6 +4554,7 @@ export const Data = [
         coast: 290,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Материал:', 'Пластик'],
             text1: ['Масса:', '0,08 кг'],
@@ -4445,6 +4580,7 @@ export const Data = [
         coast: 270,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Материал:', 'Пластик'],
             text1: ['Масса:', '0,08 кг'],
@@ -4471,6 +4607,7 @@ export const Data = [
         coast: 1310,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Материал:', 'Пластик'],
             text1: ['Частоты:', '433,42/434,42 МГц'],
@@ -4499,6 +4636,7 @@ export const Data = [
         coast: 1060,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Материал:', 'Пластик'],
             text1: ['Частоты:', '433,42/434,42 МГц'],
@@ -4529,6 +4667,7 @@ export const Data = [
         coast: 650,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Материал: ', 'Пластик'],
             text1: ['Питание: ', 'от 8 до 15 В'],
@@ -4557,6 +4696,7 @@ export const Data = [
         coast: 430,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Материал: ', 'Пластик'],
             text1: ['Питание: ', 'от 8 до 15 В'],
@@ -4589,6 +4729,7 @@ export const Data = [
         coast: 35,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Размеры: ', '46х34х25 мм'],
             text1: ['Масса:', '0.013 кг'],
@@ -4609,6 +4750,7 @@ export const Data = [
         coast: 35,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Размеры: ', '30х38х19 мм'],
             text1: ['Масса: ', '0.013 кг'],
@@ -4633,6 +4775,7 @@ export const Data = [
         coast: 550,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Напряжение: ', '2.5…30 В'],
             text1: ['Материал: ', 'Пластик'],
@@ -4659,6 +4802,7 @@ export const Data = [
         coast: 2600,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Макс.комм.напряжение: ', '250 В'],
             text1: ['Макс.комм.ток: ', '1А'],
@@ -4689,6 +4833,7 @@ export const Data = [
         coast: 2400,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Рабочая частота, МГц: ', '433'],
             text1: ['Напряжение: ', 'от 10 до 28 В'],
@@ -4718,6 +4863,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Напряжение: ', '12 В'],
             text1: ['Ток потребления: ', '80 мА'],
@@ -4744,6 +4890,7 @@ export const Data = [
         coast: 150,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Материал:', 'Пластик'],
             text1: ['Потребляемый ток:', '15 мА'],
@@ -4767,6 +4914,7 @@ export const Data = [
         coast: 260,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Материал:', 'Пластик'],
             text1: ['Звукового давления:', '85 дБ'],
@@ -4792,6 +4940,7 @@ export const Data = [
         coast: 330,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Материал:', 'Пластик'],
             text1: ['Потребляемый ток:', '50 мА'],
@@ -4816,6 +4965,7 @@ export const Data = [
         coast: 260,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Материал:', 'Пластик'],
             text1: ['Потребляемый ток:', '50 мА'],
@@ -4840,6 +4990,7 @@ export const Data = [
         coast: 380,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Материал:', 'Пластик'],
             text1: ['Звуковое давление:', '95 дБ'],
@@ -4865,6 +5016,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 0,
+        picture: 1,
         info: {
             text: ['Датчик: ', 'Радиоканальный'],
             text1: ['Эквивалент: ', 'ИП101-03-А1R'],
@@ -4911,6 +5063,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 0,
+        picture: 1,
         info: {
             text: ['Датчик: ', ' Радиоканальный'],
             text1: ['Эквивалент: ', 'ИП212-14'],
@@ -4951,6 +5104,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 0,
+        picture: 1,
         info: {
             text: ['Датчик: ', ' Адресный'],
             text1: ['Эквивалент: ', 'ИП 513-04-А'],
@@ -4984,6 +5138,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 0,
+        picture: 1,
         info: {
             text: ['Датчик: ', ' Адресный'],
             text1: ['Эквивалент: ', 'ИП 513-04-А'],
@@ -5017,6 +5172,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Датчик: ', ' Адресный'],
             text1: ['Эквивалент: ', 'ИП 513-04-А'],
@@ -5050,6 +5206,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 0,
+        picture: 1,
         info: {
             text: ['Датчик: ', ' Адресный'],
             text1: ['Тип: ', 'Пожарный'],
@@ -5093,6 +5250,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Датчик: ', ' Адресный'],
             text1: ['Эквивалент: ', 'ИП 212-13'],
@@ -5136,6 +5294,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 0,
+        picture: 1,
         info: {
             text: ['Датчик: ', ' Радиоканальный'],
             text1: ['Эквивалент: ', 'ИО40910-7'],
@@ -5177,6 +5336,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Датчик: ', ' Радиоканальный'],
             text1: ['Эквивалент: ', 'ИО 40910-1'],
@@ -5221,6 +5381,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Датчик: ', ' Радиоканальный'],
             text1: ['Эквивалент: ', 'ИО 40910-1'],
@@ -5265,6 +5426,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 0,
+        picture: 1,
         info: {
             text: ['Датчик: ', ' Радиоканальный'],
             text1: ['Эквивалент: ', 'ИО 40910-1'],
@@ -5309,6 +5471,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Датчик: ', ' Радиоканальный'],
             text1: ['Тип: ', 'Оптико-электронный'],
@@ -5353,6 +5516,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Датчик: ', ' Радиоканальный'],
             text1: ['Тип: ', 'Оптико-электронный'],
@@ -5397,6 +5561,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 0,
+        picture: 1,
         info: {
             text: ['Эквивалент: ', ' ИО 409-22'],
             text1: ['Тип: ', 'Оптико-электронный'],
@@ -5438,6 +5603,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Эквивалент: ', ' ИО 409-11'],
             text1: ['Тип: ', 'Оптико-электронный'],
@@ -5476,6 +5642,7 @@ export const Data = [
         pic_brand: teko_brand,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Эквивалент : ', 'ИО 409-15Б'],
             text1: ['Тип: ', 'Оптико-электронный'],
@@ -5514,6 +5681,7 @@ export const Data = [
         pic_brand: teko_brand,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Эквивалент : ', 'ИО 409-15А'],
             text1: ['Тип: ', 'Оптико-электронный'],
@@ -5553,6 +5721,7 @@ export const Data = [
         pic_brand: teko_brand,
         new: false,
         inStock_outStock: 0,
+        picture: 1,
         info: {
             text: ['Эквивалент: ', 'ИО 309-28'],
             text1: ['Тип: ', 'Оптико-электронный'],
@@ -5593,6 +5762,7 @@ export const Data = [
         pic_brand: teko_brand,
         new: false,
         inStock_outStock: 0,
+        picture: 1,
         info: {
             text: ['Датчик: ', 'Охранный'],
             text1: ['Тип: ', 'Оптико-электронный'],
@@ -5633,6 +5803,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Датчик: ', 'Охранный'],
             text1: ['Тип: ', 'Оптико-электронный'],
@@ -5673,6 +5844,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Эквивалент: ', 'ИО 409-32'],
             text1: ['Тип: ', 'Оптико-электронный'],
@@ -5713,6 +5885,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 0,
+        picture: 1,
         info: {
             text: ['Эквивалент: ', 'ИО 409-42'],
             text1: ['Тип: ', 'Оптико-электронный'],
@@ -5755,6 +5928,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Датчик: ', 'Охранный'],
             text1: ['Тип: ', 'Оптико-электронный'],
@@ -5795,6 +5969,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Датчик: ', 'Охранный'],
             text1: ['Тип: ', 'Оптико-электронный'],
@@ -5835,6 +6010,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Эквивалент: ', ' ИО 209-24'],
             text1: ['Тип: ', 'Оптико-электронный'],
@@ -5870,6 +6046,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Эквивалент: ', ' ИО 309-11'],
             text1: ['Тип: ', 'Оптико-электронный'],
@@ -5905,6 +6082,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Эквивалент: ', 'ИО 409-10'],
             text1: ['Тип: ', 'Оптико-электронный'],
@@ -5944,6 +6122,7 @@ export const Data = [
         lider: true,
         new: true,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Рабочая частота: ', '434,42 МГц'],
             text1: ['Радиус действия: ', '100 м'],
@@ -5994,6 +6173,7 @@ export const Data = [
         lider: true,
         small_item: '0.62rem',
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Рабочая частота: ', '434,42 МГц'],
             text1: ['Радиус действия: ', '100 м'],
@@ -6046,6 +6226,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 0,
+        picture: 1,
         info: {
             text: ['Кол-во шлейфов: ', '8'],
             text1: ['Кол-во реле: ', '3'],
@@ -6084,6 +6265,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 0,
+        picture: 1,
         info: {
             text: ['Количество ШС: ', '2'],
             text1: ['Кол-во разделов: ', 'до 250'],
@@ -6119,6 +6301,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 0,
+        picture: 1,
         info: {
             text: ['Количество ШС: ', 'до 240'],
             text1: ['Кол-во устройств: ', 'до 2000'],
@@ -6154,6 +6337,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Кол-во шлейфов: ', '1'],
             text1: ['Кол-во реле: ', '1'],
@@ -6192,6 +6376,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 0,
+        picture: 1,
         info: {
             text: ['Кол-во шлейфов: ', '2'],
             text1: ['Кол-во реле: ', '2'],
@@ -6230,6 +6415,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Кол-во шлейфов: ', '4'],
             text1: ['Кол-во реле: ', '3'],
@@ -6272,6 +6458,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Датчик: ', 'Радиоканальный'],
             text1: ['Тип: ', 'реле'],
@@ -6313,6 +6500,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
 
+        picture: 1,
         info: {
             text: ['Тип : ', 'Разъём интерфейсный'],
             text1: ['Материал : ', 'Пластик'],
@@ -6339,6 +6527,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
 
+        picture: 1,
         info: {
             text: ['Тип : ', 'Разъём интерфейсный'],
             text1: ['Материал : ', 'Металл'],
@@ -6365,6 +6554,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
 
+        picture: 1,
         info: {
             text: ['Тип : ', 'Разъём питания'],
             text1: ['Материал : ', 'Пластик'],
@@ -6391,6 +6581,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
 
+        picture: 1,
         info: {
             text: ['Тип : ', 'Разъём универсальный'],
             text1: ['Материал : ', 'Пластик'],
@@ -6415,6 +6606,7 @@ export const Data = [
 
         inStock_outStock: 1,
 
+        picture: 1,
         info: {
             text: ['Тип : ', 'Разъём питания'],
             text1: ['Материал : ', 'Пластик'],
@@ -6445,6 +6637,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         small_item: '0.7rem',
+        picture: 1,
         info: {
             text: ['Размер : ', '300x10'],
             text1: ['Упаковка : ', '20шт'],
@@ -6472,6 +6665,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Напряжение: ', '3 В'],
             text1: ['Тип батареи: ', 'литиевая'],
@@ -6500,6 +6694,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Напряжение: ', '12 В'],
             text1: ['Емкость: ', '17/ч'],
@@ -6538,6 +6733,7 @@ export const Data = [
         coast: 420,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Напряжение: ', '12 В'],
             text1: ['Емкость: ', '1,2/ч'],
@@ -6566,6 +6762,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Напряжение: ', '12 В'],
             text1: ['Емкость: ', '7/ч'],
@@ -6590,175 +6787,179 @@ export const Data = [
     /**
     *  HiWatch DS-I252W(B)
     */
-   {
-    model: 'HiWatch DS-I252W(B)',
-    id: 'DS-I252W(B)',
-    brand: 'HiWatch',
-    type: ['IP камера уличная', 'ip', 'outdoor'],
-    description: '2 Мп купольная IP-видеокамера с EXIRподсветкой до 30 м, Wi-Fi и микрофоном • Разрешение 2 Мп • H.265+/H.265/MP2L2 • Встроенный микрофон • EXIR-подсветка до 30 м • DWDR, 3D DNR, ROI • Слот для micro SD до 128Гб • IP66 • Wi-Fi',
-    // path: '/',
-    // pic: imou_cue_2,
-    pic_brand: hiwatch_brand,
-    //akciya: 'Акция -10%',
-    //pic_akciya: shar,
-    coast: 8020,
-    old_coast: false,
-    inStock_outStock: 1,
-    new: true,
-    info: {
-        text: ['Разрешение: ', '2 Мп'],
-        text1: ['Объектив: ', '2,8 мм'],
-        text2: ['Матрица: ', '1/2.8 Progressive scan CMOS'],
-        text3: ['Режим «День/ночь»: ', 'Механический ИК-фильтр'],
-        text4: ['Угол обзора:', '114°'],
-        text5: ['Сжатие видео:', 'Основной поток: H.265/H.265+/H.264/H.264+; Дополнительный поток: H.265/ H.264/MJPEG'],
-        text6: ['Частота кадров:', '25 к/с @(1920×1080,1280х960, 1280×720)'],
-        text7: ['Максимальное разрешение:', '(1920 х 1080)'],
-        text8: ['Улучшение изображения:', 'DWDR, 3D DNR, BLC, ROI'],
-        text9: ['Сетевые подключения: ', '1 RJ45 10M /100M Ethernet; Wi-Fi: IEEE802.11b/g/n'],
-        texx10: ['Протокол подключения: ', 'ONVIF (PROFILE S, PROFILE G), ISAPI'],
-        text11: ['Приложение: ', 'iOS, Android, ONVIF'],
-        text12: ['Дополнительные интерфейсы: ', 'Слот для карты MicroSD (до 128 Гб)'],
-        text13: ['Детекция движения:', 'Обнаружение несанкционированных действий, разрыв сети, конфликт IP-адресов'],
-        text14: ['Настраиваемые области:', 'есть'],
-        text15: ['Питание:', 'DC12В±25%'],
-        text16: ['Потребляемая мощность:', '5 Вт макс'],
-        text17: ['Материал', 'Пластик'],
-        text18: ['Условия эксплуатации', '-30°С — 60°С, влажность 95% или меньше (без конденсата)'],
-        text19: ['Класс защиты:', 'IP66'],
-        text20: ['Размеры:', '121.36 мм х 92.21 мм'],
-        text21: ['Вес:', '	0,465 кг'],
-    },
-},
-/**
-    *  HiWatch DS-I203(C)
-    */
     {
-    model: 'HiWatch DS-I203(C)',
-    id: 'DS-I203(C)',
-    brand: 'HiWatch',
-    type: ['IP камера уличная', 'ip', 'outdoor'],
-    description: '2Мп купольная IP-видеокамера с EXIR-подсветкой до 30 м, Разрешение 2 Мп, H.265+/H.265, ИК-подсветка до 30 м, 3D DNR, DWDR, коридорный режим, IP67',
-    // path: '/',
-    // pic: imou_cue_2,
-    pic_brand: hiwatch_brand,
-    //akciya: 'Акция -10%',
-    //pic_akciya: shar,
-    coast: 5050,
-    old_coast: false,
-    inStock_outStock: 1,
-    new: true,
-    info: {
-        text: ['Разрешение: ', '2 Мп'],
-        text1: ['Объектив: ', '2,8 мм'],
-        text2: ['Матрица: ', '1/2.7 Progressive scan CMOS'],
-        text3: ['Режим «День/ночь»: ', 'Механический ИК-фильтр с автопереключением'],
-        text4: ['Угол обзора:', 'Горизонтальный: 114.8°, вертикальный: 62°, диагональный: 135,5°'],
-        text5: ['Сжатие видео:', 'H.265/H.264/MJPEG'],
-        text6: ['Частота кадров:', '25 к/с @(1920×1080,1280х960, 1280×720)'],
-        text7: ['Максимальное разрешение:', '(1920 х 1080)'],
-        text8: ['Улучшение изображения:', '	DWDR, 3D DNR, BLC, коридорный режим'],
-        text9: ['Сетевые подключения: ', '1 RJ45 10M /100M Ethernet'],
-        texx10: ['Протокол подключения: ', 'ONVIF (PROFILE S, PROFILE G), ISAPI'],
-        text11: ['Приложение: ', 'iOS, Android, ONVIF'],
-        text12: ['Дополнительные интерфейсы: ', 'Слот для карты MicroSD (до 128 Гб)'],
-        text13: ['Детекция движения:', 'Обнаружение несанкционированной авторизации, движения'],
-        text14: ['Настраиваемые области:', 'есть'],
-        text15: ['Питание:', 'DC12В±25% / PoE(IEEE 802.3af)'],
-        text16: ['Потребляемая мощность:', '6 Вт макс'],
-        text17: ['Материал', 'Металл/ Пластик'],
-        text18: ['Условия эксплуатации', '-40°С — 60°С, влажность 95% или меньше (без конденсата)'],
-        text19: ['Класс защиты:', 'IP67'],
-        text20: ['Размеры:', '110 х 93,2 мм'],
-        text21: ['Вес:', '	0,36 кг'],
+        model: 'HiWatch DS-I252W(B)',
+        id: 'DS-I252W(B)',
+        brand: 'HiWatch',
+        type: ['IP камера уличная', 'ip', 'outdoor'],
+        description: '2 Мп купольная IP-видеокамера с EXIRподсветкой до 30 м, Wi-Fi и микрофоном • Разрешение 2 Мп • H.265+/H.265/MP2L2 • Встроенный микрофон • EXIR-подсветка до 30 м • DWDR, 3D DNR, ROI • Слот для micro SD до 128Гб • IP66 • Wi-Fi',
+        // path: '/',
+        // pic: imou_cue_2,
+        pic_brand: hiwatch_brand,
+        //akciya: 'Акция -10%',
+        //pic_akciya: shar,
+        coast: 8020,
+        old_coast: false,
+        inStock_outStock: 1,
+        new: true,
+        picture: 1,
+        info: {
+            text: ['Разрешение: ', '2 Мп'],
+            text1: ['Объектив: ', '2,8 мм'],
+            text2: ['Матрица: ', '1/2.8 Progressive scan CMOS'],
+            text3: ['Режим «День/ночь»: ', 'Механический ИК-фильтр'],
+            text4: ['Угол обзора:', '114°'],
+            text5: ['Сжатие видео:', 'Основной поток: H.265/H.265+/H.264/H.264+; Дополнительный поток: H.265/ H.264/MJPEG'],
+            text6: ['Частота кадров:', '25 к/с @(1920×1080,1280х960, 1280×720)'],
+            text7: ['Максимальное разрешение:', '(1920 х 1080)'],
+            text8: ['Улучшение изображения:', 'DWDR, 3D DNR, BLC, ROI'],
+            text9: ['Сетевые подключения: ', '1 RJ45 10M /100M Ethernet; Wi-Fi: IEEE802.11b/g/n'],
+            texx10: ['Протокол подключения: ', 'ONVIF (PROFILE S, PROFILE G), ISAPI'],
+            text11: ['Приложение: ', 'iOS, Android, ONVIF'],
+            text12: ['Дополнительные интерфейсы: ', 'Слот для карты MicroSD (до 128 Гб)'],
+            text13: ['Детекция движения:', 'Обнаружение несанкционированных действий, разрыв сети, конфликт IP-адресов'],
+            text14: ['Настраиваемые области:', 'есть'],
+            text15: ['Питание:', 'DC12В±25%'],
+            text16: ['Потребляемая мощность:', '5 Вт макс'],
+            text17: ['Материал', 'Пластик'],
+            text18: ['Условия эксплуатации', '-30°С — 60°С, влажность 95% или меньше (без конденсата)'],
+            text19: ['Класс защиты:', 'IP66'],
+            text20: ['Размеры:', '121.36 мм х 92.21 мм'],
+            text21: ['Вес:', '	0,465 кг'],
+        },
     },
-},
-/**
-    *  HiWatch DS-I200(C)
-    */
+    /**
+        *  HiWatch DS-I203(C)
+        */
     {
-    model: 'HiWatch DS-I200(C)',
-    id: 'DS-I200(C)',
-    brand: 'HiWatch',
-    type: ['IP камера уличная', 'ip', 'outdoor'],
-    description: '2Мп купольная IP-видеокамера с EXIR-подсветкой до 30 м, Разрешение 2 Мп, H.265+/H.265, ИК-подсветка до 30 м, 3D DNR, DWDR, коридорный режим, IP67',
-    // path: '/',
-    // pic: imou_cue_2,
-    pic_brand: hiwatch_brand,
-    //akciya: 'Акция -10%',
-    //pic_akciya: shar,
-    coast: 5050,
-    old_coast: false,
-    inStock_outStock: 1,
-    new: true,
-    info: {
-        text: ['Разрешение: ', '2 Мп'],
-        text1: ['Объектив: ', '2,8 мм'],
-        text2: ['Матрица: ', '1/2.7 Progressive scan CMOS'],
-        text3: ['Режим «День/ночь»: ', 'Механический ИК-фильтр с автопереключением'],
-        text4: ['Угол обзора:', 'Горизонтальный: 114.8°, вертикальный: 62°, диагональный: 135,5°'],
-        text5: ['Сжатие видео:', 'H.265/H.264/MJPEG'],
-        text6: ['Частота кадров:', '25 к/с @(1920×1080,1280х960, 1280×720)'],
-        text7: ['Максимальное разрешение:', '(1920 х 1080)'],
-        text8: ['Улучшение изображения:', '	DWDR, 3D DNR, BLC, коридорный режим'],
-        text9: ['Сетевые подключения: ', '1 RJ45 10M /100M Ethernet'],
-        texx10: ['Протокол подключения: ', 'ONVIF (PROFILE S, PROFILE G), ISAPI'],
-        text11: ['Приложение: ', 'iOS, Android, ONVIF'],
-        text12: ['Дополнительные интерфейсы: ', 'Слот для карты MicroSD (до 128 Гб)'],
-        text13: ['Детекция движения:', 'Обнаружение несанкционированной авторизации, движения'],
-        text14: ['Настраиваемые области:', 'есть'],
-        text15: ['Питание:', 'DC12В±25% / PoE(IEEE 802.3af)'],
-        text16: ['Потребляемая мощность:', '4.5 Вт макс'],
-        text17: ['Материал', 'Металл/ Пластик'],
-        text18: ['Условия эксплуатации', '-40°С — 60°С, влажность 95% или меньше (без конденсата)'],
-        text19: ['Класс защиты:', 'IP67'],
-        text20: ['Размеры:', '69.1 × 66 х 172.7мм'],
-        text21: ['Вес:', '	0,27 кг'],
+        model: 'HiWatch DS-I203(C)',
+        id: 'DS-I203(C)',
+        brand: 'HiWatch',
+        type: ['IP камера уличная', 'ip', 'outdoor'],
+        description: '2Мп купольная IP-видеокамера с EXIR-подсветкой до 30 м, Разрешение 2 Мп, H.265+/H.265, ИК-подсветка до 30 м, 3D DNR, DWDR, коридорный режим, IP67',
+        // path: '/',
+        // pic: imou_cue_2,
+        pic_brand: hiwatch_brand,
+        //akciya: 'Акция -10%',
+        //pic_akciya: shar,
+        coast: 5050,
+        old_coast: false,
+        inStock_outStock: 1,
+        new: true,
+        picture: 1,
+        info: {
+            text: ['Разрешение: ', '2 Мп'],
+            text1: ['Объектив: ', '2,8 мм'],
+            text2: ['Матрица: ', '1/2.7 Progressive scan CMOS'],
+            text3: ['Режим «День/ночь»: ', 'Механический ИК-фильтр с автопереключением'],
+            text4: ['Угол обзора:', 'Горизонтальный: 114.8°, вертикальный: 62°, диагональный: 135,5°'],
+            text5: ['Сжатие видео:', 'H.265/H.264/MJPEG'],
+            text6: ['Частота кадров:', '25 к/с @(1920×1080,1280х960, 1280×720)'],
+            text7: ['Максимальное разрешение:', '(1920 х 1080)'],
+            text8: ['Улучшение изображения:', '	DWDR, 3D DNR, BLC, коридорный режим'],
+            text9: ['Сетевые подключения: ', '1 RJ45 10M /100M Ethernet'],
+            texx10: ['Протокол подключения: ', 'ONVIF (PROFILE S, PROFILE G), ISAPI'],
+            text11: ['Приложение: ', 'iOS, Android, ONVIF'],
+            text12: ['Дополнительные интерфейсы: ', 'Слот для карты MicroSD (до 128 Гб)'],
+            text13: ['Детекция движения:', 'Обнаружение несанкционированной авторизации, движения'],
+            text14: ['Настраиваемые области:', 'есть'],
+            text15: ['Питание:', 'DC12В±25% / PoE(IEEE 802.3af)'],
+            text16: ['Потребляемая мощность:', '6 Вт макс'],
+            text17: ['Материал', 'Металл/ Пластик'],
+            text18: ['Условия эксплуатации', '-40°С — 60°С, влажность 95% или меньше (без конденсата)'],
+            text19: ['Класс защиты:', 'IP67'],
+            text20: ['Размеры:', '110 х 93,2 мм'],
+            text21: ['Вес:', '	0,36 кг'],
+        },
     },
-},
-/**
-    *  HiWatch DS-I259M
-    */
+    /**
+        *  HiWatch DS-I200(C)
+        */
     {
-    model: 'HiWatch DS-I259M',
-    id: 'DS-I259M',
-    brand: 'HiWatch',
-    type: ['IP камера уличная', 'ip', 'outdoor'],
-    description: '2Мп купольная IP-видеокамера с EXIR-подсветкой до 10м и микрофоном, Разрешение 2Мп, H.265+/H.265/MP2L2, Встроенный микрофон, EXIR-подсветка до 10м, DWDR, 3D DNR, ROI, Smart функции, Слот для microSD до 128 Гб, IK08',
-    // path: '/',
-    // pic: imou_cue_2,
-    pic_brand: hiwatch_brand,
-    //akciya: 'Акция -10%',
-    //pic_akciya: shar,
-    coast: 8460,
-    old_coast: false,
-    inStock_outStock: 1,
-    new: true,
-    info: {
-        text: ['Разрешение: ', '2 Мп'],
-        text1: ['Объектив: ', '2,8 мм'],
-        text2: ['Матрица: ', '1/2.7 Progressive scan CMOS'],
-        text3: ['Режим «День/ночь»: ', 'Электронный ИК-фильтр'],
-        text4: ['Угол обзора:', '114.5°'],
-        text5: ['Сжатие видео:', 'H.265/H.265+/H.264/H.264+'],
-        text6: ['Частота кадров:', '25 к/с @(1920×1080,1280х960, 1280×720)'],
-        text7: ['Максимальное разрешение:', '(1920 х 1080)'],
-        text8: ['Улучшение изображения:', 'BLC / ROI / 3D DNR/ DWDR'],
-        text9: ['Сетевые подключения: ', '1 RJ45 10M /100M Ethernet'],
-        texx10: ['Протокол подключения: ', 'ONVIF (PROFILE S, PROFILE G), ISAPI'],
-        text11: ['Приложение: ', 'iOS, Android, ONVIF'],
-        text12: ['Дополнительные интерфейсы: ', 'Слот для карты MicroSD (до 128 Гб)'],
-        text13: ['Детекция движения:', 'Обнаружение несанкционированной авторизации, движения'],
-        text14: ['Настраиваемые области:', 'есть'],
-        text15: ['Питание:', 'DC12В±25% / PoE(IEEE 802.3af)'],
-        text16: ['Потребляемая мощность:', '5 Вт макс. (DC12В) 6.5 Вт макс. (PoE)'],
-        text17: ['Материал', 'Металл/ Пластик'],
-        text18: ['Условия эксплуатации', '-20°С — +45°С, влажность 95% или меньше (без конденсата)'],
-        text19: ['Класс защиты:', 'IK08'],
-        text20: ['Размеры:', '57.4мм х 110мм'],
-        text21: ['Вес:', '0,32 кг'],
+        model: 'HiWatch DS-I200(C)',
+        id: 'DS-I200(C)',
+        brand: 'HiWatch',
+        type: ['IP камера уличная', 'ip', 'outdoor'],
+        description: '2Мп купольная IP-видеокамера с EXIR-подсветкой до 30 м, Разрешение 2 Мп, H.265+/H.265, ИК-подсветка до 30 м, 3D DNR, DWDR, коридорный режим, IP67',
+        // path: '/',
+        // pic: imou_cue_2,
+        pic_brand: hiwatch_brand,
+        //akciya: 'Акция -10%',
+        //pic_akciya: shar,
+        coast: 5050,
+        old_coast: false,
+        inStock_outStock: 1,
+        new: true,
+        picture: 1,
+        info: {
+            text: ['Разрешение: ', '2 Мп'],
+            text1: ['Объектив: ', '2,8 мм'],
+            text2: ['Матрица: ', '1/2.7 Progressive scan CMOS'],
+            text3: ['Режим «День/ночь»: ', 'Механический ИК-фильтр с автопереключением'],
+            text4: ['Угол обзора:', 'Горизонтальный: 114.8°, вертикальный: 62°, диагональный: 135,5°'],
+            text5: ['Сжатие видео:', 'H.265/H.264/MJPEG'],
+            text6: ['Частота кадров:', '25 к/с @(1920×1080,1280х960, 1280×720)'],
+            text7: ['Максимальное разрешение:', '(1920 х 1080)'],
+            text8: ['Улучшение изображения:', '	DWDR, 3D DNR, BLC, коридорный режим'],
+            text9: ['Сетевые подключения: ', '1 RJ45 10M /100M Ethernet'],
+            texx10: ['Протокол подключения: ', 'ONVIF (PROFILE S, PROFILE G), ISAPI'],
+            text11: ['Приложение: ', 'iOS, Android, ONVIF'],
+            text12: ['Дополнительные интерфейсы: ', 'Слот для карты MicroSD (до 128 Гб)'],
+            text13: ['Детекция движения:', 'Обнаружение несанкционированной авторизации, движения'],
+            text14: ['Настраиваемые области:', 'есть'],
+            text15: ['Питание:', 'DC12В±25% / PoE(IEEE 802.3af)'],
+            text16: ['Потребляемая мощность:', '4.5 Вт макс'],
+            text17: ['Материал', 'Металл/ Пластик'],
+            text18: ['Условия эксплуатации', '-40°С — 60°С, влажность 95% или меньше (без конденсата)'],
+            text19: ['Класс защиты:', 'IP67'],
+            text20: ['Размеры:', '69.1 × 66 х 172.7мм'],
+            text21: ['Вес:', '	0,27 кг'],
+        },
     },
-},
+    /**
+        *  HiWatch DS-I259M
+        */
+    {
+        model: 'HiWatch DS-I259M',
+        id: 'DS-I259M',
+        brand: 'HiWatch',
+        type: ['IP камера уличная', 'ip', 'outdoor'],
+        description: '2Мп купольная IP-видеокамера с EXIR-подсветкой до 10м и микрофоном, Разрешение 2Мп, H.265+/H.265/MP2L2, Встроенный микрофон, EXIR-подсветка до 10м, DWDR, 3D DNR, ROI, Smart функции, Слот для microSD до 128 Гб, IK08',
+        // path: '/',
+        // pic: imou_cue_2,
+        pic_brand: hiwatch_brand,
+        //akciya: 'Акция -10%',
+        //pic_akciya: shar,
+        coast: 8460,
+        old_coast: false,
+        inStock_outStock: 1,
+        new: true,
+        picture: 1,
+        info: {
+            text: ['Разрешение: ', '2 Мп'],
+            text1: ['Объектив: ', '2,8 мм'],
+            text2: ['Матрица: ', '1/2.7 Progressive scan CMOS'],
+            text3: ['Режим «День/ночь»: ', 'Электронный ИК-фильтр'],
+            text4: ['Угол обзора:', '114.5°'],
+            text5: ['Сжатие видео:', 'H.265/H.265+/H.264/H.264+'],
+            text6: ['Частота кадров:', '25 к/с @(1920×1080,1280х960, 1280×720)'],
+            text7: ['Максимальное разрешение:', '(1920 х 1080)'],
+            text8: ['Улучшение изображения:', 'BLC / ROI / 3D DNR/ DWDR'],
+            text9: ['Сетевые подключения: ', '1 RJ45 10M /100M Ethernet'],
+            texx10: ['Протокол подключения: ', 'ONVIF (PROFILE S, PROFILE G), ISAPI'],
+            text11: ['Приложение: ', 'iOS, Android, ONVIF'],
+            text12: ['Дополнительные интерфейсы: ', 'Слот для карты MicroSD (до 128 Гб)'],
+            text13: ['Детекция движения:', 'Обнаружение несанкционированной авторизации, движения'],
+            text14: ['Настраиваемые области:', 'есть'],
+            text15: ['Питание:', 'DC12В±25% / PoE(IEEE 802.3af)'],
+            text16: ['Потребляемая мощность:', '5 Вт макс. (DC12В) 6.5 Вт макс. (PoE)'],
+            text17: ['Материал', 'Металл/ Пластик'],
+            text18: ['Условия эксплуатации', '-20°С — +45°С, влажность 95% или меньше (без конденсата)'],
+            text19: ['Класс защиты:', 'IK08'],
+            text20: ['Размеры:', '57.4мм х 110мм'],
+            text21: ['Вес:', '0,32 кг'],
+        },
+    },
     /** 
      * -------------------------------------------------------------HiWatch Комплект аналогового видеодомофона
      **/
@@ -6781,6 +6982,7 @@ export const Data = [
         new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Вызывная панель + Домофон'],
             text1: ['SD карта:', 'MicroSD 128 ГБ'],
@@ -6819,6 +7021,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Кол-во камер: ', '8 IP'],
             text1: ['Кол-во HDD: ', '1'],
@@ -6844,9 +7047,9 @@ export const Data = [
             text21: ['Вес: ', '	≤1 кг (Без HDD)'],
         },
     },
-/**
-     *  HiWatch DS-N316/2 (B)
-     */
+    /**
+         *  HiWatch DS-N316/2 (B)
+         */
     {
         model: 'DS-N316-2 (B)',
         id: 'DS-N316-2(B)',
@@ -6860,6 +7063,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Кол-во камер: ', '16 IP'],
             text1: ['Кол-во HDD: ', '1'],
@@ -6900,6 +7104,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Кол-во камер: ', '4 IP'],
             text1: ['Кол-во HDD: ', '1'],
@@ -6950,6 +7155,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Кол-во камер: ', '16 HD-TVI'],
             text1: ['Кол-во HDD: ', '1'],
@@ -7028,6 +7234,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Материал: ', 'Сталь'],
             text1: ['Тип: ', 'Кронштейн'],
@@ -7058,6 +7265,7 @@ export const Data = [
         coast: 410,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Напряжение: ', '12 В'],
             text1: ['Сила тока: ', '1A'],
@@ -7092,6 +7300,7 @@ export const Data = [
         coast: 550,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Напряжение: ', '12 В'],
             text1: ['Сила тока: ', '2A'],
@@ -7126,6 +7335,7 @@ export const Data = [
         coast: 820,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Напряжение: ', '12 В'],
             text1: ['Сила тока: ', '3A'],
@@ -7160,6 +7370,7 @@ export const Data = [
         coast: 1250,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Напряжение: ', '12 В'],
             text1: ['Сила тока: ', '5A'],
@@ -7194,6 +7405,7 @@ export const Data = [
         coast: 2770,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Напряжение: ', '12 В'],
             text1: ['Сила тока: ', '5A'],
@@ -7235,6 +7447,7 @@ export const Data = [
         coast: 470,
         old_coast: false,
         new: false,
+        picture: 1,
         info: {
             text: ['Тип : ', 'Купольный'],
             text1: ['Дальность :  ', 'до 15 '],
@@ -7273,6 +7486,7 @@ export const Data = [
         coast: 440,
         old_coast: false,
         new: false,
+        picture: 1,
         info: {
             text: ['Тип : ', 'Купольный'],
             text1: ['Дальность :  ', 'до 15 '],
@@ -7311,6 +7525,7 @@ export const Data = [
         coast: 190,
         old_coast: false,
         new: false,
+        picture: 1,
         info: {
             text: ['Тип : ', 'Купольный'],
             text1: ['Дальность :  ', 'до 10 '],
@@ -7352,6 +7567,7 @@ export const Data = [
         coast: 2900,
         old_coast: 3660,
         new: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '4MP/960H'],
             text1: ['Объектив:  ', '2.8 мм'],
@@ -7394,6 +7610,7 @@ export const Data = [
         coast: 3600,
         old_coast: 4490,
         new: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', 'до 5 MP'],
             text1: ['Объектив: ', '2.8 мм'],
@@ -7436,6 +7653,7 @@ export const Data = [
         coast: 1920,
         old_coast: 2480,
         new: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2MP'],
             text1: ['Объектив:  ', '3.6 мм'],
@@ -7483,6 +7701,7 @@ export const Data = [
         coast: 1920,
         old_coast: 2480,
         new: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2MP'],
             text1: ['Объектив:  ', '2.8 мм'],
@@ -7530,6 +7749,7 @@ export const Data = [
         coast: 1360,
         old_coast: 1700,
         new: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2MP'],
             text1: ['Объектив:  ', '3.6 мм'],
@@ -7577,6 +7797,7 @@ export const Data = [
         coast: 1700,
         old_coast: 2130,
         new: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2MP'],
             text1: ['Объектив:  ', '2.8 мм'],
@@ -7628,6 +7849,7 @@ export const Data = [
         coast: 1840,
         old_coast: 2300,
         new: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2MP'],
             text1: ['Объектив:  ', '3.6 мм'],
@@ -7674,6 +7896,7 @@ export const Data = [
         coast: 2000,
         old_coast: 2500,
         new: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2MP'],
             text1: ['Объектив:  ', '2.8 мм'],
@@ -7725,6 +7948,7 @@ export const Data = [
         coast: 2760,
         old_coast: 3450,
         new: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2MP'],
             text1: ['Объектив:  ', '2.8 мм'],
@@ -7779,6 +8003,7 @@ export const Data = [
         coast: 2688,
         old_coast: 3360,
         new: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2MP'],
             text1: ['Объектив:  ', '3.6 мм'],
@@ -7836,6 +8061,7 @@ export const Data = [
         coast: 2568,
         old_coast: 3210,
         new: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2MP'],
             text1: ['Объектив:  ', '3.6 мм'],
@@ -7890,6 +8116,7 @@ export const Data = [
         coast: 2568,
         old_coast: 3210,
         new: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2MP'],
             text1: ['Объектив:  ', '2.8 мм'],
@@ -7944,6 +8171,7 @@ export const Data = [
         coast: 2800,
         old_coast: 3580,
         new: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2MP'],
             text1: ['Объектив:  ', '3.6 мм'],
@@ -8000,6 +8228,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Кол-во камер: ', '32 IP'],
             text1: ['Кол-во HDD: ', '1'],
@@ -8073,6 +8302,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Кол-во камер: ', '16'],
             text1: ['Кол-во HDD: ', '1'],
@@ -8146,6 +8376,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Кол-во входов: ', '8 BNC'],
             text1: ['Кол-во HDD: ', '1'],
@@ -8221,6 +8452,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Кол-во входов: ', '16 BNC'],
             text1: ['Кол-во HDD: ', '1'],
@@ -8294,6 +8526,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Кол-во входов: ', '4 BNC'],
             text1: ['Кол-во HDD: ', '1'],
@@ -8367,6 +8600,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Кол-во входов: ', '4 BNC'],
             text1: ['Кол-во HDD: ', '1'],
@@ -8440,6 +8674,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Кол-во входов: ', '8 BNC'],
             text1: ['Кол-во HDD: ', '1'],
@@ -8513,6 +8748,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Кол-во входов: ', '16 BNC'],
             text1: ['Кол-во HDD: ', '1'],
@@ -8586,6 +8822,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Напряжение: ', '13 В'],
             text1: ['Сила тока: ', '8х0.75А/1x2A'],
@@ -8626,6 +8863,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Напряжение: ', '13 В'],
             text1: ['Сила тока: ', '5А'],
@@ -8667,6 +8905,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Напряжение: ', '13 В'],
             text1: ['Сила тока: ', '5А'],
@@ -8708,6 +8947,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Напряжение: ', '13 В'],
             text1: ['Сила тока: ', '3А'],
@@ -8753,6 +8993,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Входы: ', '4 POE/2 UpLink'],
             text1: ['Питание: ', '110-240В'],
@@ -8790,6 +9031,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Входы: ', '16 POE / 2Up / 1SFP'],
             text1: ['Питание: ', '110-240В'],
@@ -8827,6 +9069,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Входы: ', '8 POE/2 UpLink'],
             text1: ['Питание: ', '110-240В'],
@@ -8864,6 +9107,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Вх.напряжение: ', 'DC 48 15Вт'],
             text1: ['Вых.напряжение: ', 'DC 12 1А)'],
@@ -8896,6 +9140,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Вх.напряжение: ', '	DC 48В 15 Вт'],
             text1: ['Вых.напряжение: ', 'DC 12 1А)'],
@@ -8928,6 +9173,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Напряжение: ', 'стан. 802.3af/at'],
             text1: ['Скорость передачи: ', '100Mbps'],
@@ -8964,6 +9210,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Напряжение: ', '100-240 В'],
             text1: ['Скорость передачи: ', '100Mbps'],
@@ -9010,6 +9257,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.7rem',
+        picture: 1,
         info: {
             text: ['Номинальный ток: ', '6 A'],
             text1: ['Количество полюсов: ', '1'],
@@ -9035,6 +9283,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.7rem',
+        picture: 1,
         info: {
             text: ['Номинальный ток: ', '10 A'],
             text1: ['Количество полюсов: ', '1'],
@@ -9060,6 +9309,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.7rem',
+        picture: 1,
         info: {
             text: ['Номинальный ток: ', '16 A'],
             text1: ['Количество полюсов: ', '1'],
@@ -9088,6 +9338,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.7rem',
+        picture: 1,
         info: {
             text: ['Размер ленты : ', '0,18х19 мм'],
             text1: ['Длина : ', '20 м'],
@@ -9113,6 +9364,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.7rem',
+        picture: 1,
         info: {
             text: ['Размер ленты : ', '0,18х19 мм'],
             text1: ['Длина : ', '20 м'],
@@ -9141,6 +9393,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         small_item: '0.62rem',
+        picture: 1,
         info: {
             text: ['Размер: ', '300х210х150мм'],
             text1: ['Материал: ', 'Сталь'],
@@ -9175,6 +9428,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         small_item: '0.62rem',
+        picture: 1,
         info: {
             text: ['Размер: ', '500х400х150мм'],
             text1: ['Материал: ', 'Сталь'],
@@ -9209,6 +9463,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         small_item: '0.62rem',
+        picture: 1,
         info: {
             text: ['Размер: ', '500х400х240мм'],
             text1: ['Материал: ', 'ABS-Пластик'],
@@ -9242,6 +9497,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         small_item: '0.62rem',
+        picture: 1,
         info: {
             text: ['Размер: ', '700х500х250мм'],
             text1: ['Материал: ', 'ABS-Пластик'],
@@ -9275,6 +9531,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         small_item: '0.62rem',
+        picture: 1,
         info: {
             text: ['Размер: ', '500х400х180мм'],
             text1: ['Материал: ', 'ABS-Пластик'],
@@ -9308,6 +9565,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         small_item: '0.62rem',
+        picture: 1,
         info: {
             text: ['Размер: ', '600х400х200мм'],
             text1: ['Материал: ', 'ABS-Пластик'],
@@ -9341,6 +9599,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         small_item: '0.62rem',
+        picture: 1,
         info: {
             text: ['Размер: ', '400х300х170мм'],
             text1: ['Материал: ', 'ABS-Пластик'],
@@ -9374,6 +9633,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         small_item: '0.62rem',
+        picture: 1,
         info: {
             text: ['Размер: ', '400х300х220мм'],
             text1: ['Материал: ', 'ABS-Пластик'],
@@ -9411,6 +9671,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         small_item: '0.62rem',
+        picture: 1,
         info: {
             text: ['Размер : ', '20х20'],
             text1: ['Упаковка : ', '100шт'],
@@ -9437,6 +9698,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         small_item: '0.62rem',
+        picture: 1,
         info: {
             text: ['Размер: ', '350х250х150мм'],
             text1: ['Материал: ', 'ABS-Пластик'],
@@ -9470,6 +9732,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         small_item: '0.62rem',
+        picture: 1,
         info: {
             text: ['Размер: ', '300х200х130мм'],
             text1: ['Материал: ', 'ABS-Пластик'],
@@ -9506,6 +9769,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         small_item: '0.7rem',
+        picture: 1,
         info: {
             text: ['Размер : ', '2,5х100'],
             text1: ['Упаковка : ', '100шт'],
@@ -9532,6 +9796,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         small_item: '0.7rem',
+        picture: 1,
         info: {
             text: ['Размер : ', '2,5х150'],
             text1: ['Упаковка : ', '100шт'],
@@ -9558,6 +9823,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         small_item: '0.7rem',
+        picture: 1,
         info: {
             text: ['Размер : ', '2,5х110'],
             text1: ['Упаковка : ', '100шт'],
@@ -9584,6 +9850,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         small_item: '0.7rem',
+        picture: 1,
         info: {
             text: ['Размер : ', '2,5х200'],
             text1: ['Упаковка : ', '100шт'],
@@ -9614,6 +9881,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Размер : ', '70x70x40'],
             text1: ['Кол-во вводов : ', '6'],
@@ -9643,6 +9911,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Напряжение: ', '12 В'],
             text1: ['Сила тока: ', '2,5A'],
@@ -9677,6 +9946,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Напряжение: ', '12 В'],
             text1: ['Сила тока: ', '3,33A'],
@@ -9711,6 +9981,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Напряжение: ', '12 В'],
             text1: ['Сила тока: ', '4,16A'],
@@ -9745,6 +10016,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Напряжение: ', '12 В'],
             text1: ['Сила тока: ', '5A'],
@@ -9779,6 +10051,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Напряжение: ', '12 В'],
             text1: ['Сила тока: ', '8,33A'],
@@ -9813,6 +10086,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Напряжение: ', '12 В'],
             text1: ['Сила тока: ', '12.5A'],
@@ -9847,6 +10121,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Напряжение: ', '12 В'],
             text1: ['Сила тока: ', '2A'],
@@ -9881,6 +10156,7 @@ export const Data = [
         old_coast: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Напряжение: ', '12 В'],
             text1: ['Сила тока: ', '3A'],
@@ -9905,10 +10181,10 @@ export const Data = [
      */
     /**
      *-----------------------------------------------------EZ-IP регистраторы nvr  
-      */ 
-     /**
-     *  EZ-IP EZ-NVR1B04
-     */
+      */
+    /**
+    *  EZ-IP EZ-NVR1B04
+    */
     {
         model: 'EZ-NVR1B04',
         id: 'EZ-NVR1B04',
@@ -9920,6 +10196,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 4390,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Тип регистратора: ', 'NVR'],
             text1: ['Каналы: ', '4'],
@@ -9947,9 +10224,9 @@ export const Data = [
             text23: ['Масса:', '0,43 кг'],
         },
     },
-/**
-     *  EZ-IP EZ-NVR1B08
-     */
+    /**
+         *  EZ-IP EZ-NVR1B08
+         */
     {
         model: 'EZ-NVR1B08',
         id: 'EZ-NVR1B08',
@@ -9961,6 +10238,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 5990,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Тип регистратора: ', 'NVR'],
             text1: ['Каналы: ', '8'],
@@ -9988,9 +10266,9 @@ export const Data = [
             text23: ['Масса:', '0,43 кг'],
         },
     },
-/**
-     *  EZ-IP DHI-NVR1B08HS
-     */
+    /**
+         *  EZ-IP DHI-NVR1B08HS
+         */
     {
         model: 'DHI-NVR1B08HS',
         id: 'DHI-NVR1B08HS',
@@ -10002,6 +10280,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 7790,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Тип регистратора: ', 'NVR'],
             text1: ['Каналы: ', '8'],
@@ -10029,9 +10308,9 @@ export const Data = [
             text23: ['Масса:', '0,81 кг'],
         },
     },
-/**
-     *  EZ-IP EZ-NVR2B16
-     */
+    /**
+         *  EZ-IP EZ-NVR2B16
+         */
     {
         model: 'EZ-NVR2B16',
         id: 'EZ-NVR2B16',
@@ -10043,6 +10322,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 10590,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Тип регистратора: ', 'NVR'],
             text1: ['Каналы: ', '16'],
@@ -10070,7 +10350,7 @@ export const Data = [
             text23: ['Масса:', '1,53 кг'],
         },
     },
-    
+
     /**
      * ----------------------------------------------------EZ-IP регистраторы xvr
      */
@@ -10088,6 +10368,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 3790,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Тип регистратора: ', 'XVR'],
             text1: ['Каналы: ', '4+1'],
@@ -10115,9 +10396,9 @@ export const Data = [
             text23: ['Масса:', '0,55 кг'],
         },
     },
-/**
-     *  EZ-IP EZ-XVR1B08
-     */
+    /**
+         *  EZ-IP EZ-XVR1B08
+         */
     {
         model: 'EZ-XVR1B08',
         id: 'EZ-XVR1B08',
@@ -10129,6 +10410,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 6190,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Тип регистратора: ', 'XVR'],
             text1: ['Каналы: ', '8+2'],
@@ -10155,10 +10437,10 @@ export const Data = [
             text22: ['Габаритные размеры:', '197х192х41 мм'],
             text23: ['Масса:', '0,54 кг'],
         },
-    },    
-/**
-     *  EZ-IP EZ-XVR1B16
-     */
+    },
+    /**
+         *  EZ-IP EZ-XVR1B16
+         */
     {
         model: 'EZ-XVR1B16',
         id: 'EZ-XVR1B16',
@@ -10170,6 +10452,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 9490,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Тип регистратора: ', 'XVR'],
             text1: ['Каналы: ', '16+2'],
@@ -10197,9 +10480,9 @@ export const Data = [
             text23: ['Масса:', '0,54 кг'],
         },
     },
-/**
-     *  EZ-IP EZ-XVR1B04H
-     */
+    /**
+         *  EZ-IP EZ-XVR1B04H
+         */
     {
         model: 'EZ-XVR1B04H',
         id: 'EZ-XVR1B04H',
@@ -10211,6 +10494,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 5490,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Тип регистратора: ', 'XVR'],
             text1: ['Каналы: ', '4+2'],
@@ -10238,9 +10522,9 @@ export const Data = [
             text23: ['Масса:', '0,54 кг'],
         },
     },
-/**
-     *  EZ-IP EZ-XVR1B08H
-     */
+    /**
+         *  EZ-IP EZ-XVR1B08H
+         */
     {
         model: 'EZ-XVR1B08H',
         id: 'EZ-XVR1B08H',
@@ -10252,6 +10536,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 8490,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Тип регистратора: ', 'XVR'],
             text1: ['Каналы: ', '8+4'],
@@ -10279,9 +10564,9 @@ export const Data = [
             text23: ['Масса:', '0,54 кг'],
         },
     },
-/**
-     *  EZ-IP EZ-XVR1B16H
-     */
+    /**
+         *  EZ-IP EZ-XVR1B16H
+         */
     {
         model: 'EZ-XVR1B16H',
         id: 'EZ-XVR1B16H',
@@ -10293,6 +10578,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 12990,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Тип регистратора: ', 'XVR'],
             text1: ['Каналы: ', '16+8'],
@@ -10326,44 +10612,45 @@ export const Data = [
     /**
          *  EZ-IP EZ-IPC-T2B20P-ZS
          */
-        {
-            model: 'EZ-IPC-T2B20P-ZS',
-            id: 'EZ-IPC-T2B20P-ZS',
-            brand: 'EZ-IP',
-            type: ['IP камера купольная', 'ip', 'indoor'],
-            description: 'Видеокамера IP купольная, 1/2.7" 2 Мп КМОП @ 25 к/с, 40м ИК, 0.008 Лк @F1.7, моторизованный объектив 2.8-12 мм, DWDR, 3D DNR, H.265+/H.265/H.264/H.264+, 2 потока, Детекция движения, IP67, металл+пластик, MicroSD до 256 ГБ, -40~+60°C',
-            pic_brand: ez_ip_brand,
-            inStock_outStock: 0,
-            // rasprodaja: false,
-            coast: 8390,
-            old_coast: false,
-            info: {
-                text: ['Разрешение: ', '2MP'],
-                text1: ['Объектив: ', '2,8-12 мм'],
-                text2: ['Кол-во кадров в секунду:', 'Основной поток: 1920 x 1080 (1 к/с –25/30 к/с) Дополнительный поток: 704 x 576 (1 к/с – 25 к/с) 704 x 480 (1 к/с – 30 к/с)'],
-                text3: ['RAM/ROM:', '64MB/16MB'],
-                text4: ['Тип объектива: ', 'Моторизованный вариофокальный объектив'],
-                text5: ['Светочувствительность (мин. освещенность): ', '0,008 лк F1.7'],
-                text6: ['Угол обзора: ', 'H: 106°–33°, V: 56°–19°'],
-                text7: ['Видео сжатие: ', 'H.265; H.264; H.264H; H.264B; MJPEG'],
-                text8: ['Функции улучшения изображения:', 'BLC / HLC / DWDR'],
-                text9: ['Дальность ИК подсветки:', 'до 30 м'],
-                text10: ['Функционал:', 'Обнаружение движения, Баланс белого, Шумоподавление, Усиление сигнала, Приватные зоны, Smart IR, Управление фокусом моторизованный, SD карта'],
-                text11: ['Ethernet :', 'RJ-45 (10/100Base-T)'],
-                text12: ['Сетевые протоколы: ', 'IPv4; IPv6; HTTP; HTTPS; TCP; UDP; ARP; RTP; RTSP; SMTP; FTP; DHCP; DNS; NTP; Multicast'],
-                text13: ['Совместимость: ', 'ONVIF (профиль S/профиль G/профиль T); CGI; Milestone; Genetec; P2P'],
-                text14: ['Максимальное число подключений: ', '10 (Unicast) / 20 (Multicast) пользователей одновременно'],
-                text15: ['Веб интерфейс: ', 'IE, Chrome, Firefox, Safari'],
-                text16: ['Программное обеспечение: ', 'Smart PSS, DSS, DMSS'],
-                text17: ['Мобильные платформы:', 'IOS, Android'],
-                text18: ['Питание:', 'DC12V, PoE (802.3af) < 6.5 Вт'],
-                text19: ['Рабочая температура: ', '-30°C ~ +60°C'],
-                text20: ['Степень защищенности/вандалостойкость: ', 'IP67'],
-                text21: ['Материал корпуса: ', 'Метал + пластик'],
-                text22: ['Габариты видеокамеры:', '122x108,8 мм'],
-                text23: ['Масса:', '0,44 кг'],
-            },
+    {
+        model: 'EZ-IPC-T2B20P-ZS',
+        id: 'EZ-IPC-T2B20P-ZS',
+        brand: 'EZ-IP',
+        type: ['IP камера купольная', 'ip', 'indoor'],
+        description: 'Видеокамера IP купольная, 1/2.7" 2 Мп КМОП @ 25 к/с, 40м ИК, 0.008 Лк @F1.7, моторизованный объектив 2.8-12 мм, DWDR, 3D DNR, H.265+/H.265/H.264/H.264+, 2 потока, Детекция движения, IP67, металл+пластик, MicroSD до 256 ГБ, -40~+60°C',
+        pic_brand: ez_ip_brand,
+        inStock_outStock: 0,
+        // rasprodaja: false,
+        coast: 8390,
+        old_coast: false,
+        picture: 1,
+        info: {
+            text: ['Разрешение: ', '2MP'],
+            text1: ['Объектив: ', '2,8-12 мм'],
+            text2: ['Кол-во кадров в секунду:', 'Основной поток: 1920 x 1080 (1 к/с –25/30 к/с) Дополнительный поток: 704 x 576 (1 к/с – 25 к/с) 704 x 480 (1 к/с – 30 к/с)'],
+            text3: ['RAM/ROM:', '64MB/16MB'],
+            text4: ['Тип объектива: ', 'Моторизованный вариофокальный объектив'],
+            text5: ['Светочувствительность (мин. освещенность): ', '0,008 лк F1.7'],
+            text6: ['Угол обзора: ', 'H: 106°–33°, V: 56°–19°'],
+            text7: ['Видео сжатие: ', 'H.265; H.264; H.264H; H.264B; MJPEG'],
+            text8: ['Функции улучшения изображения:', 'BLC / HLC / DWDR'],
+            text9: ['Дальность ИК подсветки:', 'до 30 м'],
+            text10: ['Функционал:', 'Обнаружение движения, Баланс белого, Шумоподавление, Усиление сигнала, Приватные зоны, Smart IR, Управление фокусом моторизованный, SD карта'],
+            text11: ['Ethernet :', 'RJ-45 (10/100Base-T)'],
+            text12: ['Сетевые протоколы: ', 'IPv4; IPv6; HTTP; HTTPS; TCP; UDP; ARP; RTP; RTSP; SMTP; FTP; DHCP; DNS; NTP; Multicast'],
+            text13: ['Совместимость: ', 'ONVIF (профиль S/профиль G/профиль T); CGI; Milestone; Genetec; P2P'],
+            text14: ['Максимальное число подключений: ', '10 (Unicast) / 20 (Multicast) пользователей одновременно'],
+            text15: ['Веб интерфейс: ', 'IE, Chrome, Firefox, Safari'],
+            text16: ['Программное обеспечение: ', 'Smart PSS, DSS, DMSS'],
+            text17: ['Мобильные платформы:', 'IOS, Android'],
+            text18: ['Питание:', 'DC12V, PoE (802.3af) < 6.5 Вт'],
+            text19: ['Рабочая температура: ', '-30°C ~ +60°C'],
+            text20: ['Степень защищенности/вандалостойкость: ', 'IP67'],
+            text21: ['Материал корпуса: ', 'Метал + пластик'],
+            text22: ['Габариты видеокамеры:', '122x108,8 мм'],
+            text23: ['Масса:', '0,44 кг'],
         },
+    },
     /**
      *  EZ-IP EZ-IPC-D4B20P-ZS
      */
@@ -10378,6 +10665,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 8690,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2MP'],
             text1: ['Объектив: ', '2,8-12 мм'],
@@ -10419,6 +10707,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 9790,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '4MP'],
             text1: ['Объектив: ', '2,8-12 мм'],
@@ -10446,7 +10735,7 @@ export const Data = [
             text23: ['Масса:', '0,46 кг'],
         },
     },
-    
+
     /**
      *  EZ-IP EZ-IPC-D1B20-0280B
      */
@@ -10461,6 +10750,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 5790,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2MP'],
             text1: ['Объектив: ', '2.8 мм'],
@@ -10502,6 +10792,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 5790,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2MP'],
             text1: ['Объектив: ', '3.6 мм'],
@@ -10543,6 +10834,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 7890,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '4MP'],
             text1: ['Объектив: ', '2.8 мм'],
@@ -10584,6 +10876,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 7890,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '4MP'],
             text1: ['Объектив: ', '3.6 мм'],
@@ -10625,6 +10918,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 10990,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2MP'],
             text1: ['Объектив: ', '2,8-12 мм'],
@@ -10666,6 +10960,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 11990,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '4MP'],
             text1: ['Объектив: ', '2,8-12 мм'],
@@ -10710,6 +11005,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 5590,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2MP'],
             text1: ['Объектив: ', '2,8 мм'],
@@ -10751,6 +11047,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 5590,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2MP'],
             text1: ['Объектив: ', '3,6 мм'],
@@ -10792,6 +11089,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 7790,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '4MP'],
             text1: ['Объектив: ', '2,8 мм'],
@@ -10833,6 +11131,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 7790,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '4MP'],
             text1: ['Объектив: ', '3,6 мм'],
@@ -10874,6 +11173,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 6090,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2MP'],
             text1: ['Объектив: ', '2,8 мм'],
@@ -10915,6 +11215,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 7790,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '4MP'],
             text1: ['Объектив: ', '2,8 мм'],
@@ -10956,6 +11257,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 6290,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '4MP'],
             text1: ['Объектив: ', '3.6 мм'],
@@ -10997,6 +11299,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 6290,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '4MP'],
             text1: ['Объектив: ', '2.8 мм'],
@@ -11038,6 +11341,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 8990,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Разрешение:', '2MP'],
             text1: ['Объектив:', '2.8-12 мм'],
@@ -11079,6 +11383,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 9990,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Разрешение:', '4MP'],
             text1: ['Объектив:', '2.8-12 мм'],
@@ -11120,6 +11425,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 4590,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2MP'],
             text1: ['Объектив: ', '2.8 мм'],
@@ -11161,6 +11467,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 4590,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2MP'],
             text1: ['Объектив: ', '3.6 мм'],
@@ -11202,6 +11509,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 6590,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '4MP'],
             text1: ['Объектив: ', '2,8 мм'],
@@ -11229,9 +11537,9 @@ export const Data = [
             text23: ['Масса:', '0,25 кг'],
         },
     },
-/**
-     *  EZ-IP EZ-IPC-T1B41P-0360B
-     */
+    /**
+         *  EZ-IP EZ-IPC-T1B41P-0360B
+         */
     {
         model: 'EZ-IPC-T1B41P-0360B',
         id: 'EZ-IPC-T1B41P-0360B',
@@ -11243,6 +11551,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 6590,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '4MP'],
             text1: ['Объектив: ', '3,6 мм'],
@@ -11274,9 +11583,9 @@ export const Data = [
     /** 
      * -------------------------------------------------EZ-IP AHD камеры уличные
      */
-/**
-     *  EZ-IP EZ-HAC-T5B20P-A-0280B
-     */
+    /**
+         *  EZ-IP EZ-HAC-T5B20P-A-0280B
+         */
     {
         model: 'EZ-HAC-T5B20P-A-0280B',
         id: 'EZ-HAC-T5B20P-A-0280B',
@@ -11288,6 +11597,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 2590,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2MP'],
             text1: ['Объектив: ', '2.8 мм'],
@@ -11307,7 +11617,7 @@ export const Data = [
             text15: ['Масса:', '0,22 кг'],
         },
     },
-    
+
     /** 
      * ----------------------------------------------------------EZ-IP коммутаторы
      */
@@ -11326,6 +11636,7 @@ export const Data = [
         coast: 690,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Порты: ', ' 5xUplink'],
             text1: ['Питание: ', '5 В'],
@@ -11347,6 +11658,7 @@ export const Data = [
         coast: 890,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Порты: ', ' 8xUplink'],
             text1: ['Питание: ', '5 В'],
@@ -11371,6 +11683,7 @@ export const Data = [
         old_coast: false,
         new: true,
         inStock_outStock: 0,
+        picture: 1,
         info: {
             text: ['Порты: ', ' 4xPOE, 2xUplink'],
             text1: ['Бюджет POE: ', '≤60Вт'],
@@ -11400,6 +11713,7 @@ export const Data = [
         lider: true,
         new: true,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Разрешение:', '4 Мп'],
             text1: ['Объектив:', '2,8 мм'],
@@ -11467,6 +11781,7 @@ export const Data = [
         new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Тип: ', 'Дверной звонок'],
             text1: ['Разрешение: ', '2 Мп'],
@@ -11487,89 +11802,91 @@ export const Data = [
     /**
     *  IMOU IPC-B26EP
     */
-   {
-    model: 'IPC-B26EP',
-    id: 'IPC-B26EP',
-    brand: 'IMOU',
-    type: ['IP камера уличная', 'ip', 'outdoor'],
-    description: 'Видеокамера Wi-Fi IP IMOU уличная 2Мп с фикс. объективом 2,8 мм. Дополнительная камера к Kit-WA1001-300/1-B26EP-imou. Матрица 1/2.7" 2 Мп CMOS, 1920*1080. Фиксированный объектив 2.8мм: 110°(Г), 61°(В), 130°(Д), H.265/H.264(20к/с), ИК 10м, 2.4ГГц Wi-Fi, DC5В 1A, встроенный аккумулятор. Класс защиты IP65. Полностью без проводов. Аккумуляторная батарея. Двусторонняя аудиосвязь. ИК-датчик. Видеокамера получает питание от перезаряжаемой батареи и подключается к сети Wi-Fi. Конструкция с классом защиты IP65 обеспечивает видеонаблюдение в доме или на улице при любой погоде. * Время работы от аккумулятора: 6 месяцев. При частых сигналах тревоги срок службы может сокращаться. Благодаря датчику 1080P и инновационному кодеку H.265, вы получаете кристально чистое видео и днем, и ночью. Сжатие H.265 позволяет экономить трафик и место для хранения, а также продлевает срок службы аккумулятора. Когда кто-либо проходит мимо камеры, в качестве триггера выступает тепло тела объекта. Видеокамера запустит запись и отправит вам уведомление. Сохранять и просматривать видео можно с помощью базовой станции или облака. Чтобы сохранить данные локально, подключите USB-накопитель к базовой станции (до 2 Тб). Базовая станция может отформатировать USB-накопитель, поэтому перед первым использованием необходимо сделать резервную копию данных.',
-    pic_brand: imou_brand,
-    coast: 10490,
-    old_coast: false,
-    inStock_outStock: 0,
-    info: {
-        text: ['Разрешение: ', '2 Мп'],
-        text1: ['Объектив: ', '2,8 мм'],
-        text2: ['Матрица: ', '1/2.7`, 2 Мп, КМОП, прогрессивная развертка'],
-        text3: ['Ночной режим: ', 'дальность ИК-подсветки 5 м'],
-        text4: ['Аудио:', 'Встроенный микрофон и динамик'],
-        text5: ['Сжатие видео:', 'H.265/H.264'],
-        text6: ['Частота кадров:', 'до 25/30 к/с'],
-        text7: ['Максимальное разрешение:', '(1920 х 1080)'],
-        text8: ['Цифровой зум:', 'х16'],
-        text9: ['Сетевые подключения: ', 'Wi-Fi: IEEE802.11b/g/n, до 50м на открытой местности'],
-        text10: ['Протокол подключения: ', ' ONVIF S, CGI'],
-        text11: ['Приложение IMOU: ', 'iOS, Android, ONVIF'],
-        text12: ['Дополнительные интерфейсы: ', 'Слот для карты MicroSD (до 128 Гб) Кнопка сброса/WPS'],
-        text13: ['Детекция движения:', 'Пассивный инфракрасный датчик движения'],
-        text14: ['Настраиваемые области:', 'есть'],
-        text15: ['Питание:', 'DC 5В/1A, встроенный аккумулятор, до 6-ти месяцев работы с одной зарядки'],
-        text16: ['Потребляемая мощность:', '≤ 3W'],
-        text17: ['Материал', 'Пластик'],
-        text18: ['Условия эксплуатации', 'от -20°C~+45 °C, относительная влажность менее 95%'],
-        text19: ['Класс защиты:', 'IP65'],
-        text20: ['Размеры:', '77 x 77 x 71.5 мм'],
-        text21: ['Вес:', '308 г'],
-        text22: ['Комплектация:', 'Видеокамера, 1 шт. Краткое руководство пользователя, 1 шт. Кабель питания, 1 шт. Кронштейн, 1 шт. Шаблон разметки, 1 шт. Комплект шурупов, 1 шт. Аккумулятор, 1 шт.'],
-    },
-},
-/**
-    *  IMOU IM-Kit-WA1001-300-1-B26EP-imou
-    */
     {
-    model: 'IM-Kit-WA1001-300-1-B26EP-imou',
-    id: 'IM-Kit-WA1001-300-1-B26EP-imou',
-    brand: 'IMOU',
-    type: ['IP камера уличная комплект', 'ip', 'outdoor'],
-    description: 'IM-Kit-WA1001-300/1-B26EP-imou - комплект видеокамера Wi-Fi IP IMOU уличная 2Мп и базовая станция.',
-    pic_brand: imou_brand,
-    coast: 17890,
-    old_coast: false,
-    inStock_outStock: 2,
-    small_item: '0.6rem',
-    info: {
-        text: ['Разрешение: ', '2 Мп'],
-        text1: ['Объектив: ', '2,8 мм'],
-        text2: ['Матрица: ', '1/2.7`, 2 Мп, КМОП, прогрессивная развертка'],
-        text3: ['Ночной режим: ', 'дальность ИК-подсветки 5 м'],
-        text4: ['Аудио:', 'Встроенный микрофон и динамик'],
-        text5: ['Сжатие видео:', 'H.265/H.264'],
-        text6: ['Частота кадров:', 'до 25/30 к/с'],
-        text7: ['Максимальное разрешение:', '(1920 х 1080)'],
-        text8: ['Цифровой зум:', 'х16'],
-        text9: ['Сетевые подключения: ', '2.4ГГц Wi-Fi, 2x2 MIMO'],
-        texx10: ['Протокол подключения: ', ' ONVIF S, CGI'],
-        text11: ['Приложение IMOU: ', 'iOS, Android, ONVIF'],
-        text12: ['Дополнительные интерфейсы: ', 'Слот для карты MicroSD (до 128 Гб) Кнопка сброса/WPS'],
-        text13: ['Детекция движения:', 'Пассивный инфракрасный датчик движения'],
-        text14: ['Настраиваемые области:', 'есть'],
-        text15: ['Питание:', 'DC 5В/1A, встроенный аккумулятор, до 6-ти месяцев работы с одной зарядки'],
-        text16: ['Потребляемая мощность:', '≤ 3W'],
-        text17: ['Материал', 'Пластик'],
-        text18: ['Условия эксплуатации', 'от -20°C~+45 °C, относительная влажность менее 95%'],
-        text19: ['Класс защиты:', 'IP65'],
-        text20: ['Размеры:', '77 x 77 x 71.5 мм'],
-        text21: ['Вес:', '350 г'],
-        text22: ['Базовая станция:', ''],
-        text23: ['Порты:', '1 x 100Мбит/с; Wi-Fi: IEEE802.11b/g/n, до 50м на открытой местности, 2 X 2 MIMO'],
-        text24: ['Дополнительные интерфейсы:', 'Порт питания DC, Сетевой порт, Кнопка сброса, Порт USB2.0, Кнопка сопряжения'],
-        text25: ['Питание:', 'DC 12В/2A, ≤6W'],
-        text26: ['Рабочие условия:', '-10°C~+50°C'],
-        text27: ['Размеры:', '157 x 108 x 154мм'],
-        text28: ['Вес:', '270г'],
-        text29: ['Комплектация:', 'Видеокамера, 1 шт. Кабель питания, 1 шт. Кронштейн, 1 шт. Аккумулятор, 1 шт. Комплект шурупов, 1 шт. Базовая станция, 1 шт. Блок питания, 1 шт. Патч-корд, 1 шт. Краткое руководство пользователя, 1 шт. Шаблон разметки, 1 шт.'],
+        model: 'IPC-B26EP',
+        id: 'IPC-B26EP',
+        brand: 'IMOU',
+        type: ['IP камера уличная', 'ip', 'outdoor'],
+        description: 'Видеокамера Wi-Fi IP IMOU уличная 2Мп с фикс. объективом 2,8 мм. Дополнительная камера к Kit-WA1001-300/1-B26EP-imou. Матрица 1/2.7" 2 Мп CMOS, 1920*1080. Фиксированный объектив 2.8мм: 110°(Г), 61°(В), 130°(Д), H.265/H.264(20к/с), ИК 10м, 2.4ГГц Wi-Fi, DC5В 1A, встроенный аккумулятор. Класс защиты IP65. Полностью без проводов. Аккумуляторная батарея. Двусторонняя аудиосвязь. ИК-датчик. Видеокамера получает питание от перезаряжаемой батареи и подключается к сети Wi-Fi. Конструкция с классом защиты IP65 обеспечивает видеонаблюдение в доме или на улице при любой погоде. * Время работы от аккумулятора: 6 месяцев. При частых сигналах тревоги срок службы может сокращаться. Благодаря датчику 1080P и инновационному кодеку H.265, вы получаете кристально чистое видео и днем, и ночью. Сжатие H.265 позволяет экономить трафик и место для хранения, а также продлевает срок службы аккумулятора. Когда кто-либо проходит мимо камеры, в качестве триггера выступает тепло тела объекта. Видеокамера запустит запись и отправит вам уведомление. Сохранять и просматривать видео можно с помощью базовой станции или облака. Чтобы сохранить данные локально, подключите USB-накопитель к базовой станции (до 2 Тб). Базовая станция может отформатировать USB-накопитель, поэтому перед первым использованием необходимо сделать резервную копию данных.',
+        pic_brand: imou_brand,
+        coast: 10490,
+        old_coast: false,
+        inStock_outStock: 0,
+        picture: 1,
+        info: {
+            text: ['Разрешение: ', '2 Мп'],
+            text1: ['Объектив: ', '2,8 мм'],
+            text2: ['Матрица: ', '1/2.7`, 2 Мп, КМОП, прогрессивная развертка'],
+            text3: ['Ночной режим: ', 'дальность ИК-подсветки 5 м'],
+            text4: ['Аудио:', 'Встроенный микрофон и динамик'],
+            text5: ['Сжатие видео:', 'H.265/H.264'],
+            text6: ['Частота кадров:', 'до 25/30 к/с'],
+            text7: ['Максимальное разрешение:', '(1920 х 1080)'],
+            text8: ['Цифровой зум:', 'х16'],
+            text9: ['Сетевые подключения: ', 'Wi-Fi: IEEE802.11b/g/n, до 50м на открытой местности'],
+            text10: ['Протокол подключения: ', ' ONVIF S, CGI'],
+            text11: ['Приложение IMOU: ', 'iOS, Android, ONVIF'],
+            text12: ['Дополнительные интерфейсы: ', 'Слот для карты MicroSD (до 128 Гб) Кнопка сброса/WPS'],
+            text13: ['Детекция движения:', 'Пассивный инфракрасный датчик движения'],
+            text14: ['Настраиваемые области:', 'есть'],
+            text15: ['Питание:', 'DC 5В/1A, встроенный аккумулятор, до 6-ти месяцев работы с одной зарядки'],
+            text16: ['Потребляемая мощность:', '≤ 3W'],
+            text17: ['Материал', 'Пластик'],
+            text18: ['Условия эксплуатации', 'от -20°C~+45 °C, относительная влажность менее 95%'],
+            text19: ['Класс защиты:', 'IP65'],
+            text20: ['Размеры:', '77 x 77 x 71.5 мм'],
+            text21: ['Вес:', '308 г'],
+            text22: ['Комплектация:', 'Видеокамера, 1 шт. Краткое руководство пользователя, 1 шт. Кабель питания, 1 шт. Кронштейн, 1 шт. Шаблон разметки, 1 шт. Комплект шурупов, 1 шт. Аккумулятор, 1 шт.'],
+        },
     },
-},
+    /**
+        *  IMOU IM-Kit-WA1001-300-1-B26EP-imou
+        */
+    {
+        model: 'IM-Kit-WA1001-300-1-B26EP-imou',
+        id: 'IM-Kit-WA1001-300-1-B26EP-imou',
+        brand: 'IMOU',
+        type: ['IP камера уличная комплект', 'ip', 'outdoor'],
+        description: 'IM-Kit-WA1001-300/1-B26EP-imou - комплект видеокамера Wi-Fi IP IMOU уличная 2Мп и базовая станция.',
+        pic_brand: imou_brand,
+        coast: 17890,
+        old_coast: false,
+        inStock_outStock: 2,
+        small_item: '0.6rem',
+        picture: 1,
+        info: {
+            text: ['Разрешение: ', '2 Мп'],
+            text1: ['Объектив: ', '2,8 мм'],
+            text2: ['Матрица: ', '1/2.7`, 2 Мп, КМОП, прогрессивная развертка'],
+            text3: ['Ночной режим: ', 'дальность ИК-подсветки 5 м'],
+            text4: ['Аудио:', 'Встроенный микрофон и динамик'],
+            text5: ['Сжатие видео:', 'H.265/H.264'],
+            text6: ['Частота кадров:', 'до 25/30 к/с'],
+            text7: ['Максимальное разрешение:', '(1920 х 1080)'],
+            text8: ['Цифровой зум:', 'х16'],
+            text9: ['Сетевые подключения: ', '2.4ГГц Wi-Fi, 2x2 MIMO'],
+            texx10: ['Протокол подключения: ', ' ONVIF S, CGI'],
+            text11: ['Приложение IMOU: ', 'iOS, Android, ONVIF'],
+            text12: ['Дополнительные интерфейсы: ', 'Слот для карты MicroSD (до 128 Гб) Кнопка сброса/WPS'],
+            text13: ['Детекция движения:', 'Пассивный инфракрасный датчик движения'],
+            text14: ['Настраиваемые области:', 'есть'],
+            text15: ['Питание:', 'DC 5В/1A, встроенный аккумулятор, до 6-ти месяцев работы с одной зарядки'],
+            text16: ['Потребляемая мощность:', '≤ 3W'],
+            text17: ['Материал', 'Пластик'],
+            text18: ['Условия эксплуатации', 'от -20°C~+45 °C, относительная влажность менее 95%'],
+            text19: ['Класс защиты:', 'IP65'],
+            text20: ['Размеры:', '77 x 77 x 71.5 мм'],
+            text21: ['Вес:', '350 г'],
+            text22: ['Базовая станция:', ''],
+            text23: ['Порты:', '1 x 100Мбит/с; Wi-Fi: IEEE802.11b/g/n, до 50м на открытой местности, 2 X 2 MIMO'],
+            text24: ['Дополнительные интерфейсы:', 'Порт питания DC, Сетевой порт, Кнопка сброса, Порт USB2.0, Кнопка сопряжения'],
+            text25: ['Питание:', 'DC 12В/2A, ≤6W'],
+            text26: ['Рабочие условия:', '-10°C~+50°C'],
+            text27: ['Размеры:', '157 x 108 x 154мм'],
+            text28: ['Вес:', '270г'],
+            text29: ['Комплектация:', 'Видеокамера, 1 шт. Кабель питания, 1 шт. Кронштейн, 1 шт. Аккумулятор, 1 шт. Комплект шурупов, 1 шт. Базовая станция, 1 шт. Блок питания, 1 шт. Патч-корд, 1 шт. Краткое руководство пользователя, 1 шт. Шаблон разметки, 1 шт.'],
+        },
+    },
     /**
     *  IMOU Cue 2C
     */
@@ -11590,6 +11907,7 @@ export const Data = [
 
 
         inStock_outStock: 2,
+        picture: 1,
         info: {
             text: ['Разрешение:', '2 Мп'],
             text1: ['Объектив:', '3,6 мм'],
@@ -11636,6 +11954,7 @@ export const Data = [
 
         new: true,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Разрешение:', '2 Мп'],
             text1: ['Объектив:', '2,8 мм'],
@@ -11682,6 +12001,7 @@ export const Data = [
         old_coast: 4390,
         new: true,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Разрешение:', '2 Мп'],
             text1: ['Объектив:', '2,8 мм'],
@@ -11729,6 +12049,7 @@ export const Data = [
         old_coast: 4390,
         new: true,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Разрешение:', '2 Мп'],
             text1: ['Объектив:', '2,8 мм'],
@@ -11776,6 +12097,7 @@ export const Data = [
         pic_akciya: shar,
         new: true,
         inStock_outStock: 0,
+        picture: 1,
         info: {
             text: ['Разрешение:', '2 Мп'],
             text1: ['Объектив:', '2.8мм/3.6мм/6мм'],
@@ -11827,6 +12149,7 @@ export const Data = [
         old_coast: false,
         new: true,
         inStock_outStock: 0,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2 Мп'],
             text1: ['Объектив:', '2.8/ 3.6/ 6 мм'],
@@ -11872,6 +12195,7 @@ export const Data = [
         old_coast: false,
         new: true,
         inStock_outStock: 0,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2 Мп'],
             text1: ['Объектив:', '2.8 мм'],
@@ -11917,6 +12241,7 @@ export const Data = [
         coast: 5690,
         old_coast: false,
         new: true,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '4 Мп'],
             text1: ['Объектив:', '2.8 мм'],
@@ -11962,6 +12287,7 @@ export const Data = [
         coast: 4290,
         old_coast: false,
         new: true,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2 Мп'],
             text1: ['Объектив:', '2.8 мм'],
@@ -12007,6 +12333,7 @@ export const Data = [
         coast: 6590,
         old_coast: false,
         new: true,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '4 Мп'],
             text1: ['Объектив:', '2.8 мм'],
@@ -12053,6 +12380,7 @@ export const Data = [
         old_coast: 5690,
         new: true,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2 Мп'],
             text1: ['Объектив:', '2,8 мм или 3,6 мм'],
@@ -12097,6 +12425,7 @@ export const Data = [
         old_coast: 7690,
         new: true,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '4 Мп'],
             text1: ['Объектив:', '2,8 мм или 3,6 мм'],
@@ -12141,6 +12470,7 @@ export const Data = [
         old_coast: 6590,
         inStock_outStock: 1,
         new: true,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2 Мп'],
             text1: ['Объектив: ', '2,8 мм'],
@@ -12185,6 +12515,7 @@ export const Data = [
         coast: 5990,
         old_coast: false,
         new: true,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2 Мп'],
             text1: ['Объектив: ', '2.8мм/3.6мм/6мм'],
@@ -12232,6 +12563,7 @@ export const Data = [
         coast: 8590,
         old_coast: false,
         new: true,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2 Мп'],
             text1: ['Объектив: ', '3.6мм'],
@@ -12281,6 +12613,7 @@ export const Data = [
         coast: 6590,
         old_coast: false,
         new: true,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2 Мп'],
             text1: ['Объектив: ', '3.6мм'],
@@ -12330,6 +12663,7 @@ export const Data = [
         old_coast: 6290,
         new: true,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2 Мп'],
             text1: ['Объектив: ', '2.8мм/3.6мм'],
@@ -12378,6 +12712,7 @@ export const Data = [
         old_coast: 7390,
         new: true,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '4 Мп'],
             text1: ['Объектив: ', '2.8мм/3.6мм'],
@@ -12424,6 +12759,7 @@ export const Data = [
         old_coast: false,
         new: true,
         inStock_outStock: 0,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2 Мп'],
             text1: ['Объектив:', '2.8мм/3.6мм/6мм'],
@@ -12471,6 +12807,7 @@ export const Data = [
         old_coast: false,
         new: true,
         inStock_outStock: 0,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2 Мп'],
             text1: ['Объектив: ', '2.8мм'],
@@ -12518,6 +12855,7 @@ export const Data = [
         rasprodaja: true,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Разрешение:', '1 Мп'],
             text1: ['Объектив:', '2,8 мм'],
@@ -12564,6 +12902,7 @@ export const Data = [
         rasprodaja: false,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Разрешение:', '2 Мп'],
             text1: ['Объектив:', '2,8 мм'],
@@ -12603,7 +12942,7 @@ export const Data = [
     /**
         *  Atis lock SS CK
         */
-       {
+    {
         model: 'Atis lock SS CK',
         id: 'Atis_lock_SS_CK',
         brand: 'Atis',
@@ -12619,6 +12958,7 @@ export const Data = [
         new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Тип: ', 'Электромеханический'],
             text1: ['Питание: ', 'DC 12V'],
@@ -12644,6 +12984,7 @@ export const Data = [
         // rasprodaja: false,
         coast: 3500,
         old_coast: false,
+        picture: 1,
         info: {
             text: ['Тип регистратора: ', 'NVR'],
             text1: ['Каналы: ', '4'],
@@ -12684,6 +13025,7 @@ export const Data = [
         coast: 1050,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Выход реле: ', 'NO, COM, NC'],
             text1: ['Режим работы: ', 'Импульсный'],
@@ -12716,6 +13058,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Вход (Uвх): ', '9-15V'],
             text1: ['Выход (Uвых): ', '(2Uвх)-1V'],
@@ -12745,6 +13088,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Тип: ', 'Видеодомофон'],
             text1: ['Экран: ', '7"'],
@@ -12777,6 +13121,7 @@ export const Data = [
         // new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
             text: ['Тип: ', 'Видеодомофон'],
             text1: ['Экран: ', '7"'],
@@ -12812,6 +13157,7 @@ export const Data = [
         new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
 
             text: ['Матрица: ', '2Мп'],
@@ -12846,6 +13192,7 @@ export const Data = [
         new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
 
             text: ['Матрица: ', '1Мп'],
@@ -12880,6 +13227,7 @@ export const Data = [
         new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
+        picture: 1,
         info: {
 
             text: ['Матрица: ', '1Мп'],
@@ -12912,6 +13260,7 @@ export const Data = [
         coast: 150,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Размер : ', '130x130x50'],
             text1: ['Отверстие диаметром : ', '35 мм'],
@@ -12944,6 +13293,7 @@ export const Data = [
         coast: 150,
         old_coast: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Размер : ', '120x50'],
             text1: ['Отверстие диаметром : ', '35 мм'],
@@ -12981,6 +13331,7 @@ export const Data = [
         lider: true,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Разрешение: ', '2 Мп'],
             text1: ['Оптический зум:', '16х'],
@@ -13031,6 +13382,7 @@ export const Data = [
         lider: true,
         new: false,
         inStock_outStock: 1,
+        picture: 1,
         info: {
             text: ['Разрешение:', '2 Мп'],
             text1: ['Объектив:', '2,8 мм'],
@@ -13082,6 +13434,7 @@ export const Data = [
         lider: false,
         new: false,
         inStock_outStock: 2,
+        picture: 1,
         info: {
             text: ['Разрешение:', '2 Мп'],
             text1: ['Объектив:', '2,8 мм'],
