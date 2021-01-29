@@ -16,9 +16,6 @@ import { DillerData } from '../Data/DillerData/DataDiler'
 import { Data } from '../Data/ProductsData/Data'
 import { SliderData } from '../Data/SliderData/SliderData'
 
-import store from '../store'
-
-
 
 
 /**
@@ -28,9 +25,6 @@ import store from '../store'
 function App(props) {
   const [load, setLoad] = React.useState(false)
   const { cart, products, addProductToCart } = props;
-
-
-
 
   // console.info('DILLER APPS: ', DillerData)
   /**
@@ -62,13 +56,9 @@ function App(props) {
   }
 
 
-
-
   React.useState(() => {
     Load().then(() => { setLoad(true) })
   }, [])
-
-
 
 
   React.useState(() => {
@@ -79,14 +69,6 @@ function App(props) {
       });
     }
   }, [])
-
-
-
-
-
-
-
-
 
 
   React.useMemo(() => {
@@ -102,20 +84,14 @@ function App(props) {
   }, [cart])
 
 
-
-
-
-
-
-
-
-
   return (
     <>
 
       <div className={classes.Main}>
-        <UpHeader />
-        <Navbar />
+        <div className={classes.fixed_header}>
+          <UpHeader />
+          <Navbar />
+        </div>
         {isReadyAll ?
           <Switch>
             <Route exact path="/" component={MainPage} />

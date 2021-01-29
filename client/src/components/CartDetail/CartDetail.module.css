@@ -61,6 +61,28 @@
 }
 
 
+.pdf{
+    font-size: 0.9rem;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 0 8px rgba(128, 128, 128, 0.261);
+    cursor: pointer;
+    transition: 0.2s;
+    margin-right: 10px;
+    background-color: rgba(255, 0, 0, 0.508);
+    border: none;
+}
+
+.pdf:hover{
+    background-color: red;
+    color: white;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.7);
+    transform: scale(1.08);
+    transition: 0.2s;
+}
+
+
 .Remove_all_button_span{
     font-size: 0.9rem;
     padding: 10px;

@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+
+.fixed_header{
+    
+}
 .gap{
     height: 20px;
 }
