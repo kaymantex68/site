@@ -28,7 +28,9 @@ function DetailProduct(props) {
     // console.info('DETAIL Products: ', product)
 
     const slides = [];
-    for (let i = 1; i < 5; i += 1) {
+    let countPicture=5;
+    if (product.picture) { countPicture=product.picture+1}
+    for (let i = 1; i < countPicture; i += 1) {
         if (true) {
             slides.push(
                 <SwiperSlide key={`slide-detail-${i}`}>

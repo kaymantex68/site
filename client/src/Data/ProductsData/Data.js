@@ -1004,6 +1004,7 @@ export const Data = [
     coast: 6990,
     old_coast: false,
     inStock_outStock: 1,
+    picture: 1,
     info: {
         text: ['Выходы реле:', '2'],
         text1: ['Количество входов контроля: ', '3'],
