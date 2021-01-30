@@ -9,7 +9,8 @@ app.use(cors())
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 
-
+app.set('view engine', 'ejs')
+app.set('views',path.resolve(__dirname, 'templates'))
 app.use('/api',require('./routers/mail.routes'))
 app.use('/api',require('./routers/pdf.routes'))
 

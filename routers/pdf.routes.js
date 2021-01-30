@@ -1,12 +1,13 @@
 const { Router } = require('express')
 const pdf = require('html-pdf')
-const document = require('../PdfDocuments/index')
+
 
 const router = Router();
 
 router.post('/pdf', async (req, res) => {
     try {
        
+        
         await pdf.create(document(req.body), {}).toFile(`${__dirname}/docs/result.pdf`, (err) => {
             // console.log(document())
             if (err) {
