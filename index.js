@@ -6,14 +6,18 @@ const ejs=require('ejs')
 const app = express()
 
 app.use(cors())
-app.use(bodyParser.urlencoded({ extended: false }))
+
+app.use(bodyParser.urlencoded({ extended: true }))
+app.use(bodyParser.urlencoded({limit: '10mb', extended: true}))
 app.use(bodyParser.json())
+app.use(bodyParser.json({limit: '10mb', extended: true}))
 
 app.set('view engine', 'ejs')
+// app.set('views',path.resolve(__dirname, 'views'))
 app.use(express.static('public'))
-console.log(app.get('view engine'))
+
 // console.log(path.resolve(__dirname,'images'))
-// app.set('views',path.resolve(__dirname, 'image'))
+
 
 app.use('/api',require('./routers/mail.routes'))
 app.use('/api',require('./routers/pdf.routes'))
@@ -22,7 +26,7 @@ app.use('/api',require('./routers/pdf.routes'))
 
 
 app.get('/test', function(req, res){
-    res.render('index')
+    res.render(ejs.render('pdf.ejs'))
 })
 
 

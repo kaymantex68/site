@@ -4,13 +4,17 @@ const htmlPdf = require('html-pdf');
 const ejs = require('ejs');
 
 
-
 const router = Router();
 
 router.post('/pdf', async (req, res) => {
+
     try {
-        const params = await {
-            cart: req.body,
+        let cartJSON = await JSON.parse(req.body.data)
+
+        console.log('we here!')
+        console.log('json: ',cartJSON)
+        const params = {
+            cart: cartJSON,
         }
 
         await ejs.renderFile('pdf.ejs', params, (err, result) => {
@@ -30,6 +34,7 @@ router.post('/pdf', async (req, res) => {
             }
         })
     } catch (e) {
+        console.log(e)
         res.json({ message: 'pdf что-то пошло не так' })
     }
 })
@@ -38,5 +43,8 @@ router.get('/get_pdf', (req, res) => {
     res.sendFile(`${__dirname}/docs/result.pdf`)
 
 })
+
+
+
 
 module.exports = router
