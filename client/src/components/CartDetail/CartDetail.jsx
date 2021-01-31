@@ -91,20 +91,23 @@ const CartDetail = (props) => {
 
                     
 
+                    <div>
+                        {cartUniq.map((product, key) => {
+                            return (
+                                <ProductCardInCart key={`Product_${key}`} {...product} {...props} />
+                            )
+                        })}
+                    </div>
 
-                    {cartUniq.map((product, key) => {
-                        return (
-                            <ProductCardInCart key={`Product_${key}`} {...product} {...props} />
-                        )
-                    })}
-
-                    {/* <div ref={componentRef}>
+                    <div ref={componentRef}>
                         {cartUniq.map((product, key) => {
                             return (
                                 <CartToPdf key={`Product_${key}`} {...product} {...props} />
                             )
                         })}
-                    </div> */}
+                    </div>
+
+
                 </div>
             </div>
             <ModalWindow active={openModal} setActive={setOpenModal}>
