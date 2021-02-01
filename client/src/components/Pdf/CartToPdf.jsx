@@ -21,6 +21,7 @@ const CartToPdf = (props) => {
                 </div>
                 <div ref={componentRef}>
                     <div className={classes.block_pdf}>
+                        <div>
                         <div className={classes.header}>
                             <div className={classes.logo}>
                                 <img src={logo} className={classes.img_logo} />
@@ -68,6 +69,7 @@ const CartToPdf = (props) => {
                                 </div>
                             )
                         })}
+                        </div>
                     </div>
                 </div>
             </div>
