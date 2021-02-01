@@ -5380,7 +5380,7 @@ export const Data = [
         coast: 1767,
         old_coast: false,
         new: false,
-        inStock_outStock: 1,
+        inStock_outStock: 0,
         picture: 1,
         info: {
             text: ['Датчик: ', ' Радиоканальный'],
@@ -5602,7 +5602,7 @@ export const Data = [
         coast: 635,
         old_coast: false,
         new: false,
-        inStock_outStock: 1,
+        inStock_outStock: 0,
         picture: 1,
         info: {
             text: ['Эквивалент: ', ' ИО 409-11'],
@@ -5641,7 +5641,7 @@ export const Data = [
         path: '/',
         pic_brand: teko_brand,
         new: false,
-        inStock_outStock: 1,
+        inStock_outStock: 0,
         picture: 1,
         info: {
             text: ['Эквивалент : ', 'ИО 409-15Б'],
@@ -5802,7 +5802,7 @@ export const Data = [
         pic_brand: teko_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: 1,
+        inStock_outStock: 0,
         picture: 1,
         info: {
             text: ['Датчик: ', 'Охранный'],
@@ -6009,7 +6009,7 @@ export const Data = [
         pic_brand: teko_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: 1,
+        inStock_outStock: 0,
         picture: 1,
         info: {
             text: ['Эквивалент: ', ' ИО 209-24'],
@@ -6045,7 +6045,7 @@ export const Data = [
         pic_brand: teko_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: 1,
+        inStock_outStock: 0,
         picture: 1,
         info: {
             text: ['Эквивалент: ', ' ИО 309-11'],
@@ -6375,7 +6375,7 @@ export const Data = [
         pic_brand: teko_brand,
         old_coast: false,
         new: false,
-        inStock_outStock: 0,
+        inStock_outStock: 1,
         picture: 1,
         info: {
             text: ['Кол-во шлейфов: ', '2'],
@@ -6457,7 +6457,7 @@ export const Data = [
         coast: 2790,
         old_coast: false,
         new: false,
-        inStock_outStock: 1,
+        inStock_outStock: 0,
         picture: 1,
         info: {
             text: ['Датчик: ', 'Радиоканальный'],
@@ -6475,6 +6475,37 @@ export const Data = [
             text14: ['Степень защиты оболочкой: ', 'IP20'],
         },
     },
+     /**
+     * ---------------------------------------------------TEKO Радиоканальные
+     */
+    /**
+     *  ТЕКО Астра-2331
+     */
+    {
+        model: 'Астра-2331',
+        id: 'Астра-2331',
+        brand: 'TEKO',
+        type: ['Пожарный оповещатель', 'security', 'op_fire'],
+        description: 'двусторонний радиообмен в радиоканале Астра-РИ-М (433 МГц); работа только в модернизированном радиоканале (режиме 2); регистрация в радиосети установкой элемента питания; установка частотной литеры по радиоканалу при регистрации; служебный индикатор для индикации собственного состояния и состояния радиосети; литий-марганцево-оксидный элемент питания типоразмера CR123 напряжением 3,0 В емкостью до 1,5 А/ч, входит в комплект поставки; возможность подключения внешнего питания 12 В (от РИП); автоматическое переключение электропитания с ЭП на внешний источник при подключении последнего, при отключении – обратно на работу от ЭП; отключение индикации служебного индикатора через 60 мин после включения электропитания с целью экономии емкости ЭП; измерение и передача по радиоканалу значения остаточной емкости ЭП с отображением в журнале событий ППКОП при достижении значений 30, 20, 10 %; не требуется получения разрешений на применение от органов государственной радиочастотной службы',
+        path: '/',
+        pic_brand: teko_brand,
+        coast: 1743,
+        old_coast: false,
+        inStock_outStock: 1,
+        picture: 1,
+        info: {
+            text: ['Датчик: ', 'радиоканальный'],
+            text1: ['Радиус: ', '300м'],
+            text2: ['Рабочий диапазон частот: ', 'литера 1 - 433,42 МГц, литера 3 - 434,42 МГц'],
+            text3: ['Напряжение питания от ЭП:', 'от 2,2 до 3,0 В'],
+            text4: ['Напряжение питания от РИП DC 12 В:  ', 'от 10,0 до 15,0 В'],
+        },
+    },
+
+
+
+
+
     /** 
     * ---------------------------------------------------------------------------Rexant
     */
@@ -7651,7 +7682,7 @@ export const Data = [
         inStock_outStock: 1,
         rasprodaja: true,
         coast: 1920,
-        old_coast: 2480,
+        old_coast: 2400,
         new: false,
         picture: 1,
         info: {
@@ -7698,7 +7729,7 @@ export const Data = [
         pic_brand: st_brand,
         inStock_outStock: 1,
         rasprodaja: true,
-        coast: 1920,
+        coast: 1990,
         old_coast: 2480,
         new: false,
         picture: 1,
@@ -7734,10 +7765,10 @@ export const Data = [
 
     },
     /**
-     *  ST ST-2202
+     *  ST ST-2202 3.6
      */
     {
-        model: 'ST-2202',
+        model: 'ST-2202 3.6',
         id: 'ST_2202',
         brand: 'ST',
         type: ['AHD камера внутренняя', 'ahd', 'indoor'],
@@ -7753,6 +7784,54 @@ export const Data = [
         info: {
             text: ['Разрешение: ', '2MP'],
             text1: ['Объектив:  ', '3.6 мм'],
+            text3: ['Кол-во кадров в секунду:', 'до 25 к/с Real Time'],
+            text8: ['Сенсор: ', '1/1,3" Progressive Scan CMOS'],
+            text9: ['Светочувствительность (мин. освещенность): ', '0,01 / 0 Lux с ИК Люкс'],
+            text10: ['Сигнал/шум: ', '>52 Дб'],
+            text11: ['Электронный затвор: ', 'Авто 1/50-1/100000 сек'],
+            text12: ['Функции улучшения изображения:', 'BLC,DWDR,DNR,AGC'],
+            text13: ['Дальность ИК подсветки:', 'до 20 м'],
+            text14: ['Гамма-коррекция:', 'Авто'],
+            text15: ['Функции улучшения изображения: ', 'BLC,2DNR,D-WDR'],
+            text16: ['OSD-меню:', 'Да'],
+            text17: ['Дальность ИК подсветки: ', '20 м'],
+            text18: ['Количество и тип диодов подсветки: ', '18 SMD СИД'],
+            text19: ['ИК-фильтр : ', 'IR-Cut Filter'],
+            text22: ['Напряжение питания: ', '12В'],
+            text23: ['Максимальный ток потребления: ', '0,63А'],
+            text24: ['Материал корпуса: ', 'ПЛАСТИК'],
+            text25: ['Регулировка кронштейна: ', '3D-Ось'],
+            text26: ['Рабочая температура: ', '	-20…+60°С'],
+            text27: ['Степень защищенности/вандалостойкость: ', 'IP54'],
+            text28: ['Комплектность: ', 'Камера с кабелем для подключения видеокамеры,крепеж (дюбель-пробка + шуруп),cтикер бумажный самоклеящийся предостережение "Ведется видеонаблюдение",CD диск с подробным описанием и инструкцией по эксплуатации,паспорт, упаковочная коробка.'],
+            text29: ['Габариты видеокамеры,мм (d*h): ', '110х85'],
+        },
+        // download: {
+        //     Link1: ['Сертификат', 'https://st-tm.ru/pdf.php?url=/upload/uf/db6/d1bd4164_caf0_11e9_8129_309c236808ad.pdf&name=%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80%20ST-HVR-S1602/2%20Light'],
+        //     Link2: ['Паспорт', 'https://st-tm.ru/pdf.php?url=/upload/uf/552/9a8ad40d_0b79_11eb_81ac_309c236808ad.pdf&name=%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%BE%D1%80%20ST-HVR-S1602/2%20Light'],
+        // },
+
+    },
+     /**
+     *  ST ST-2202 2.8
+     */
+    {
+        model: 'ST-2202 2.8',
+        id: 'ST_2202',
+        brand: 'ST',
+        type: ['AHD камера внутренняя', 'ahd', 'indoor'],
+        description: 'Видеокамера ST-S2202 Light, цветная IP,Разрешение:2MP (1080p),с ИК подсветкой,для установки внутри помещений, Купольная, Фокусное расстояние: 2,8mm (соответствует 107° по горизонтали), Сенсор: 1/2,9" Progressive Scan CMOS, Дальность ИК подсветки: до 20 м, Светочувствительность (мин. освещенность): 0.1Lux(цвет) 0.01Lux(ч/б), Кодек сжатия: H.264, H.265, Напряжение питания: 12В, Максимальный ток потребления: 0,63А, ИК-фильтр: IR-CUT (механический), Функции улучшения изображения: BLC,DWDR,DNR,AGC, Onvif 2.6 (Profile S),RTSP, Smart IR: Да, Xmeye, Кол-во кадров в секунду: до 25 к/с, Регулировка кронштейна: 3D-Ось, Рабочая температура: 0…+60°С, Степень защищенности/вандалостойкость: IP54, Материал корпуса: ПЛАСТИК, Габариты видеокамеры,мм (d*h): 110х85',
+        path: '/',
+        pic_brand: st_brand,
+        inStock_outStock: 1,
+        rasprodaja: true,
+        coast: 1480,
+        old_coast: 1850,
+        new: false,
+        picture: 1,
+        info: {
+            text: ['Разрешение: ', '2MP'],
+            text1: ['Объектив:  ', '2.8 мм'],
             text3: ['Кол-во кадров в секунду:', 'до 25 к/с Real Time'],
             text8: ['Сенсор: ', '1/1,3" Progressive Scan CMOS'],
             text9: ['Светочувствительность (мин. освещенность): ', '0,01 / 0 Lux с ИК Люкс'],
@@ -8104,17 +8183,17 @@ export const Data = [
      *  ST ST-S2542 2.8 LIGHT
      */
     {
-        model: 'ST-S2542 LIGHT 2.8',
-        id: 'ST_S2542_LIGHT',
+        model: 'ST-S2543 LIGHT 2.8',
+        id: 'ST_S2543_LIGHT',
         brand: 'ST',
         type: ['IP камера внутренняя', 'ip', 'indoor'],
-        description: 'Видеокамера ST-S2542 Light, цветная IP,Разрешение:2MP (1080p),с ИК подсветкой,для установки внутри помещений, Купольная, Фокусное расстояние: 2,8mm (соответствует 107° по горизонтали), Сенсор: 1/2,9" Progressive Scan CMOS, Дальность ИК подсветки: до 20 м, Светочувствительность (мин. освещенность): 0.1Lux(цвет) 0.01Lux(ч/б), Кодек сжатия: H.264, H.265, Напряжение питания: 12В, Максимальный ток потребления: 0,63А, ИК-фильтр: IR-CUT (механический), Функции улучшения изображения: BLC,DWDR,DNR,AGC, Onvif 2.6 (Profile S),RTSP, Smart IR: Да, Xmeye, Кол-во кадров в секунду: до 25 к/с, Регулировка кронштейна: 3D-Ось, Рабочая температура: 0…+60°С, Степень защищенности/вандалостойкость: IP54, Материал корпуса: ПЛАСТИК, Габариты видеокамеры,мм (d*h): 110х85',
+        description: 'Видеокамера ST-S2543 Light, цветная IP,Разрешение:2MP (1080p),с ИК подсветкой,для установки внутри помещений, Купольная, Фокусное расстояние: 2,8mm (соответствует 107° по горизонтали), Сенсор: 1/2,9" Progressive Scan CMOS, Дальность ИК подсветки: до 20 м, Светочувствительность (мин. освещенность): 0.1Lux(цвет) 0.01Lux(ч/б), Кодек сжатия: H.264, H.265, Напряжение питания: 12В, Максимальный ток потребления: 0,63А, ИК-фильтр: IR-CUT (механический), Функции улучшения изображения: BLC,DWDR,DNR,AGC, Onvif 2.6 (Profile S),RTSP, Smart IR: Да, Xmeye, Кол-во кадров в секунду: до 25 к/с, Регулировка кронштейна: 3D-Ось, Рабочая температура: 0…+60°С, Степень защищенности/вандалостойкость: IP54, Материал корпуса: ПЛАСТИК, Габариты видеокамеры,мм (d*h): 110х85',
         path: '/',
         pic_brand: st_brand,
         inStock_outStock: 1,
         rasprodaja: true,
-        coast: 2568,
-        old_coast: 3210,
+        coast: 2860,
+        old_coast: 3580,
         new: false,
         picture: 1,
         info: {
@@ -8169,7 +8248,7 @@ export const Data = [
         inStock_outStock: 1,
         rasprodaja: true,
         coast: 2800,
-        old_coast: 3580,
+        old_coast: 3500,
         new: false,
         picture: 1,
         info: {
@@ -8225,8 +8304,8 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: st_brand,
-        old_coast: false,
-        new: false,
+        coast: 10200,
+        old_coast: 12750,
         inStock_outStock: 1,
         picture: 1,
         info: {
@@ -8283,9 +8362,7 @@ export const Data = [
             Link13: ['Калькулятор расчета HDD', 'https://st-tm.ru/upload/uf/4b3/4b39b949445517dbbee3103915dbfcf9.zip'],
 
         },
-        coast: 12750,
-        old_coast: false,
-        new: false
+       
     },
     /**
      *  ST ST-NVR-S1605 LIGHT
@@ -8299,8 +8376,8 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: st_brand,
-        old_coast: false,
-        new: false,
+        coast: 4790,
+        old_coast: 5990,
         inStock_outStock: 1,
         picture: 1,
         info: {
@@ -8357,9 +8434,7 @@ export const Data = [
             Link13: ['Калькулятор расчета HDD', 'https://st-tm.ru/upload/uf/4b3/4b39b949445517dbbee3103915dbfcf9.zip'],
 
         },
-        coast: 5988,
-        old_coast: false,
-        new: false
+        
     },
     /**
     *  ST ST-XVR800PRO D
@@ -8373,8 +8448,8 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: st_brand,
-        old_coast: false,
-        new: false,
+        coast: 8080,
+        old_coast: 10100,
         inStock_outStock: 1,
         picture: 1,
         info: {
@@ -8433,9 +8508,7 @@ export const Data = [
             Link13: ['Калькулятор расчета HDD', 'https://st-tm.ru/upload/uf/4b3/4b39b949445517dbbee3103915dbfcf9.zip'],
 
         },
-        coast: 10100,
-        old_coast: false,
-        new: false
+        
     },
     /**
    *  ST ST-HDVR162PRO D
@@ -8447,10 +8520,10 @@ export const Data = [
         type: ['Гибридный регистратор XVR', 'reg', 'xvr'],
         description: 'Видеорегистратор ST-HDVR162PRO D, (версия 2), Цифровой, гибридный режим работы: 16 каналов аналог (TVI/AHD/CVI (до 2Mp)/CVBS (960H)) + 2 IP (6Mp), макс. количество подключаемых IP камер – 18 IP (6Mp), Видео/аудио входы: 16/1, Аудио выход: 1, разъем RCA, Всего видеовыходов: 2 (HDMI, VGA), HDMI (1920х1080), VGA, Поддерживаемые видеокодеки: Н.264/H.265, Поддерживаемые аудиокодеки: G.711, Запись аналоговые камеры (разрешение/скорость): TVI / CVI / AHD до 1080N, 720P - 15 к/с CVBS - 25 к/сек, Запись IP камеры (разрешение / скорость): IP- 25 к/сек, 1 SATA 3.0 до 10 Тб, Сетевой интерфейс: RJ45,10М/100М, Протоколы: RTSP, P2P: QR код / Easyviewer Lite, Поддержка платформ: Поддерживает IPhone, Android, Напряжение питания/ потребляемая мощность (без HDD): 12В / 2А, Рабочая температура: -10°…+55°C, Габариты, мм.: 260*236*48 мм',
         path: '/',
-        // pic: imou_cue_2,
         pic_brand: st_brand,
-        old_coast: false,
-        new: false,
+        rasprodaja: true,
+        coast: 12360,
+        old_coast: 15450,
         inStock_outStock: 1,
         picture: 1,
         info: {
@@ -8507,9 +8580,7 @@ export const Data = [
             Link13: ['Калькулятор расчета HDD', 'https://st-tm.ru/upload/uf/4b3/4b39b949445517dbbee3103915dbfcf9.zip'],
 
         },
-        coast: 15455,
-        old_coast: false,
-        new: false
+        
     },
     /**
    *  ST ST-XVR400 PRO D
@@ -8523,8 +8594,9 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: st_brand,
-        old_coast: false,
-        new: false,
+        coast: 5200,
+        old_coast: 6500,
+
         inStock_outStock: 1,
         picture: 1,
         info: {
@@ -8581,9 +8653,7 @@ export const Data = [
             Link13: ['Калькулятор расчета HDD', 'https://st-tm.ru/upload/uf/4b3/4b39b949445517dbbee3103915dbfcf9.zip'],
 
         },
-        coast: 6500,
-        old_coast: false,
-        new: false
+        
     },
     /**
      *  ST ST-HVR-S0402 LIGHT
@@ -8597,8 +8667,8 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: st_brand,
-        old_coast: false,
-        new: false,
+        coast: 4480,
+        old_coast: 5600,
         inStock_outStock: 1,
         picture: 1,
         info: {
@@ -8655,9 +8725,7 @@ export const Data = [
             Link13: ['Калькулятор расчета HDD', 'https://st-tm.ru/upload/uf/4b3/4b39b949445517dbbee3103915dbfcf9.zip'],
 
         },
-        coast: 5600,
-        old_coast: false,
-        new: false
+        
     },
     /**
      *  ST ST-HVR-S0802/4 LIGHT
@@ -8672,7 +8740,8 @@ export const Data = [
         // pic: imou_cue_2,
         pic_brand: st_brand,
         old_coast: false,
-        new: false,
+        coast: 6690,
+        old_coast: 8370,
         inStock_outStock: 1,
         picture: 1,
         info: {
@@ -8729,9 +8798,7 @@ export const Data = [
             Link13: ['Калькулятор расчета HDD', 'https://st-tm.ru/upload/uf/4b3/4b39b949445517dbbee3103915dbfcf9.zip'],
 
         },
-        coast: 8370,
-        old_coast: false,
-        new: false
+        
     },
     /**
     *  ST ST-HVR-S1602/2 LIGHT
@@ -8745,8 +8812,8 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: st_brand,
-        old_coast: false,
-        new: false,
+        coast: 10380,
+        old_coast: 12980,
         inStock_outStock: 1,
         picture: 1,
         info: {
@@ -8803,9 +8870,8 @@ export const Data = [
             Link13: ['Калькулятор расчета HDD', 'https://st-tm.ru/upload/uf/4b3/4b39b949445517dbbee3103915dbfcf9.zip'],
 
         },
-        coast: 12980,
-        old_coast: false,
-        new: false
+       
+   
     },
     /**
      *  ST ST-ББП-100
@@ -9028,8 +9094,8 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: st_brand,
-        old_coast: false,
-        new: false,
+        coast: 12680,
+        old_coast: 15850,
         inStock_outStock: 1,
         picture: 1,
         info: {
@@ -9050,9 +9116,7 @@ export const Data = [
             text17: ['Комплектация:', 'ИП РОЕ с кабелем с тремя разъемами на концах для питания подключаемых видеокамер и микрофона,паспорт,упаковочный пакет'],
         },
 
-        coast: 15852,
-        old_coast: false,
-        new: false
+       
     },
     /**
    *  ST ST-S83POE
@@ -9104,8 +9168,8 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: st_brand,
-        old_coast: false,
-        new: false,
+        coast: 630,
+        old_coast: 790,
         inStock_outStock: 1,
         picture: 1,
         info: {
@@ -9121,9 +9185,7 @@ export const Data = [
             text12: ['Комплектация:', 'ИП РОЕ с кабелем с тремя разъемами на концах для питания подключаемых видеокамер и микрофона,паспорт,упаковочный пакет'],
         },
 
-        coast: 790,
-        old_coast: false,
-        new: false
+       
     },
     /**
      *  ST ST-1201M POE
@@ -9137,8 +9199,9 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: st_brand,
-        old_coast: false,
-        new: false,
+        coast: 470,
+        old_coast: 590,
+
         inStock_outStock: 1,
         picture: 1,
         info: {
@@ -9154,9 +9217,7 @@ export const Data = [
             text12: ['Комплектация:', '	Источник PoE, колпачок защитный резьбовой ПВХ для LAN разъема,кабель с двумя разъемами на концах для подключаемых видеокамер (длина 18 см),паспорт, упаковочный пакет.'],
         },
 
-        coast: 588,
-        old_coast: false,
-        new: false
+        
     },
     /**
      *  ST PoE ST-VBI
@@ -9170,8 +9231,8 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: st_brand,
-        old_coast: false,
-        new: false,
+        coast: 1320,
+        old_coast: 1650,
         inStock_outStock: 1,
         picture: 1,
         info: {
@@ -9191,9 +9252,7 @@ export const Data = [
             text15: ['Комплектация:', 'ИП РОЕ с кабелем с тремя разъемами на концах для питания подключаемых видеокамер и микрофона,паспорт,упаковочный пакет'],
         },
 
-        coast: 1500,
-        old_coast: false,
-        new: false
+       
     },
     /**
     *  ST ST-4801 POE

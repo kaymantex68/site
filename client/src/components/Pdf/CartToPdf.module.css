@@ -66,6 +66,7 @@
     justify-content: center;
     /* width: 100%; */
     height: 80px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.679);
     /* border: 1px solid rgba(128, 128, 128, 0.172); */
 }
 
@@ -84,7 +85,7 @@
 }
 
 .span_description_text{
-    
+    font-weight: bold;
     font-size: 0.9rem;
 }
 
@@ -104,6 +105,18 @@
     
 }
 
+.ProductCard_shapka {
+    
+    max-width: 800px;
+    height: 25px;
+    border: 1px solid rgb(128, 128, 128);
+   
+    margin-bottom: 1px;
+    display: flex;
+    /* padding-left:20px; */
+    align-items: center;
+    transition: 0.2s;  
+}
 .ProductCard_container {
     
     max-width: 800px;
@@ -158,6 +171,7 @@
     border-radius: 5px;
     margin-right: 10px;
     margin-left: 10px;
+    font-size: 0.8rem;
 }
 
 .ProducCard_picture_img {
@@ -170,6 +184,10 @@
     width: 230px;
 }
 
+.Model_name_shapka {
+    color: black;
+    font-size: 0.8rem;
+}
 .Model_name {
     color: black;
     font-size: 0.8rem;
@@ -194,13 +212,14 @@
 
 .Model_description_count {
     color: black;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
 }
 
 .count_input{
     width: 50px;
     border: none;
     text-align: center;
+    font-size: 0.7rem;
 }
 
 
@@ -216,7 +235,7 @@
 
 .Model_description_coast {
     color: black;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
 }
 
 .ProductCard_summ {
@@ -235,7 +254,7 @@
     display: flex;
     
     color: black;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
 }
 
 

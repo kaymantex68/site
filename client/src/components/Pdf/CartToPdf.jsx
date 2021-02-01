@@ -33,7 +33,7 @@ const CartToPdf = (props) => {
                                 <p className={classes.p_info}><span className={classes.span_info}>Системы безопасности "Кайман"</span></p>
                                 <p className={classes.p_info}><span className={classes.span_info}>г.Тамбов, ул.Агапкина 25А</span></p>
                                 <p className={classes.p_info}><span className={classes.span_info}>тел: 8 (4752) 42-47-27</span></p>
-                                <p className={classes.p_info}><span className={classes.span_info}>тел/watApp: +7 (920) 233-34-34</span></p>
+                                <p className={classes.p_info}><span className={classes.span_info}>тел/watsApp: +7 (920) 233-34-34</span></p>
                                 <p className={classes.p_info}><span className={classes.span_info}>mail: info@kaymantex.ru</span></p>
                                 <p className={classes.p_info}><span className={classes.span_info}>пн-пт: 9:00-18:00, сб: 9:00-16:00, вс: выходной</span></p>
                             </div>
@@ -45,6 +45,23 @@ const CartToPdf = (props) => {
                         <div className={classes.description_info}>
                             <div><span className={classes.span_description_info}>{`Итого: ${cartUniq.reduce((a, b) => a + (b.coast * b.count), 0)} руб.`}</span></div>
                         </div>
+                        <div className={classes.ProductCard_shapka}>
+                                    <div className={classes.ProductCard_picture}>
+                                       Фото
+                                    </div>
+                                    <div className={classes.ProductCard_description}>
+                                        <p className={classes.Model_name_shapka}>Наименование</p>
+                                    </div>
+                                    <div className={classes.ProductCard_count}>
+                                    <p className={classes.Model_name}>Кол-во</p>
+                                    </div>
+                                    <div className={classes.ProductCard_coast}>
+                                    <p className={classes.Model_name}>Цена</p>
+                                    </div>
+                                    <div className={classes.ProductCard_summ}>
+                                    <p className={classes.Model_name}>Сумма</p>
+                                    </div>
+                                </div>
                         {cartUniq.map((product, key) => {
                             return (
                                 <div className={classes.ProductCard_container}>

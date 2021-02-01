@@ -33,6 +33,7 @@ const CatalogFilter = (props) => {
         }
         return 0
     })
+    
 
     /**
      * ============================================================ сброс фильтров 
@@ -73,7 +74,7 @@ const CatalogFilter = (props) => {
                 <select className={classes.SelectBrand} name="brand" value={sort.brand} onChange={(e) => { setFilter({ ...sort, [e.target.name]: e.target.value }) }}>
                     <option value="All_BRAND">Все</option>
                     {
-                        unic.map((item, key) => {
+                        unic.sort((a, b) => a > b ? 1 : -1).map((item, key) => {
                             return (
                                 <option key={`brand_sort_unic_${key}`} value={item}>{item}</option>
                             )
