@@ -1,5 +1,6 @@
 import React from 'react'
 import i1 from './PicSlider/slide1.png';
+import banner_ez_ip from './PicSlider/slide2.jpg';
 import slide1_fon from './PicSlider/slide1_fon.png';
 import i2 from './PicSlider/1.png';
 import slide2_fon from './PicSlider/slide5_fon.jpg';
@@ -7,8 +8,24 @@ import i3 from './PicSlider/3.png';
 import slide3_fon from './PicSlider/slide6_fon.jpg';
 import imou_brand from './PicSlider/imou_brand.png';
 import slide4_fon from './PicSlider/slide7_fon.jpg';
+import ez_ip_slide from './PicSlider/ez-ip.png';
 
 export const SliderData=[
+     {
+        title: '',
+        link_a: '#',
+        backColor: 'LightBlue',
+        //backPicture: slide4_fon,
+        colorTitle: 'chocolate',
+        colorText: '#3C475B',
+        path: '',
+        pic: ez_ip_slide,
+        info: {
+            text1: '',
+        },
+        // coast: '',
+        new: false     
+    },
     // {
     //     title: 'Дарим предновогоднюю скидку',
     //     link_a: '#',
