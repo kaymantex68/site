@@ -1,21 +1,151 @@
-.ProductCard_container {
-    width: 100%;
-    max-width: 900px;
-    height: 100px;
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    min-height: 1200px;
+    
+    
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.CartDetail_global_operation{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-width: 600px;
+    width:100%;
+    height: 60px;
     border-radius: 10px;
     box-shadow: 0 0 8px rgba(128, 128, 128, 0.192);
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+
+
+.pdf{
+    
+    font-size: 0.9rem;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 0 8px rgba(128, 128, 128, 0.261);
+    cursor: pointer;
+    transition: 0.2s;
+    margin-right: 10px;
+    background-color: rgba(255, 0, 0, 0.508);
+    border: none;
+}
+
+.pdf:hover{
+    background-color: red;
+    color: white;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.7);
+    transform: scale(1.08);
+    transition: 0.2s;
+}
+
+.block_pdf{
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+    border: 1px solid rgba(128, 128, 128, 0.268);
+    padding:50px;
+    min-height: 1055px;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    max-width: 900px;
+    justify-content: center;
+    /* width: 100%; */
+    height: 80px;
+    /* border: 1px solid rgba(128, 128, 128, 0.172); */
+}
+
+.img_logo{
+    height: 40px;
+}
+
+
+.description_text{
+    display: flex;
+    max-width: 900px;
+    height: 30px;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.span_description_text{
+    
+    font-size: 0.9rem;
+}
+
+.description_info{
+    display: flex;
+    max-width: 900px;
+    height: 30px;
+  
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.span_description_info{
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    
+}
+
+.ProductCard_container {
+    
+    max-width: 800px;
+    height: 61px;
+    border: 1px solid rgb(128, 128, 128);
+   
+    margin-bottom: 1px;
     display: flex;
     /* padding-left:20px; */
     align-items: center;
-    transition: 0.2s;
-    padding: 10px;
+    transition: 0.2s;  
 }
 
-.ProductCard_container:hover{
-    transform: scale(1.03);
-    box-shadow: 0 0 10px rgba(128, 128, 128, 0.589);
-    transition: 0.2s;
+.logo{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 100%;
+    padding: 5px;
+    /* border: 1px solid grey; */
+    
+}
+
+.info1{
+ width: 160px;
+ height: 100%;
+ /* border: 1px solid grey; */
+}
+.info2{
+    width: 300px;
+    height: 100%;
+    /* border: 1px solid grey; */
+}
+.p_info{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.span_info{
+    color: black;
+    font-size: 0.7rem;
 }
 
 .ProductCard_picture {
@@ -40,29 +170,29 @@
 }
 
 .Model_name {
-    color: #3C475B;
-    font-size: 1rem;
+    color: black;
+    font-size: 0.8rem;
 }
 .Model_name:hover {
     font-weight: bold;
 }
 
 .Model_description {
-    color: #3C475B;
-    font-size: 0.7rem;
+    color: black;
+    font-size: 0.6rem;
 }
 
 .ProductCard_count {
     display: flex;
     justify-content: center;
     align-items:center;
-    border-left: 1px solid rgba(128, 128, 128, 0.199);
+    border-left: 1px solid rgb(128, 128, 128);
     width: 70px;
     height: 90%;
 }
 
 .Model_description_count {
-    color: #3C475B;
+    color: black;
     font-size: 0.9rem;
 }
 
@@ -77,14 +207,14 @@
     display: flex;
     justify-content: center;
     align-items:center;
-    border-left: 1px solid rgba(128, 128, 128, 0.199);
+    border-left: 1px solid rgb(128, 128, 128);
     width: 100px;
     height: 90%;
 
 }
 
 .Model_description_coast {
-    color: #3C475B;
+    color: black;
     font-size: 0.9rem;
 }
 
@@ -92,14 +222,18 @@
     display: flex;
     justify-content: center;
     align-items:center;
-    border-left: 1px solid rgba(128, 128, 128, 0.199);
-    width: 100px;
+    border-left: 1px solid rgb(128, 128, 128);
+    width: 180px;
     height: 90%;
+  
+
 
 }
 
 .Model_description_summ {
-    color: #3C475B;
+    display: flex;
+    
+    color: black;
     font-size: 0.9rem;
 }
 

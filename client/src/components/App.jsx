@@ -15,7 +15,7 @@ import CartDetail from '../containers/CartDetail'
 import { DillerData } from '../Data/DillerData/DataDiler'
 import { Data } from '../Data/ProductsData/Data'
 import { SliderData } from '../Data/SliderData/SliderData'
-
+import CartToPdf from '../containers/Pdf'
 
 
 /**
@@ -103,6 +103,7 @@ function App(props) {
             <Route exact path="/catalog/:cat/:type/:brand" component={Catalog} />
             <Route exact path="/catalog/:cat/:type/:brand/:model" component={DetailProduct} />
             <Route exact path="/contacts/adress" component={Contacts} />
+            <Route exact path="/docs/pdf" component={CartToPdf} />
             <Route path="*" exact={true} component={MainPage} />
           </Switch>
           : <div>loading</div>}

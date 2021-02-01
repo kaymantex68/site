@@ -13,7 +13,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.json({limit: '10mb', extended: true}))
 
 app.set('view engine', 'ejs')
-// app.set('views',path.resolve(__dirname, 'views'))
+// app.set('views',path.resolve(__dirname, 'views'))git
 app.use(express.static('public'))
 
 // console.log(path.resolve(__dirname,'images'))

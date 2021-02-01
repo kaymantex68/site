@@ -6,8 +6,9 @@ import ClientInformation from '../../containers/ClietnInformation'
 import ModalWindow from '../../containers/ModalWindowOrder'
 import axios from 'axios'
 import { saveAs } from 'file-saver'
+import { Link } from 'react-router-dom'
 
-import CartToPdf from './CartToPdf'
+
 
 const CartDetail = (props) => {
     const { cartUniq, cartSumm, clientInformation } = props;
@@ -16,7 +17,7 @@ const CartDetail = (props) => {
     const [pdf, setPDF] = React.useState(null)
     const [messageRes, setMessageRes] = React.useState(null)
     const [openModal, setOpenModal] = React.useState(false)
-    const componentRef = React.useRef();
+
     /**
      * =============================================================================== отправка письма
      */
@@ -72,10 +73,11 @@ const CartDetail = (props) => {
             <div className={classes.CartDetail_block}>
                 <div className={classes.CartDetail_global_operation}>
                     {cartSumm > 0 &&
-                        <ReactToPrint
-                            trigger={() => <button className={classes.pdf}>pdf</button>}
-                            content={() => componentRef.current}
-                        />
+                        // <ReactToPrint
+                        //     trigger={() => <button className={classes.pdf}>pdf</button>}
+                        //     content={() => componentRef.current}
+                        // />
+                        <Link to="/docs/pdf"> <button className={classes.pdf}>pdf</button></Link>
                     }
                     {cartSumm > 0 && <button className={classes.Сheckout} onClick={() => { setOpenModal(!openModal) }}>оформить заказ</button>}
                     <span className={classes.Summa_fixed}>{`сумма: ${cartSumm} руб.`}</span>
@@ -89,7 +91,7 @@ const CartDetail = (props) => {
                         cartSumm > 0 && <ClientInformation message={wrongDataClient} response={messageRes} />
                     } */}
 
-                    
+
 
                     <div>
                         {cartUniq.map((product, key) => {
@@ -99,13 +101,7 @@ const CartDetail = (props) => {
                         })}
                     </div>
 
-                    <div ref={componentRef}>
-                        {cartUniq.map((product, key) => {
-                            return (
-                                <CartToPdf key={`Product_${key}`} {...product} {...props} />
-                            )
-                        })}
-                    </div>
+
 
 
                 </div>
