@@ -619,6 +619,17 @@ function Navbar(props) {
                                                             </ul>
                                                         </div>
                                                     </li>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/security/radio">Радиоканальные устройства</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/security/radio/TEKO">ТЕКО</Link>
+                                                                </li>
+
+                                                            </ul>
+                                                        </div>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </li>

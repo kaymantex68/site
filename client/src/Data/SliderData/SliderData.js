@@ -9,22 +9,22 @@ import imou_brand from './PicSlider/imou_brand.png';
 import slide4_fon from './PicSlider/slide7_fon.jpg';
 
 export const SliderData=[
-    {
-        title: 'Дарим предновогоднюю скидку',
-        link_a: '#',
-        backColor: '#78C47A',
-        backPicture: slide4_fon,
-        colorTitle: 'chocolate',
-        colorText: '#3C475B',
-        path: '',
-        pic: imou_brand,
-        info: {
-            text1: 'На все камеры IMOU -10%',
-        },
-        // coast: '',
-        new: false
+    // {
+    //     title: 'Дарим предновогоднюю скидку',
+    //     link_a: '#',
+    //     backColor: '#78C47A',
+    //     backPicture: slide4_fon,
+    //     colorTitle: 'chocolate',
+    //     colorText: '#3C475B',
+    //     path: '',
+    //     pic: imou_brand,
+    //     info: {
+    //         text1: 'На все камеры IMOU -10%',
+    //     },
+    //     // coast: '',
+    //     new: false
         
-    },
+    // },
     {
         title: '@INSTAGRAM',
         link_a: 'https://www.instagram.com/cayman_security/',

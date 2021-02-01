@@ -62,6 +62,10 @@ const Catalog = (props) => {
         products = products.filter(product => product.rasprodaja)
     }
 
+    if (sort.changeCoast === true) {
+        products = products.filter(product => product.old_coast)
+    }
+
     /**
    * ============================================================ brand
    */
