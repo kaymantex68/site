@@ -19,6 +19,7 @@ const Catalog = (props) => {
 
     React.useMemo(() => {
 
+
         /**
          * ============================================================ сортировка
          * по хорошему, ее бы отсюда перенести в контейнер
@@ -78,7 +79,13 @@ const Catalog = (props) => {
     /**
    * ============================================================
    */
+    /**
+        * ============================================================ глобальный поиск
+        * по хорошему, ее бы отсюда перенести в контейнер
+        */
 
+    // console.log('filter global:', sort.global)
+    if (sort.global && sort.global.length > 0) products = products.filter((product) => product.brand.toUpperCase().indexOf(sort.global.toUpperCase()) != -1 || product.model.toUpperCase().indexOf(sort.global.toUpperCase()) != -1 )
 
 
 

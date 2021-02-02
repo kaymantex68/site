@@ -16,6 +16,7 @@ const mapStateToProps = (state) => {
         products: state.producst.items,
         slides: state.slider.items,
         cart: state.cart.items,
+        filter: state.filter.items,
     }
 }
 

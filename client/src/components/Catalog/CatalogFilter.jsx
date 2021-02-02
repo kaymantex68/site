@@ -11,7 +11,8 @@ const CatalogFilter = (props) => {
             brand: 'All_BRAND',
             available: false,
             stock: false,
-            sale: false
+            sale: false,
+            changeCoast: false
         }
     )
 

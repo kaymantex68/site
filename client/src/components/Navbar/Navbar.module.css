@@ -53,6 +53,18 @@
     flex:1;
 }
 
+
+.global_search_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* background-color: red; */
+}
+
 .Kol_tovar {
     height: 40px;
     width: 150px;

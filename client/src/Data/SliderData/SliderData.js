@@ -13,7 +13,7 @@ import ez_ip_slide from './PicSlider/ez-ip.png';
 
 export const SliderData=[
      {
-        title: 'Безопасность в кубе',
+        title: 'Безопасность в кубе:',
         link_a: 'http://cayman-store.ru/catalog/ip/indoor/EZ-IP',
         //backColor: 'LightBlue',
         backPicture: slide_fon_blue,

@@ -1,5 +1,5 @@
-import React, { useEffect} from 'react';
-import { Switch, Route, useLocation } from 'react-router-dom'
+import React, { useEffect } from 'react';
+import { Switch, Route, useLocation, useHistory } from 'react-router-dom'
 import classes from './App.module.css';
 import ReactGA from 'react-ga';
 
@@ -30,8 +30,8 @@ import CartToPdf from '../containers/Pdf'
  */
 function App(props) {
   const [load, setLoad] = React.useState(false)
-  const { cart, products, addProductToCart } = props;
-
+  const { cart, products, addProductToCart, filter, setSort } = props;
+  let history = useHistory();
 
 
 
@@ -110,6 +110,14 @@ function App(props) {
       }
     }
   }, [cart])
+
+
+  React.useMemo(() => {
+    if (filter.global && filter.global.length > 0 && location!='/catalog') {
+      // console.log('global:', filter.global)
+      history.push('/catalog');
+    }
+  }, [filter.global])
 
 
   return (

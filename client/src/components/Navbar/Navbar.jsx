@@ -4,7 +4,10 @@ import logo from '../../Logo/logo.svg'
 import CartMinimal from '../../containers/CartMinimal'
 import { Link } from 'react-router-dom'
 function Navbar(props) {
-    const { countProducts } = props;
+    const { countProducts, setSort, filter } = props;
+    const [global, setGlobal]=React.useState(null)
+    console.log('props: ', props)
+    console.log('global: ',global)
     // console.info('NAVBAR PROPS: ', props);
     // console.info('NAVBAR countProducts: ', coutProducts);
     return (
@@ -940,6 +943,9 @@ function Navbar(props) {
                             </li>
                         </ul>
                     </div>
+                </div>
+                <div className={classes.global_search_container}>
+                            <input  placeholder="глобальный поиск..." value={global} onChange={(e)=>setSort({...filter,global:e.target.value})}/>
                 </div>
                 <div className={classes.Kol_tovar}><span className={classes.Kol_tovar_span}>{`Прямо сейчас ${countProducts} позиций в наличии`}</span></div>
                 <div className={classes.cartMini}>
