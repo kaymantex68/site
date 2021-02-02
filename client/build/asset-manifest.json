@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.83dc92dd.chunk.css",
-    "main.js": "/static/js/main.2b55c598.chunk.js",
-    "main.js.map": "/static/js/main.2b55c598.chunk.js.map",
+    "main.js": "/static/js/main.6217c508.chunk.js",
+    "main.js.map": "/static/js/main.6217c508.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8818279e.js",
     "runtime-main.js.map": "/static/js/runtime-main.8818279e.js.map",
     "static/css/2.67810363.chunk.css": "/static/css/2.67810363.chunk.css",
@@ -23,6 +23,7 @@
     "static/media/cart.ae2a47a8.svg": "/static/media/cart.ae2a47a8.svg",
     "static/media/dahua_brand.c22c43b2.png": "/static/media/dahua_brand.c22c43b2.png",
     "static/media/electrotehnika_avtomatika_brand.a7b852cf.png": "/static/media/electrotehnika_avtomatika_brand.a7b852cf.png",
+    "static/media/ez-ip.91b13b42.png": "/static/media/ez-ip.91b13b42.png",
     "static/media/ez-ip_brand.49412257.png": "/static/media/ez-ip_brand.49412257.png",
     "static/media/ezviz_brand.5a6aab9a.png": "/static/media/ezviz_brand.5a6aab9a.png",
     "static/media/hikvision_brand.6482b0ff.png": "/static/media/hikvision_brand.6482b0ff.png",
@@ -51,9 +52,11 @@
     "static/media/sib_arsenal_brand.21fd75ae.png": "/static/media/sib_arsenal_brand.21fd75ae.png",
     "static/media/slide1.c0269da2.png": "/static/media/slide1.c0269da2.png",
     "static/media/slide1_fon.2a7a7998.png": "/static/media/slide1_fon.2a7a7998.png",
+    "static/media/slide2.9af80a60.jpg": "/static/media/slide2.9af80a60.jpg",
     "static/media/slide5_fon.0610b882.jpg": "/static/media/slide5_fon.0610b882.jpg",
     "static/media/slide6_fon.0a28a63f.jpg": "/static/media/slide6_fon.0a28a63f.jpg",
     "static/media/slide7_fon.903a3731.jpg": "/static/media/slide7_fon.903a3731.jpg",
+    "static/media/slide_fon_blue.03384057.jpg": "/static/media/slide_fon_blue.03384057.jpg",
     "static/media/slinex_brand.4a2d9cac.png": "/static/media/slinex_brand.4a2d9cac.png",
     "static/media/slt_brand.9f929e50.png": "/static/media/slt_brand.9f929e50.png",
     "static/media/sprut_brand.07156cb8.png": "/static/media/sprut_brand.07156cb8.png",
@@ -76,6 +79,6 @@
     "static/css/2.67810363.chunk.css",
     "static/js/2.91ad9e47.chunk.js",
     "static/css/main.83dc92dd.chunk.css",
-    "static/js/main.2b55c598.chunk.js"
+    "static/js/main.6217c508.chunk.js"
   ]
 }

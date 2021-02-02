@@ -8598,7 +8598,7 @@ export const Data = [
         coast: 12360,
         old_coast: 15450,
         inStock_outStock: 1,
-        picture: 1,
+        picture: 3,
         info: {
             text: ['Кол-во входов: ', '16 BNC'],
             text1: ['Кол-во HDD: ', '1'],
@@ -12133,7 +12133,7 @@ export const Data = [
         old_coast: 4390,
         new: true,
         inStock_outStock: 1,
-        picture: 1,
+        picture: 4,
         info: {
             text: ['Разрешение:', '2 Мп'],
             text1: ['Объектив:', '2,8 мм'],
