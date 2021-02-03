@@ -1,0 +1,355 @@
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    min-height: 1200px;
+    
+    
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.CartDetail_global_operation{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-width: 600px;
+    width:100%;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(128, 128, 128, 0.192);
+    margin-bottom: 10px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+
+
+.pdf{
+    
+    font-size: 0.9rem;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 0 8px rgba(128, 128, 128, 0.261);
+    cursor: pointer;
+    transition: 0.2s;
+    margin-right: 10px;
+    background-color: rgba(255, 0, 0, 0.508);
+    border: none;
+}
+
+.pdf:hover{
+    background-color: red;
+    color: white;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.7);
+    transform: scale(1.08);
+    transition: 0.2s;
+}
+
+.block_pdf{
+    width: 100%;
+   display: flex;
+   /* flex-direction: column; */
+    border: 1px solid rgba(128, 128, 128, 0.268);
+    padding:50px;
+    min-height: 1055px;
+    justify-content: center;
+   
+}
+
+.header{
+    display: flex;
+    max-width: 900px;
+    justify-content: center;
+    /* width: 100%; */
+    height: 80px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.679);
+    /* border: 1px solid rgba(128, 128, 128, 0.172); */
+}
+
+.img_logo{
+    height: 40px;
+}
+
+
+.description_text{
+    display: flex;
+    max-width: 900px;
+    height: 30px;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.span_description_text{
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.description_info{
+    display: flex;
+    max-width: 900px;
+    height: 30px;
+  
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.span_description_info{
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    
+}
+
+.ProductCard_shapka {
+    
+    max-width: 800px;
+    height: 25px;
+    border: 1px solid rgb(128, 128, 128);
+   
+    margin-bottom: 1px;
+    display: flex;
+    /* padding-left:20px; */
+    align-items: center;
+    transition: 0.2s;  
+    background-color: #f5f5f5;
+}
+.ProductCard_container {
+    
+    max-width: 800px;
+    height: 61px;
+    border: 1px solid rgb(128, 128, 128);
+   
+    margin-bottom: 1px;
+    display: flex;
+    /* padding-left:20px; */
+    align-items: center;
+    transition: 0.2s;  
+}
+
+.logo{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 100%;
+    padding: 5px;
+    /* border: 1px solid grey; */
+    
+}
+
+.info1{
+ width: 160px;
+ height: 100%;
+ /* border: 1px solid grey; */
+}
+.info2{
+    width: 300px;
+    height: 100%;
+    /* border: 1px solid grey; */
+}
+.p_info{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.span_info{
+    color: black;
+    font-size: 0.7rem;
+}
+
+.ProductCard_picture {
+    height: 90%;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 0.8rem;
+}
+
+.ProducCard_picture_img {
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.ProductCard_description {
+    width: 230px;
+}
+
+.Model_name_shapka {
+    color: black;
+    font-size: 0.8rem;
+}
+.Model_name {
+    color: black;
+    font-size: 0.8rem;
+}
+.Model_name:hover {
+    font-weight: bold;
+}
+
+.Model_description {
+    color: black;
+    font-size: 0.6rem;
+}
+
+.ProductCard_count {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-left: 1px solid rgb(128, 128, 128);
+    width: 70px;
+    height: 90%;
+}
+
+.Model_description_count {
+    color: black;
+    font-size: 0.7rem;
+}
+
+.count_input{
+    width: 50px;
+    border: none;
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+
+.ProductCard_coast {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-left: 1px solid rgb(128, 128, 128);
+    width: 100px;
+    height: 90%;
+
+}
+
+.Model_description_coast {
+    color: black;
+    font-size: 0.7rem;
+}
+
+.ProductCard_summ {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-left: 1px solid rgb(128, 128, 128);
+    width: 180px;
+    height: 90%;
+  
+
+
+}
+
+.Model_description_summ {
+    display: flex;
+    
+    color: black;
+    font-size: 0.7rem;
+}
+
+
+.ProductCard_button_plus {
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+  
+    /* width: 100px; */
+    height: 90%;
+
+}
+
+.Buttons{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    padding:10px;
+    height: 90%;
+    border-left: 1px solid rgba(128, 128, 128, 0.199);
+    /* width: 200px; */
+   
+}
+
+.button_plus {
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.227);
+    color: white;
+    font-size: 0.9rem;
+    box-shadow: 0 0 8px rgba(128, 128, 128, 0.248);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.button_plus:hover{
+    transform: scale(1.06);
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.734);
+    background-color: rgba(255, 0, 0, 0.583);
+    transition: 0.2s;
+}
+
+
+.ProductCard_button_minus {
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    
+    /* width: 100px; */
+    height: 90%;
+    margin-right: 10px;
+   
+}
+
+.button_minus {
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    background-color: rgba(0, 128, 0, 0.193);
+    color: white;
+    font-size: 0.9rem;
+    box-shadow: 0 0 8px rgba(128, 128, 128, 0.248);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.button_minus:hover{
+    transform: scale(1.06);
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.734);
+    background-color: rgba(0, 128, 0, 0.638);
+    transition: 0.2s;
+}
+
+.ProductCard_button_remove {
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    
+    /* width: 100px; */
+    height: 90%;
+    margin-left: 10px;
+}
+
+.button_remove {
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    background-color: #3c475b65;
+    color: white;
+    font-size: 0.9rem;
+    box-shadow: 0 0 8px rgba(128, 128, 128, 0.248);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.button_remove:hover{
+    transform: scale(1.06);
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.734);
+    background-color: #3c475bd9;;
+    transition: 0.2s;
+}
+

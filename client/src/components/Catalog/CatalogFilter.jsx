@@ -11,7 +11,8 @@ const CatalogFilter = (props) => {
             brand: 'All_BRAND',
             available: false,
             stock: false,
-            sale: false
+            sale: false,
+            changeCoast: false
         }
     )
 
@@ -33,6 +34,7 @@ const CatalogFilter = (props) => {
         }
         return 0
     })
+    
 
     /**
      * ============================================================ сброс фильтров 
@@ -44,7 +46,8 @@ const CatalogFilter = (props) => {
             brand: 'All_BRAND',
             available: false,
             stock: false,
-            sale: false
+            sale: false,
+            changeCoast: false
         })
     }, [url])
 
@@ -69,11 +72,15 @@ const CatalogFilter = (props) => {
                 <label className={classes.label_checkbox} For="id_sale">Распродажа</label>
                 <input className={classes.checkbox} id="id_sale" name="sale" type="checkbox" checked={sort.sale} value={sort.sale} onChange={(e) => { setFilter({ ...sort, [e.target.name]: e.target.checked }) }} ></input>
             </div>
+            <div className={classes.checkbox_block}>
+                <label className={classes.label_checkbox} For="id_changeCoast">Изменение цены</label>
+                <input className={classes.checkbox} id="id_changeCoast" name="changeCoast" type="checkbox" checked={sort.changeCoast} value={sort.changeCoast} onChange={(e) => { setFilter({ ...sort, [e.target.name]: e.target.checked }) }} ></input>
+            </div>
             <div className={classes.Sort}>
                 <select className={classes.SelectBrand} name="brand" value={sort.brand} onChange={(e) => { setFilter({ ...sort, [e.target.name]: e.target.value }) }}>
                     <option value="All_BRAND">Все</option>
                     {
-                        unic.map((item, key) => {
+                        unic.sort((a, b) => a > b ? 1 : -1).map((item, key) => {
                             return (
                                 <option key={`brand_sort_unic_${key}`} value={item}>{item}</option>
                             )

@@ -1,20 +1,23 @@
 import React from 'react'
+import ReactToPrint from 'react-to-print'
 import classes from './CartDetail.module.css'
 import ProductCardInCart from './ProductCardInCart'
 import ClientInformation from '../../containers/ClietnInformation'
 import ModalWindow from '../../containers/ModalWindowOrder'
 import axios from 'axios'
 import { saveAs } from 'file-saver'
+import { Link } from 'react-router-dom'
 
 
 
 const CartDetail = (props) => {
     const { cartUniq, cartSumm, clientInformation } = props;
     const { clearCart } = props;
-   
+
     const [pdf, setPDF] = React.useState(null)
     const [messageRes, setMessageRes] = React.useState(null)
     const [openModal, setOpenModal] = React.useState(false)
+
     /**
      * =============================================================================== отправка письма
      */
@@ -27,15 +30,32 @@ const CartDetail = (props) => {
     /**
      * =============================================================================== создание PDF
      */
-    const createAndDownloadPdf = (message) => {
-        axios.post('api/pdf', message)
-            .then(() => axios.get('api/get_pdf', { responseType: 'blob' }))
-            .then((res) => {
-                const pdfBlob = new Blob([res.data], { type: 'application/pdf' });
+    // const createAndDownloadPdf = (message) => {
+    //     let messageFilter = []
+    //     message.map(e => {
+    //         console.log(e.model)
+    //         messageFilter.push({ model: e.model, count: e.count, brand: e.brand })
+    //     })
+    //     console.log('messageFilter', messageFilter)
+    //     axios.post('api/pdf', { data: JSON.stringify(messageFilter) })
+    //         .then(() => {
+    //             // axios.get('api/get_pdf', { responseType: 'blob' })
+    //             console.log('req ok')
+    //             return 0
+    //         }
+    //         )
+    // .then((res) => {
+    //     const pdfBlob = new Blob([res.data], { type: 'application/pdf' });
 
-                saveAs(pdfBlob, 'newPdf.pdf');
-            })
-    }
+    //     saveAs(pdfBlob, 'newPdf.pdf');
+    //     
+    // })
+
+    // }
+
+
+
+
 
 
 
@@ -52,10 +72,14 @@ const CartDetail = (props) => {
         <div className={classes.CartDetail_container}>
             <div className={classes.CartDetail_block}>
                 <div className={classes.CartDetail_global_operation}>
-                    {/* {cartSumm > 0 && <button className={classes.Сheckout} onClick={() => !wrongDataClient && sendMail(message)}>оформить заказ</button>} */}
-                    {cartSumm > 0 && <button className={classes.pdf} onClick={() => createAndDownloadPdf(cartUniq)}>pdf</button>}
+                    {cartSumm > 0 &&
+                        // <ReactToPrint
+                        //     trigger={() => <button className={classes.pdf}>pdf</button>}
+                        //     content={() => componentRef.current}
+                        // />
+                        <Link to="/docs/pdf"> <button className={classes.pdf}>pdf</button></Link>
+                    }
                     {cartSumm > 0 && <button className={classes.Сheckout} onClick={() => { setOpenModal(!openModal) }}>оформить заказ</button>}
-
                     <span className={classes.Summa_fixed}>{`сумма: ${cartSumm} руб.`}</span>
                     <span className={classes.Remove_all_button_span} onClick={() => clearCart([])}>очистить корзину</span>
                 </div>
@@ -66,11 +90,20 @@ const CartDetail = (props) => {
                     {/* {
                         cartSumm > 0 && <ClientInformation message={wrongDataClient} response={messageRes} />
                     } */}
-                    {cartUniq.map((product, key) => {
-                        return (
-                            <ProductCardInCart key={`Product_${key}`} {...product} {...props} />
-                        )
-                    })}
+
+
+
+                    <div>
+                        {cartUniq.map((product, key) => {
+                            return (
+                                <ProductCardInCart key={`Product_${key}`} {...product} {...props} />
+                            )
+                        })}
+                    </div>
+
+
+
+
                 </div>
             </div>
             <ModalWindow active={openModal} setActive={setOpenModal}>
@@ -84,7 +117,15 @@ const CartDetail = (props) => {
                     </>
                 }
             </ModalWindow>
+
+
+
+
+
         </div>
+
+
+
     )
 }
 

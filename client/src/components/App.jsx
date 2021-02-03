@@ -1,6 +1,7 @@
-import React from 'react';
-import { Switch, Route } from 'react-router-dom'
+import React, { useEffect } from 'react';
+import { Switch, Route, useLocation, useHistory } from 'react-router-dom'
 import classes from './App.module.css';
+import ReactGA from 'react-ga';
 
 import UpHeader from './UpHeader/UpHeader';
 
@@ -15,6 +16,11 @@ import CartDetail from '../containers/CartDetail'
 import { DillerData } from '../Data/DillerData/DataDiler'
 import { Data } from '../Data/ProductsData/Data'
 import { SliderData } from '../Data/SliderData/SliderData'
+import CartToPdf from '../containers/Pdf'
+
+
+
+
 
 
 
@@ -24,7 +30,29 @@ import { SliderData } from '../Data/SliderData/SliderData'
  */
 function App(props) {
   const [load, setLoad] = React.useState(false)
-  const { cart, products, addProductToCart } = props;
+  const { cart, products, addProductToCart, filter, setSort } = props;
+  let history = useHistory();
+
+
+
+
+  var location = useLocation();
+  console.log('useLocation', location.pathname)
+  // console.log('pathname---------------APP');
+  // console.log(location.pathname);
+
+  ReactGA.initialize('UA-185966908-1');
+  useEffect(() => {
+    // ReactGA.ga('send', 'pageview', '/');
+    // ReactGA.pageview('/');
+    // ReactGA.pageview('/catalog');
+    // ReactGA.pageview('/contacts/adress');
+    // ReactGA.pageview('/catalog/all');
+    // ReactGA.pageview('/:model');
+    ReactGA.pageview(location.pathname);
+  }, [location]);
+
+
 
   // console.info('DILLER APPS: ', DillerData)
   /**
@@ -84,6 +112,14 @@ function App(props) {
   }, [cart])
 
 
+  React.useMemo(() => {
+    if (filter.global && filter.global.length > 0 && location!='/catalog') {
+      // console.log('global:', filter.global)
+      history.push('/catalog');
+    }
+  }, [filter.global])
+
+
   return (
     <>
 
@@ -103,6 +139,7 @@ function App(props) {
             <Route exact path="/catalog/:cat/:type/:brand" component={Catalog} />
             <Route exact path="/catalog/:cat/:type/:brand/:model" component={DetailProduct} />
             <Route exact path="/contacts/adress" component={Contacts} />
+            <Route exact path="/docs/pdf" component={CartToPdf} />
             <Route path="*" exact={true} component={MainPage} />
           </Switch>
           : <div>loading</div>}
