@@ -1,12 +1,8 @@
 import React from 'react'
-
 import { Helmet } from 'react-helmet'
-
 import ProductsCard from '../../containers/ProductsCard'
 import CatalogFilter from '../../containers/CatalogFilter'
-
 import classes from './Catalog.module.css'
-
 import filter from 'lodash/filter'
 
 

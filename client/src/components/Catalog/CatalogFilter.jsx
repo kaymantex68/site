@@ -3,7 +3,7 @@ import classes from './CatalogFilter.module.css'
 
 const CatalogFilter = (props) => {
 
-    const { setSort, products, params, url } = props
+    const { setSort, products, params, url, filter } = props
     console.log(params)
     const [sort, setFilter] = React.useState(
         {
@@ -40,14 +40,22 @@ const CatalogFilter = (props) => {
      * ============================================================ сброс фильтров 
      * =============================================== после перехода на новый url
      */
+    let change=null
     React.useEffect(() => {
-        setFilter({
+        if (url==='/catalog') {
+            change=filter.global
+        } else{
+            change = null
+        }
+
+        setFilter({...filter,
             sort: 'ALL',
             brand: 'All_BRAND',
             available: false,
             stock: false,
             sale: false,
-            changeCoast: false
+            changeCoast: false,
+            global: change
         })
     }, [url])
 
