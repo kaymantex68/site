@@ -37,24 +37,14 @@ function App(props) {
 
 
   var location = useLocation();
-  console.log('useLocation', location.pathname)
-  // console.log('pathname---------------APP');
-  // console.log(location.pathname);
-
   ReactGA.initialize('UA-185966908-1');
   useEffect(() => {
-    // ReactGA.ga('send', 'pageview', '/');
-    // ReactGA.pageview('/');
-    // ReactGA.pageview('/catalog');
-    // ReactGA.pageview('/contacts/adress');
-    // ReactGA.pageview('/catalog/all');
-    // ReactGA.pageview('/:model');
     ReactGA.pageview(location.pathname);
   }, [location]);
 
 
 
-  // console.info('DILLER APPS: ', DillerData)
+
   /**
    *  При первом запуске сайта весь массив product товаров
    *  передается с помощью функции setProduct (которая описана
@@ -113,8 +103,7 @@ function App(props) {
 
 
   React.useMemo(() => {
-    if (filter.global && filter.global.length > 0 && location!='/catalog') {
-      // console.log('global:', filter.global)
+    if (filter.global && filter.global.length > 0 && location != '/catalog') {
       history.push('/catalog');
     }
   }, [filter.global])
@@ -126,7 +115,7 @@ function App(props) {
       <div className={classes.Main}>
         <div className={classes.fixed_header}>
           <UpHeader />
-          <Navbar />
+          <Navbar/>
         </div>
         {isReadyAll ?
           <Switch>

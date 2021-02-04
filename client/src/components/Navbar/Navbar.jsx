@@ -4,12 +4,18 @@ import logo from '../../Logo/logo.svg'
 import CartMinimal from '../../containers/CartMinimal'
 import { Link } from 'react-router-dom'
 function Navbar(props) {
-    const { countProducts, setSort, filter } = props;
-    const [global, setGlobal]=React.useState(null)
-    console.log('props: ', props)
-    console.log('global: ',global)
-    // console.info('NAVBAR PROPS: ', props);
-    // console.info('NAVBAR countProducts: ', coutProducts);
+    const { countProducts, setSort, filter} = props;
+    const [global, setGlobal] = React.useState(null)
+    
+
+    const globalFind = (global) => {
+        setSort({ ...filter, global: global })
+    }
+
+  
+
+
+
     return (
         <div className={classes.Main}>
             <div className={classes.Container}>
@@ -358,14 +364,14 @@ function Navbar(props) {
                                             <Link to="/catalog/skud">Контроль доступа</Link>
                                             <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                 <ul>
-                                                <li className={classes.Dropdown_Links}>
+                                                    <li className={classes.Dropdown_Links}>
                                                         <Link to="/catalog/skud/gsm_controller"> GSM контроллеры</Link>
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/skud/gsm_controller/Сибирский Арсенал">Сибирский Арсенал</Link>
                                                                 </li>
-                                                                
+
                                                             </ul>
                                                         </div>
                                                     </li>
@@ -945,7 +951,8 @@ function Navbar(props) {
                     </div>
                 </div>
                 <div className={classes.global_search_container}>
-                            <input  placeholder="глобальный поиск..." value={global} onChange={(e)=>setSort({...filter,global:e.target.value})}/>
+                    <input placeholder="глобальный поиск..." value={global} onChange={(e) => setGlobal(e.target.value)} />
+                    <button onClick={() => globalFind(global)}>поиск</button>
                 </div>
                 <div className={classes.Kol_tovar}><span className={classes.Kol_tovar_span}>{`Прямо сейчас ${countProducts} позиций в наличии`}</span></div>
                 <div className={classes.cartMini}>

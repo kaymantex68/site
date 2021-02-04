@@ -7,7 +7,6 @@ import Navbar from '../components/Navbar/Navbar.jsx'
 
 
 const mapStateToProps = (state) => ({
-
     countProducts: state.producst.items.length,
     cart: state.cart,
     filter: state.filter.items
