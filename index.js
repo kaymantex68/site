@@ -13,32 +13,24 @@ app.use(bodyParser.json())
 app.use(bodyParser.json({limit: '10mb', extended: true}))
 
 app.set('view engine', 'ejs')
-// app.set('views',path.resolve(__dirname, 'views'))git
 app.use(express.static('public'))
-
-// console.log(path.resolve(__dirname,'images'))
-
 
 app.use('/api',require('./routers/mail.routes'))
 app.use('/api',require('./routers/pdf.routes'))
 
-
-
-
 app.get('/test', function(req, res){
-    res.render(ejs.render('pdf.ejs'))
+				res.render(ejs.render('pdf.ejs'))
 })
 
 
-
 if (process.env.NODE_ENV === 'production') {
-    app.use('/', express.static(path.join(__dirname, 'client', 'build')))
-    app.get('*', (req, res) => {
-        res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'))
-    })
+				app.use('/', express.static(path.join(__dirname, 'client', 'build')))
+				app.get('*', (req, res) => {
+								res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'))
+				})
 }
 
 
 app.listen(5000, () => {
-    console.log(`Server started on port 5000`);
+				console.log(`Server started on port 5000`);
 });
