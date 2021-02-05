@@ -9,6 +9,7 @@ import client from './clientInformation'
 import filter from './catalogFilter'
 
 
+
 const rootReducers=combineReducers({
     producst,
     liders,
@@ -17,7 +18,8 @@ const rootReducers=combineReducers({
     dillers,
     cart,
     client,
-    filter
+    filter,
+
 })
 
 export default rootReducers;

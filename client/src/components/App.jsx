@@ -12,13 +12,14 @@ import Contacts from '../components/Contacts/Contacts'
 import DetailProduct from '../containers/DetailProduct'
 import Catalog from '../containers/Catalog'
 import CartDetail from '../containers/CartDetail'
+import { Auth } from '../components/Authorization/Auth'
 
 import { DillerData } from '../Data/DillerData/DataDiler'
 import { Data } from '../Data/ProductsData/Data'
 import { SliderData } from '../Data/SliderData/SliderData'
 import CartToPdf from '../containers/Pdf'
 
-
+import { useAuth } from '../hooks/auth.hook'
 
 
 
@@ -34,8 +35,9 @@ function App(props) {
   let history = useHistory();
 
 
+  
 
-
+  
   var location = useLocation();
   ReactGA.initialize('UA-185966908-1');
   useEffect(() => {
@@ -115,7 +117,9 @@ function App(props) {
       <div className={classes.Main}>
         <div className={classes.fixed_header}>
           <UpHeader />
-          <Navbar/>
+          <Auth />
+          <Navbar />
+          
         </div>
         {isReadyAll ?
           <Switch>

@@ -4,6 +4,7 @@ const path = require('path')
 const cors = require('cors')
 const ejs = require('ejs')
 const mongoose = require('mongoose')
+const config = require('config')
 const app = express()
 
 app.use(cors())
@@ -34,8 +35,13 @@ if (process.env.NODE_ENV === 'production') {
 
 const start = async () => {
 	try {
-
-
+		await mongoose.connect(config.get('mongoUrl'), {
+            useNewUrlParser: true,
+            useUnifiedTopology: true,
+            useFindAndModify: false,
+            useCreateIndex: true
+        });
+		console.log('MongoConnect Ok')
 		app.listen(5000, () => {
 			console.log(`Server started on port 5000`);
 		});
