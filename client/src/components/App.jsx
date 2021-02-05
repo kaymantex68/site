@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useContext } from 'react';
 import { Switch, Route, useLocation, useHistory } from 'react-router-dom'
 import classes from './App.module.css';
 import ReactGA from 'react-ga';
@@ -18,8 +18,9 @@ import { DillerData } from '../Data/DillerData/DataDiler'
 import { Data } from '../Data/ProductsData/Data'
 import { SliderData } from '../Data/SliderData/SliderData'
 import CartToPdf from '../containers/Pdf'
-
 import { useAuth } from '../hooks/auth.hook'
+
+import { AuthContext } from '../context/AuthContext'
 
 
 
@@ -30,14 +31,10 @@ import { useAuth } from '../hooks/auth.hook'
  *  connect
  */
 function App(props) {
-  const [load, setLoad] = React.useState(false)
-  const { cart, products, addProductToCart, filter, setSort } = props;
   let history = useHistory();
-
-
-  
-
-  
+  /**
+   *  передача информации на goole analitycs
+   */
   var location = useLocation();
   ReactGA.initialize('UA-185966908-1');
   useEffect(() => {
@@ -45,7 +42,10 @@ function App(props) {
   }, [location]);
 
 
-
+  const [load, setLoad] = React.useState(false)
+  const { cart, products, addProductToCart, filter, setSort } = props;
+  const { token, userId, login, logout } = useAuth()
+  const isAuth = !!token
 
   /**
    *  При первом запуске сайта весь массив product товаров
@@ -53,49 +53,56 @@ function App(props) {
    *  в actions/products.js ) передается в Store. Reducer products.
    *  так же сразу делается выборка для лидеров продаж и для распродажи.
    */
-
   const [isReadyAll, setIsReadyAll] = React.useState(false)
   const { setProducts, setLiders, setSales, setSlides, setDillers, } = props;
 
-  // const delay = (ms) => {
-  //   return new Promise((resolve, regect) => {
-  //     setTimeout(() => {
-  //       resolve()
-  //     }, ms)
-  //   })
-  // }
 
   const Load = async () => {
-
     await setProducts(Data)
     await setLiders(Data)
     await setSales(Data)
     await setSlides(SliderData)
     await setDillers(DillerData)
     await setIsReadyAll(true)
+
+
+
   }
 
-
-  React.useState(() => {
-    Load().then(() => { setLoad(true) })
+  React.useEffect(() => {
+    Load().then(() => {
+      setLoad(true)
+      console.log('загрузка завершена')
+    })
   }, [])
 
 
+
+
+
+
+
+
+
+// че за бредятина , откуда тут какой то вообще useState??????????????????????????????
   React.useState(() => {
     if (localStorage.getItem('cart')) {
+      console.log('we are here')
       const LocalCart = JSON.parse(localStorage.getItem('cart'))
       LocalCart.forEach(element => {
         addProductToCart(Data.find(prod => prod.model === element))
       });
     }
-  }, [])
+  }, [load])
 
 
   React.useMemo(() => {
     try {
-      const ProductStorage = []
-      cart.map(product => ProductStorage.push(product.model))
-      localStorage.setItem('cart', JSON.stringify(ProductStorage))
+      // if (!isAuth) {
+        const ProductStorage = []
+        cart.map(product => ProductStorage.push(product.model))
+        localStorage.setItem('cart', JSON.stringify(ProductStorage))
+      // }
     } catch (e) {
       if (e) {
         alert('Превышен лимит');
@@ -111,17 +118,19 @@ function App(props) {
   }, [filter.global])
 
 
+
+
   return (
     <>
-
-      <div className={classes.Main}>
-        <div className={classes.fixed_header}>
-          <UpHeader />
-          <Auth />
-          <Navbar />
-          
-        </div>
-        {isReadyAll ?
+      <AuthContext.Provider value={{ token, userId, login, logout, isAuth }}>
+        <div className={classes.Main}>
+          <div className={classes.fixed_header}>
+            <UpHeader />
+            <Auth />
+            <Navbar />
+            {isAuth && <div>Авторизация пройдена</div>}
+          </div>
+          {/* {isReadyAll ? */}
           <Switch>
             <Route exact path="/" component={MainPage} />
             <Route exact path="/cart" component={CartDetail} />
@@ -135,10 +144,10 @@ function App(props) {
             <Route exact path="/docs/pdf" component={CartToPdf} />
             <Route path="*" exact={true} component={MainPage} />
           </Switch>
-          : <div>loading</div>}
-        <Footer />
-      </div>
-
+          {/* : <div>loading</div>} */}
+          <Footer />
+        </div>
+      </AuthContext.Provider>
     </>
   );
 };

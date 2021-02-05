@@ -63,6 +63,7 @@
     transition: 0.1s;
     cursor: pointer;
     color:#3c475b;
+    margin-right: 5px;
 }
 .login_button:hover{
     transform: scale(1.06);
