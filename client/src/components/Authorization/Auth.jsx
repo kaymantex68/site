@@ -15,9 +15,8 @@ export const Auth = (props) => {
 
 
     const clickLogin = () => {
-        axios.post('api/auth/login', login).then(response => {
-            console.log(response.data)
-            auth.login(response.data.token, response.data.id)
+        axios.post('api/auth/login', login).then(response => {   
+            auth.login(response.data.token, response.data.userId)
         })
     }
 
@@ -27,10 +26,11 @@ export const Auth = (props) => {
         }
     
 
-
+    console.log('auth',auth)
     return (
         <div className={classes.auth_container}>
             <div className={classes.auth_login_container}>
+                {auth.isAuth && <div>{auth.userId}</div>}
                 <div className={classes.input_border}>
                     <input className={classes.login_input} type="email" placeholder="@email" name="email" value={login.email} onChange={(e) => setLogin({ ...login, [e.target.name]: e.target.value })} />
                 </div>

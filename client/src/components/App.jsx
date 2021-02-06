@@ -2,6 +2,7 @@ import React, { useEffect, useContext } from 'react';
 import { Switch, Route, useLocation, useHistory } from 'react-router-dom'
 import classes from './App.module.css';
 import ReactGA from 'react-ga';
+import axios from 'axios'
 
 import UpHeader from './UpHeader/UpHeader';
 
@@ -24,12 +25,6 @@ import { AuthContext } from '../context/AuthContext'
 
 
 
-
-
-/**
- *  Компонент App получает props из App.js при помощи 
- *  connect
- */
 function App(props) {
   let history = useHistory();
   /**
@@ -54,9 +49,9 @@ function App(props) {
    *  так же сразу делается выборка для лидеров продаж и для распродажи.
    */
   const [isReadyAll, setIsReadyAll] = React.useState(false)
-  const { setProducts, setLiders, setSales, setSlides, setDillers, } = props;
+  const { setProducts, setLiders, setSales, setSlides, setDillers, setCart } = props;
 
-
+  //===================== первоначальная загрузка в stor redux ==================
   const Load = async () => {
     await setProducts(Data)
     await setLiders(Data)
@@ -64,59 +59,54 @@ function App(props) {
     await setSlides(SliderData)
     await setDillers(DillerData)
     await setIsReadyAll(true)
-
-
-
   }
 
   React.useEffect(() => {
     Load().then(() => {
       setLoad(true)
-      console.log('загрузка завершена')
+      console.log('Load complite...')
     })
   }, [])
 
-
-
-
-
-
-
-
-
-// че за бредятина , откуда тут какой то вообще useState??????????????????????????????
-  React.useState(() => {
-    if (localStorage.getItem('cart')) {
-      console.log('we are here')
+  React.useEffect(() => {
+    //===================== загрузка в корзину если нет авторизации ==================
+    if (localStorage.getItem('cart') && !isAuth) {
+      setCart([])
       const LocalCart = JSON.parse(localStorage.getItem('cart'))
       LocalCart.forEach(element => {
         addProductToCart(Data.find(prod => prod.model === element))
       });
+      console.log('Cart is loaded (!isAuth)...')
     }
-  }, [load])
+    //==================== загрузка в корзину если есть авторизация ==================
+    if (isAuth && load) {
+      setCart([])
+      console.log('Cart is loaded (isAuth)...')
+      console.log('userId', token)
+    }
+  }, [load, isAuth])
 
-
+  //==================== добавление товаров в корзину если нет авторизации ==================
   React.useMemo(() => {
     try {
-      // if (!isAuth) {
+      if (load && !isAuth) {
         const ProductStorage = []
         cart.map(product => ProductStorage.push(product.model))
         localStorage.setItem('cart', JSON.stringify(ProductStorage))
-      // }
+      }
     } catch (e) {
       if (e) {
-        alert('Превышен лимит');
+        alert('Превышен лимит Local storage');
       }
     }
   }, [cart])
 
-
+  //==================== глобальный фильтр переход в catalog ==================
   React.useMemo(() => {
     if (filter.global && filter.global.length > 0 && location != '/catalog') {
       history.push('/catalog');
     }
   }, [filter.global])
-
 
 
 

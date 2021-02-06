@@ -72,6 +72,7 @@ router.post(
                 config.get('jwtSecretKey'),
                 { expiresIn: '1h' }
             )
+          
             res.json({ token, userId: user.id, message: 'авторизация' })
         } catch (e) {
             res.json({ message: 'что-то пошло не так...' })
