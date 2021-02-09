@@ -101,7 +101,7 @@ function Navbar(props) {
                                             </div>
                                         </li>
                                         <li className={classes.Dropdown_Links}>
-                                            <Link to="/catalog/ahd">CVI-TVI-AHD-CVBS камеры</Link>
+                                            <Link to="/catalog/ahd">CVI-TVI-AHD камеры</Link>
                                             <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                 <ul>
                                                     <li className={classes.Dropdown_Links}>
@@ -305,6 +305,19 @@ function Navbar(props) {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/domofon/videodomofon/Atis">Atis</Link>
                                                                 </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/domofon/videodomofon/HiWatch">HiWatch</Link>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li className={classes.Dropdown_Links}>
+                                                        <Link to="/catalog/domofon/ipvideodomofon">IP видеодомофоны</Link>
+                                                        <div className={`${classes.Dropdown} ${classes.Second}`} >
+                                                            <ul>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/domofon/ipvideodomofon/HiWatch">HiWatch</Link>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </li>
@@ -318,7 +331,7 @@ function Navbar(props) {
                                                             </ul>
                                                         </div>
                                                     </li>
-                                                    <li className={classes.Dropdown_Links}>
+                                                    {/* <li className={classes.Dropdown_Links}>
                                                         <Link to="/catalog/domofon/complect">Комплекты</Link>
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
                                                             <ul>
@@ -327,7 +340,7 @@ function Navbar(props) {
                                                                 </li>
                                                             </ul>
                                                         </div>
-                                                    </li>
+                                                    </li> */}
                                                     <li className={classes.Dropdown_Links}>
                                                         <Link to="/catalog/domofon/domofon">Домофоны</Link>
                                                         <div className={`${classes.Dropdown} ${classes.Second}`} >
