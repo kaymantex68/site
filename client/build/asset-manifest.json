@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.7c94e1bb.chunk.css",
-    "main.js": "/static/js/main.f5645616.chunk.js",
-    "main.js.map": "/static/js/main.f5645616.chunk.js.map",
+    "main.js": "/static/js/main.364342fc.chunk.js",
+    "main.js.map": "/static/js/main.364342fc.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8818279e.js",
     "runtime-main.js.map": "/static/js/runtime-main.8818279e.js.map",
     "static/css/2.67810363.chunk.css": "/static/css/2.67810363.chunk.css",
-    "static/js/2.8147bbbc.chunk.js": "/static/js/2.8147bbbc.chunk.js",
-    "static/js/2.8147bbbc.chunk.js.map": "/static/js/2.8147bbbc.chunk.js.map",
+    "static/js/2.12a01336.chunk.js": "/static/js/2.12a01336.chunk.js",
+    "static/js/2.12a01336.chunk.js.map": "/static/js/2.12a01336.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.67810363.chunk.css.map": "/static/css/2.67810363.chunk.css.map",
     "static/css/main.7c94e1bb.chunk.css.map": "/static/css/main.7c94e1bb.chunk.css.map",
-    "static/js/2.8147bbbc.chunk.js.LICENSE.txt": "/static/js/2.8147bbbc.chunk.js.LICENSE.txt",
+    "static/js/2.12a01336.chunk.js.LICENSE.txt": "/static/js/2.12a01336.chunk.js.LICENSE.txt",
     "static/media/1.9b4451ff.png": "/static/media/1.9b4451ff.png",
     "static/media/3.09e1f41a.png": "/static/media/3.09e1f41a.png",
     "static/media/D-Link_brand.78dd7268.png": "/static/media/D-Link_brand.78dd7268.png",
@@ -22,6 +22,7 @@
     "static/media/cambox_brand.2b2ba466.png": "/static/media/cambox_brand.2b2ba466.png",
     "static/media/cart.ae2a47a8.svg": "/static/media/cart.ae2a47a8.svg",
     "static/media/dahua_brand.c22c43b2.png": "/static/media/dahua_brand.c22c43b2.png",
+    "static/media/dkc_brand.be2fe91a.png": "/static/media/dkc_brand.be2fe91a.png",
     "static/media/electrotehnika_avtomatika_brand.a7b852cf.png": "/static/media/electrotehnika_avtomatika_brand.a7b852cf.png",
     "static/media/ez-ip.91b13b42.png": "/static/media/ez-ip.91b13b42.png",
     "static/media/ez-ip_brand.49412257.png": "/static/media/ez-ip_brand.49412257.png",
@@ -61,6 +62,7 @@
     "static/media/slt_brand.9f929e50.png": "/static/media/slt_brand.9f929e50.png",
     "static/media/sprut_brand.07156cb8.png": "/static/media/sprut_brand.07156cb8.png",
     "static/media/st_brand.9eb04d6f.png": "/static/media/st_brand.9eb04d6f.png",
+    "static/media/stelberry_brand.b43d11a0.png": "/static/media/stelberry_brand.b43d11a0.png",
     "static/media/svn_brand.7bcd37c9.png": "/static/media/svn_brand.7bcd37c9.png",
     "static/media/tantos_brand.f2c06bd8.png": "/static/media/tantos_brand.f2c06bd8.png",
     "static/media/teko_brand.7359f17f.png": "/static/media/teko_brand.7359f17f.png",
@@ -77,8 +79,8 @@
   "entrypoints": [
     "static/js/runtime-main.8818279e.js",
     "static/css/2.67810363.chunk.css",
-    "static/js/2.8147bbbc.chunk.js",
+    "static/js/2.12a01336.chunk.js",
     "static/css/main.7c94e1bb.chunk.css",
-    "static/js/main.f5645616.chunk.js"
+    "static/js/main.364342fc.chunk.js"
   ]
 }
