@@ -7361,7 +7361,7 @@ export const Data = [
             text15: ['Полная высота: ', '167мм'],
             text16: ['Вес (±3%), кг: ', '5,7'],
         },
-        coast: 4900,
+        coast: 2770,
         old_coast: false,
         new: false,
     },
