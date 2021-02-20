@@ -166,6 +166,9 @@ function Navbar(props) {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/reg/xvr/EZ-IP">EZ-IP</Link>
                                                                 </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/reg/xvr/HiWatch">HiWatch</Link>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </li>
@@ -311,6 +314,12 @@ function Navbar(props) {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/domofon/videodomofon/HiWatch">HiWatch</Link>
                                                                 </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/domofon/videodomofon/Optimus">Optimus</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/domofon/videodomofon/Dahua">Dahua</Link>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </li>
@@ -321,6 +330,9 @@ function Navbar(props) {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/domofon/ipvideodomofon/HiWatch">HiWatch</Link>
                                                                 </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/domofon/ipvideodomofon/Dahua">Dahua</Link>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </li>
@@ -330,6 +342,9 @@ function Navbar(props) {
                                                             <ul>
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/domofon/doorring/IMOU">IMOU</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/domofon/doorring/Optimus">Optimus</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
