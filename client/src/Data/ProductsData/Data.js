@@ -4112,6 +4112,7 @@ export const Data = [
         // rasprodaja: true,
         // small_item: '0.67rem',
         // new: true,
+        lider:true,
         inStock_outStock: 1,
         // small_item: '0.69rem',
         picture: 1,
@@ -4268,7 +4269,7 @@ export const Data = [
         rasprodaja: true,
         small_item: '0.67rem',
         new: true,
-        inStock_outStock: 1,
+        inStock_outStock: 0,
         // small_item: '0.69rem',
         picture: 1,
         info: {
@@ -4449,7 +4450,7 @@ export const Data = [
         pic_brand: dahua_brand,
         coast: 7190,
         old_coast: false,
-        lider: true,
+        lider: false,
         new: true,
         inStock_outStock: 1,
         small_item: '0.68rem',
@@ -6860,7 +6861,7 @@ export const Data = [
         pic_brand: teko_brand,
         coast: 4770,
         old_coast: false,
-        lider: true,
+        lider: false,
         new: true,
         inStock_outStock: 1,
         picture: 1,
@@ -8052,6 +8053,7 @@ export const Data = [
         pic_brand: hiwatch_brand,
         //akciya: 'Акция -10%',
         //pic_akciya: shar,
+        lider:true,
         coast: 8460,
         old_coast: false,
         inStock_outStock: 1,
@@ -8332,6 +8334,7 @@ export const Data = [
         pic_brand: hiwatch_brand,
         coast: 10880,
         old_coast: false,
+        lider:true,
         //  rasprodaja: true,
         // small_item: '0.67rem',
         new: true,
@@ -8702,14 +8705,14 @@ export const Data = [
     *  ST ST-BMS "СТОЛБ 2"
     */
    {
-    model: 'ST-BSS СТОЛБ 2',
-    id: 'ST-BSS_СТОЛБ_2',
+    model: 'ST-BMS СТОЛБ 2',
+    id: 'ST-BMS_СТОЛБ_2',
     brand: 'ST',
     type: ['кронштейн', 'montaj', 'kron'],
     description: 'ST-BMS "Столб 2", Кронштейн средний универсальный, предназначен для крепления 2-х видеокамер,1 видеокамеры и коробки, 1 поворотной видеокамеры  ( пример: Speed Dome), Габаритные размеры: 264х120х60мм, Сталь-толщина 2,2мм.Кронштейн оцинкован и окрашен, антикоррозия и антиржавчина, Допустимая нагрузка: Не более 10 кг, Комплектность: Кронштейн – 1 шт.,Металлический хомут – 2 шт.,Винт – 6 шт.,Гайка – 6 шт., Рабочая температура: -50°… +60°С, Вес (в комплекте с крепежом: 0,92 кг',
     path: '/',
     pic_brand: st_brand,
-    coast: 1200,
+    coast: 1300,
     old_coast: false,
     new: false,
     inStock_outStock: 1,
@@ -8765,7 +8768,7 @@ export const Data = [
         description: 'Кронштейн малый универсальный, предназначен для крепления 1  видеокамеры на столб, подходит для 99 % видеокамер, Габаритные размеры: 132х120х60мм, Сталь:толщина 2,2мм.Кронштейн оцинкован и окрашен, антикоррозия и антиржавчина, Допустимая нагрузка: Не более 10 кг, Комплектность: Кронштейн – 1 шт.,Металлический хомут – 2 шт.,Винт – 3 шт.,Гайка – 3 шт., Рабочая температура: -50°… +60°С, Вес (в комплекте с крепежом: 0,51 кг',
         path: '/',
         pic_brand: st_brand,
-        coast: 850,
+        coast: 950,
         old_coast: false,
         new: false,
         inStock_outStock: 1,
@@ -8832,7 +8835,7 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: st_brand,
-        coast: 550,
+        coast: 560,
         old_coast: false,
         inStock_outStock: 1,
         picture: 1,
@@ -8867,7 +8870,7 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: st_brand,
-        coast: 820,
+        coast: 830,
         old_coast: false,
         inStock_outStock: 1,
         picture: 1,
@@ -8937,7 +8940,7 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: st_brand,
-        coast: 2770,
+        coast: 3150,
         old_coast: false,
         inStock_outStock: 1,
         picture: 1,
@@ -8979,7 +8982,7 @@ export const Data = [
         pic_brand: st_brand,
         inStock_outStock: 1,
         // rasprodaja: true,
-        coast: 470,
+        coast: 490,
         old_coast: false,
         new: false,
         picture: 1,
@@ -9018,7 +9021,7 @@ export const Data = [
         pic_brand: st_brand,
         inStock_outStock: 1,
         // rasprodaja: true,
-        coast: 440,
+        coast: 460,
         old_coast: false,
         new: false,
         picture: 1,
@@ -9052,7 +9055,7 @@ export const Data = [
         pic_brand: st_brand,
         inStock_outStock: 1,
         // rasprodaja: true,
-        coast: 190,
+        coast: 200,
         old_coast: false,
         new: false,
         picture: 1,
@@ -9094,8 +9097,8 @@ export const Data = [
         pic_brand: st_brand,
         inStock_outStock: 1,
         rasprodaja: true,
-        coast: 2900,
-        old_coast: 3660,
+        coast: 3100,
+        old_coast: 3880,
         new: false,
         picture: 1,
         info: {
@@ -9370,7 +9373,7 @@ export const Data = [
         description: 'Видеокамера ST-2004 Light, цветная IP,Разрешение:2MP (1080p),с ИК подсветкой,для установки внутри помещений, Купольная, Фокусное расстояние: 3,6mm (соответствует 80° по горизонтали), Сенсор: 1/2,9" Progressive Scan CMOS, Дальность ИК подсветки: до 20 м, Светочувствительность (мин. освещенность): 0.1Lux(цвет) 0.01Lux(ч/б), Кодек сжатия: H.264, H.265, Напряжение питания: 12В, Максимальный ток потребления: 0,63А, ИК-фильтр: IR-CUT (механический), Функции улучшения изображения: BLC,DWDR,DNR,AGC, Onvif 2.6 (Profile S),RTSP, Smart IR: Да, Xmeye, Кол-во кадров в секунду: до 25 к/с, Регулировка кронштейна: 3D-Ось, Рабочая температура: 0…+60°С, Степень защищенности/вандалостойкость: IP54, Материал корпуса: ПЛАСТИК, Габариты видеокамеры,мм (d*h): 110х85',
         path: '/',
         pic_brand: st_brand,
-        inStock_outStock: 1,
+        inStock_outStock: 0,
         rasprodaja: true,
         coast: 1700,
         old_coast: 2130,
@@ -9805,6 +9808,7 @@ export const Data = [
         pic_brand: st_brand,
         coast: 10200,
         old_coast: 12750,
+        rasprodaja:true,
         inStock_outStock: 1,
         picture: 1,
         info: {
@@ -9875,6 +9879,7 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: st_brand,
+        rasprodaja: true,
         coast: 4790,
         old_coast: 5990,
         inStock_outStock: 1,
@@ -9947,8 +9952,8 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: st_brand,
-        coast: 8080,
-        old_coast: 10100,
+        coast: 7990,
+        old_coast: 9990,
         inStock_outStock: 1,
         picture: 1,
         info: {
@@ -10020,9 +10025,9 @@ export const Data = [
         description: 'Видеорегистратор ST-HDVR162PRO D, (версия 2), Цифровой, гибридный режим работы: 16 каналов аналог (TVI/AHD/CVI (до 2Mp)/CVBS (960H)) + 2 IP (6Mp), макс. количество подключаемых IP камер – 18 IP (6Mp), Видео/аудио входы: 16/1, Аудио выход: 1, разъем RCA, Всего видеовыходов: 2 (HDMI, VGA), HDMI (1920х1080), VGA, Поддерживаемые видеокодеки: Н.264/H.265, Поддерживаемые аудиокодеки: G.711, Запись аналоговые камеры (разрешение/скорость): TVI / CVI / AHD до 1080N, 720P - 15 к/с CVBS - 25 к/сек, Запись IP камеры (разрешение / скорость): IP- 25 к/сек, 1 SATA 3.0 до 10 Тб, Сетевой интерфейс: RJ45,10М/100М, Протоколы: RTSP, P2P: QR код / Easyviewer Lite, Поддержка платформ: Поддерживает IPhone, Android, Напряжение питания/ потребляемая мощность (без HDD): 12В / 2А, Рабочая температура: -10°…+55°C, Габариты, мм.: 260*236*48 мм',
         path: '/',
         pic_brand: st_brand,
-        rasprodaja: true,
-        coast: 12360,
-        old_coast: 15450,
+        rasprodaja: false,
+        coast: 12200,
+        old_coast: 15250,
         inStock_outStock: 1,
         picture: 3,
         info: {
@@ -10166,8 +10171,8 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: st_brand,
-        coast: 4480,
-        old_coast: 5600,
+        coast: 4960,
+        old_coast: 6200,
         inStock_outStock: 1,
         picture: 1,
         info: {
@@ -10239,8 +10244,8 @@ export const Data = [
         // pic: imou_cue_2,
         pic_brand: st_brand,
         old_coast: false,
-        coast: 6690,
-        old_coast: 8370,
+        coast: 6720,
+        old_coast: 8400,
         inStock_outStock: 1,
         picture: 1,
         info: {
@@ -10311,6 +10316,7 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: st_brand,
+        rasprodaja: true,
         coast: 10380,
         old_coast: 12980,
         inStock_outStock: 1,
@@ -10385,6 +10391,7 @@ export const Data = [
         // pic: imou_cue_2,
         pic_brand: st_brand,
         old_coast: false,
+        lider:true,
         new: false,
         inStock_outStock: 1,
         picture: 1,
@@ -10409,7 +10416,7 @@ export const Data = [
             text20: ['Ток ограничения выхода при коротком замыкании нагрузки мощность по сети 220В: ', '8 каналов - 1А,1 канал - 2,5АВт'],
 
         },
-        coast: 4900,
+        coast: 5160,
         old_coast: false,
         new: false
     },
@@ -10451,7 +10458,7 @@ export const Data = [
             text21: ['Комплектация: ', 'Источник питания,крепеж,кабель с двумя клеммами для подключения внешнего АКБ,переходник для подключения АКБ 17 А/ч,паспорт, коробка.'],
 
         },
-        coast: 3190,
+        coast: 3350,
         old_coast: false,
         new: false
     },
@@ -10493,7 +10500,7 @@ export const Data = [
             text21: ['Комплектация: ', 'Источник питания,крепеж,кабель с двумя клеммами для подключения внешнего АКБ,переходник для подключения АКБ 17 А/ч,паспорт, коробка.'],
 
         },
-        coast: 2750,
+        coast: 2930,
         old_coast: false,
         new: false
     },
@@ -10535,7 +10542,7 @@ export const Data = [
             text21: ['Комплектация: ', 'Источник питания,крепеж,кабель с двумя клеммами для подключения внешнего АКБ,переходник для подключения АКБ 17 А/ч,паспорт, коробка.'],
 
         },
-        coast: 2750,
+        coast: 2280,
         old_coast: false,
         new: false
     },
@@ -10786,7 +10793,7 @@ export const Data = [
             text15: ['Комплектация:', 'ИП РОЕ с кабелем с тремя разъемами на концах для питания подключаемых видеокамер и микрофона,паспорт,упаковочный пакет'],
         },
 
-        coast: 490,
+        coast: 540,
         old_coast: false,
         new: false
     },
@@ -11485,7 +11492,7 @@ export const Data = [
             text11: ['КПД: ', '≥ 75 процентов'],
 
         },
-        coast: 450,
+        coast: 490,
         old_coast: false,
         new: false
     },
@@ -11520,7 +11527,7 @@ export const Data = [
             text11: ['КПД: ', '≥ 75 процентов'],
 
         },
-        coast: 500,
+        coast: 580,
         old_coast: false,
         new: false
     },
@@ -11555,7 +11562,7 @@ export const Data = [
             text11: ['КПД: ', '≥ 75 процентов'],
 
         },
-        coast: 550,
+        coast: 660,
         old_coast: false,
         new: false
     },
@@ -11590,7 +11597,7 @@ export const Data = [
             text11: ['КПД: ', '≥ 75 процентов'],
 
         },
-        coast: 700,
+        coast: 750,
         old_coast: false,
         new: false
     },
@@ -11625,7 +11632,7 @@ export const Data = [
             text11: ['КПД: ', '≥ 75 процентов'],
 
         },
-        coast: 750,
+        coast: 870,
         old_coast: false,
         new: false
     },
@@ -11660,7 +11667,7 @@ export const Data = [
             text11: ['КПД: ', '≥ 75 процентов'],
 
         },
-        coast: 900,
+        coast: 980,
         old_coast: false,
         new: false
     },
@@ -11668,8 +11675,8 @@ export const Data = [
     *  IEK IEK 24 BT 12 B cl
     */
     {
-        model: 'IEK 24 BT 12 B cl',
-        id: 'IEK_24_BT_12_B_cl',
+        model: 'IEK 24 BT 12 B',
+        id: 'IEK_24_BT_12_B',
         brand: 'IEK',
         type: ['БП закрытого типа', 'apc', 'close'],
         description: 'Блок питания закрытого типа, 12В 2А. Длительный срок службы: высокое качество сборки и многоступенчатый контроль качества на производстве. Отличные технические характеристики: соответствие заявленным параметрам, высокий КПД, встроенные защиты (от перегрузки, перегрева, короткого замыкания). Высокий спрос: конкурентоспособная цена, яркая и информативная упаковка.',
@@ -11703,8 +11710,8 @@ export const Data = [
     *  IEK IEK 36 BT 12 B cl
     */
     {
-        model: 'IEK 36 BT 12 B cl',
-        id: 'IEK_36_BT_12_B_cl',
+        model: 'IEK 36 BT 12 B',
+        id: 'IEK_36_BT_12_B',
         brand: 'IEK',
         type: ['БП закрытого типа', 'apc', 'close'],
         description: 'Блок питания закрытого типа, 12В 3А. Длительный срок службы: высокое качество сборки и многоступенчатый контроль качества на производстве. Отличные технические характеристики: соответствие заявленным параметрам, высокий КПД, встроенные защиты (от перегрузки, перегрева, короткого замыкания). Высокий спрос: конкурентоспособная цена, яркая и информативная упаковка.',
@@ -14800,7 +14807,7 @@ export const Data = [
         pic_brand: imou_brand,
         coast: 4390,
         old_coast: false,
-        lider: true,
+        lider: false,
         // akciya: 'Акция -10%',
         pic_akciya: shar,
 
@@ -14846,7 +14853,7 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
-        lider: true,
+        lider: false,
         // akciya: 'Акция -10%',
         pic_akciya: shar,
         coast: 4990,
@@ -14894,7 +14901,7 @@ export const Data = [
         // path: '/',
         // pic: imou_cue_2,
         pic_brand: imou_brand,
-        lider: true,
+        lider: false,
         // akciya: 'Акция -10%',
         pic_akciya: shar,
         coast: 4990,
@@ -15754,6 +15761,7 @@ export const Data = [
         old_coast: false,
         rasprodaja: false,
         new: false,
+        lider: true,
         inStock_outStock: 1,
         picture: 1,
         info: {
@@ -15855,6 +15863,7 @@ export const Data = [
         old_coast: false,
         rasprodaja: false,
         // small_item: '0.67rem',
+        lider:true,
         new: true,
         inStock_outStock: 1,
         // small_item: '0.69rem',

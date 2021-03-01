@@ -92,7 +92,7 @@ export const SliderData=[
             text9: ' - Двусторонняя аудиосвязь',
             text10: ' - Облако'
         },
-        coast: 4390,
+        // coast: 4390,
         new: true
     },
   
