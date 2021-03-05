@@ -4,9 +4,13 @@ import ReactToPrint from 'react-to-print'
 import logo from '../../Logo/logo.svg'
 
 const CartToPdf = (props) => {
+   
+
     const { cartUniq } = props;
     const componentRef = React.useRef();
-    console.log(props)
+    // console.log(props)
+
+  
 
     return (
         <div className={classes.container}>
@@ -19,7 +23,7 @@ const CartToPdf = (props) => {
                         content={() => componentRef.current}
                     />
                 </div>
-                <div ref={componentRef}>
+                <div ref={componentRef} >
                     <div className={classes.block_pdf}>
                         <div>
                         <div className={classes.header}>
