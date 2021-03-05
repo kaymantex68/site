@@ -734,6 +734,9 @@ function Navbar(props) {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/net/poe/Utepo">Utepo</Link>
                                                                 </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/net/poe/HiWatch">HiWatch</Link>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </li>
