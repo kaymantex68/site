@@ -150,6 +150,9 @@ function Navbar(props) {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/reg/nvr/Atis">Atis</Link>
                                                                 </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/reg/nvr/Dahua">Dahua</Link>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </li>
