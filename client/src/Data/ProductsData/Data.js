@@ -11916,8 +11916,8 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: iek_brand,
+        coast: 590,
         old_coast: false,
-        new: false,
         inStock_outStock: 1,
         picture: 1,
         info: {
@@ -11935,9 +11935,6 @@ export const Data = [
             text11: ['КПД: ', '≥ 75 процентов'],
 
         },
-        coast: 390,
-        old_coast: false,
-        new: false
     },
     /** 
      * ------------------------------------------------------------------------EZ-IP
