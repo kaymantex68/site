@@ -114,6 +114,9 @@ function Navbar(props) {
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/ahd/outdoor/EZ-IP">EZ-IP</Link>
                                                                 </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/ahd/outdoor/Dahua">Dahua</Link>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </li>
@@ -443,6 +446,9 @@ function Navbar(props) {
                                                                 </li>
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/skud/schit/IronLogic">IronLogic</Link>
+                                                                </li>
+                                                                <li className={classes.Dropdown_Links}>
+                                                                    <Link to="/catalog/skud/schit/Dahua">Dahua</Link>
                                                                 </li>
                                                                 <li className={classes.Dropdown_Links}>
                                                                     <Link to="/catalog/skud/schit/Noname">Noname</Link>
