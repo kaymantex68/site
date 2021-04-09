@@ -10986,7 +10986,7 @@ export const Data = [
         rasprodaja: false,
         coast: 15250,
         old_coast: false,
-        inStock_outStock: 1,
+        inStock_outStock: 0,
         picture: 3,
         info: {
             text: ['Кол-во входов: ', '16 BNC'],
@@ -12798,7 +12798,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 2,
         // rasprodaja: false,
-        coast: 2090,
+        coast: 2390,
         old_coast: false,
         info: {
             text: ['Разрешение:','2 MP(1920×1080)'],
@@ -12866,7 +12866,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 2,
         // rasprodaja: false,
-        coast: 1990,
+        coast: 2190,
         old_coast: false,
         info: {
             text: ['Разрешение:','2 MP(1920×1080)'],
@@ -13000,9 +13000,9 @@ export const Data = [
         type: ['Аналоговая камера', 'ahd', 'outdoor'],
         description: 'Макс. 30 к/с при 1080P > Переключение HD/SD > Фиксированный объектив 3,6 мм > Встроенный микрофон (-A) > Макс. дальность ИК-подсветки 80 м, Smart IR > IP67, 12 В пост. тока',
         pic_brand: ez_ip_brand,
-        inStock_outStock: 2,
+        inStock_outStock: 1,
         // rasprodaja: false,
-        coast: 2590,
+        coast: 2890,
         old_coast: false,
         info: {
             text: ['Разрешение:','2 MP(1920×1080)'],
@@ -13036,7 +13036,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 2,
         // rasprodaja: false,
-        coast: 2590,
+        coast: 2890,
         old_coast: false,
         info: {
             text: ['Разрешение:','2 MP(1920×1080)'],
@@ -13070,7 +13070,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 1,
         // rasprodaja: false,
-        coast: 1990,
+        coast: 2190,
         old_coast: false,
         info: {
             text: ['Разрешение:','2 MP(1920×1080)'],
@@ -13104,7 +13104,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 2,
         // rasprodaja: false,
-        coast: 1990,
+        coast: 2190,
         old_coast: false,
         info: {
             text: ['Разрешение:','2 MP(1920×1080)'],
@@ -13138,7 +13138,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 2,
         // rasprodaja: false,
-        coast: 2090,
+        coast: 2390,
         old_coast: false,
         info: {
             text: ['Разрешение:','2 MP(1920×1080)'],
@@ -13172,7 +13172,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 1,
         // rasprodaja: false,
-        coast: 2090,
+        coast: 2390,
         old_coast: false,
         info: {
             text: ['Разрешение:','2 MP(1920×1080)'],
@@ -13206,7 +13206,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 2,
         // rasprodaja: false,
-        coast: 1990,
+        coast: 2190,
         old_coast: false,
         info: {
             text: ['Разрешение:','2 MP(1920×1080)'],
@@ -13342,7 +13342,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 1,
         // rasprodaja: false,
-        coast: 2490,
+        coast: 2790,
         old_coast: false,
         info: {
             text: ['Разрешение:','2 MP(1920×1080)'],
@@ -13374,9 +13374,9 @@ export const Data = [
         type: ['Аналоговая камера', 'ahd', 'outdoor'],
         description: '> Full-color starlight > Дальность подсветки 20 м > Макс. 30 к/с при 1080P > Переключение CVI/CVBS/AHD/TVI > Фиксированный объектив 3,6 мм > IP67, 12В±30% пост.тока',
         pic_brand: ez_ip_brand,
-        inStock_outStock: 2,
+        inStock_outStock: 1,
         // rasprodaja: false,
-        coast: 2490,
+        coast: 2790,
         old_coast: false,
         info: {
             text: ['Разрешение:','2 MP(1920×1080)'],
@@ -13443,7 +13443,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 2,
         // rasprodaja: false,
-        coast: 3990,
+        coast: 4290,
         old_coast: false,
         info: {
             text: ['Разрешение:','2 MP(1920×1080)'],
@@ -13478,7 +13478,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 1,
         // rasprodaja: false,
-        coast: 2990,
+        coast: 3390,
         old_coast: false,
         info: {
             text: ['Разрешение:','4MP(2560×1440)'],
@@ -13512,7 +13512,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 1,
         // rasprodaja: false,
-        coast: 2790,
+        coast: 3190,
         old_coast: false,
         info: {
             text: ['Разрешение:','4MP(2560×1440)'],
@@ -13546,7 +13546,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 1,
         // rasprodaja: false,
-        coast: 2790,
+        coast: 3190,
         old_coast: false,
         info: {
             text: ['Разрешение:','4MP(2560×1440)'],
@@ -13580,7 +13580,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 2,
         // rasprodaja: false,
-        coast: 2990,
+        coast: 3390,
         old_coast: false,
         info: {
             text: ['Разрешение:','4MP(2560×1440)'],
@@ -13614,7 +13614,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 2,
         // rasprodaja: false,
-        coast: 2990,
+        coast: 3390,
         old_coast: false,
         info: {
             text: ['Разрешение:','4MP(2560×1440)'],
@@ -13648,7 +13648,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 1,
         // rasprodaja: false,
-        coast: 2990,
+        coast: 3390,
         old_coast: false,
         info: {
             text: ['Разрешение:','4MP(2560×1440)'],
@@ -13682,7 +13682,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 2,
         // rasprodaja: false,
-        coast: 5790,
+        coast: 6090,
         old_coast: false,
         info: {
             text: ['Разрешение:','4MP(2560×1440)'],
@@ -13716,7 +13716,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 2,
         // rasprodaja: false,
-        coast: 5590,
+        coast: 6390,
         old_coast: false,
         info: {
             text: ['Разрешение:','4MP(2560×1440)'],
@@ -13793,7 +13793,7 @@ export const Data = [
         type: ['Регистратор', 'reg', 'nvr'],
         description: 'Видеорегистратор IP 8-ми канальный 1080Р; Входящий поток на запись: до 80Мбит/с; Поддерживаемые форматы сжатия: H.265+/H.264+; Запись : разрешение до 8Мп; HDD: 1 SATA3до 6Тб; декодирование: 1кн х 8Мп, 4кн х 1080Р; Видеовыходы: 1 HDMI, 1 VGA; Сеть: 1 порт 100Mb; USB: 2 порта 2.0; поддержка ONVIF ,SDK, CGI; Поддержка: iOS, Android; Питание: DC 12В/2А',
         pic_brand: ez_ip_brand,
-        inStock_outStock: 2,
+        inStock_outStock: 1,
         // rasprodaja: false,
         coast: 5990,
         old_coast: false,
@@ -13925,7 +13925,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 2,
         // rasprodaja: false,
-        coast: 3790,
+        coast: 4290,
         old_coast: false,
         picture: 1,
         info: {
@@ -13967,7 +13967,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 2,
         // rasprodaja: false,
-        coast: 6190,
+        coast: 7090,
         old_coast: false,
         picture: 1,
         info: {
@@ -14009,7 +14009,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 2,
         // rasprodaja: false,
-        coast: 9490,
+        coast: 10790,
         old_coast: false,
         picture: 1,
         info: {
@@ -14093,7 +14093,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 1,
         // rasprodaja: false,
-        coast: 8490,
+        coast: 9690,
         old_coast: false,
         picture: 1,
         info: {
@@ -14135,7 +14135,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 1,
         // rasprodaja: false,
-        coast: 12990,
+        coast: 14890,
         old_coast: false,
         picture: 1,
         info: {
@@ -14222,7 +14222,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 2,
         // rasprodaja: false,
-        coast: 8690,
+        coast: 9890,
         old_coast: false,
         picture: 1,
         info: {
@@ -14264,7 +14264,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 2,
         // rasprodaja: false,
-        coast: 9790,
+        coast: 10290,
         old_coast: false,
         picture: 1,
         info: {
@@ -14307,7 +14307,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 2,
         // rasprodaja: false,
-        coast: 5790,
+        coast: 5990,
         old_coast: false,
         picture: 1,
         info: {
@@ -14349,7 +14349,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 2,
         // rasprodaja: false,
-        coast: 5790,
+        coast: 5990,
         old_coast: false,
         picture: 1,
         info: {
@@ -14475,7 +14475,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 1,
         // rasprodaja: false,
-        coast: 10990,
+        coast: 8390,
         old_coast: false,
         picture: 1,
         info: {
@@ -14560,9 +14560,9 @@ export const Data = [
         type: ['IP камера ', 'ip', 'outdoor'],
         description: 'Видеокамера IP цилиндрическая, 1/2.7" 2 Мп КМОП @ 25 к/с, 30м ИК, 0.01 Лк @F2.0, объектив 2.8 мм, DWDR, 3D DNR, H.265+/H.265/H.264/H.264+, 2 потока, Детекция движения, IP67, металл, -40~+60°C',
         pic_brand: ez_ip_brand,
-        inStock_outStock: 2,
+        inStock_outStock: 1,
         // rasprodaja: false,
-        coast: 5590,
+        coast: 6190,
         old_coast: false,
         picture: 1,
         info: {
@@ -14604,7 +14604,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 2,
         // rasprodaja: false,
-        coast: 5590,
+        coast: 6190,
         old_coast: false,
         picture: 1,
         info: {
@@ -14644,9 +14644,9 @@ export const Data = [
         type: ['IP камера ', 'ip', 'outdoor'],
         description: 'Видеокамера IP цилиндрическая, 1/3" 4 Мп КМОП @ 25 к/с, 30м ИК, 0.03 Лк @F2.0, объектив 2.8 мм, 120 дБ WDR, 3D DNR, H.265+/H.265/H.264/H.264+, 2 потока, Детекция движения, IP67, металл, -40~+60°C',
         pic_brand: ez_ip_brand,
-        inStock_outStock: 2,
+        inStock_outStock: 1,
         // rasprodaja: false,
-        coast: 7790,
+        coast: 7990,
         old_coast: false,
         picture: 1,
         info: {
@@ -14686,9 +14686,9 @@ export const Data = [
         type: ['IP камера ', 'ip', 'outdoor'],
         description: 'Видеокамера IP цилиндрическая, 1/3" 4 Мп КМОП @ 25 к/с, 30м ИК, 0.03 Лк @F2.0, объектив 3.6 мм, 120 дБ WDR, 3D DNR, H.265+/H.265/H.264/H.264+, 2 потока, Детекция движения, IP67, металл, -40~+60°C',
         pic_brand: ez_ip_brand,
-        inStock_outStock: 2,
+        inStock_outStock: 1,
         // rasprodaja: false,
-        coast: 7790,
+        coast: 7990,
         old_coast: false,
         picture: 1,
         info: {
@@ -14730,7 +14730,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 0,
         // rasprodaja: false,
-        coast: 6090,
+        coast: 6990,
         old_coast: false,
         picture: 1,
         info: {
@@ -14770,9 +14770,9 @@ export const Data = [
         type: ['IP камера антивандальная ', 'ip', 'outdoor'],
         description: 'Видеокамера IP купольная антивандальная, 1/3" 4 Мп КМОП @ 25 к/с, 30м ИК, 0.03 Лк @F2.0, объектив 2.8 мм, 120 дБ WDR, 3D DNR, H.265+/H.265/H.264/H.264+, 2 потока, Детекция движения, IP67, IK10, металл, -40~+60°C',
         pic_brand: ez_ip_brand,
-        inStock_outStock: 0,
+        inStock_outStock: 1,
         // rasprodaja: false,
-        coast: 7790,
+        coast: 8390,
         old_coast: false,
         picture: 1,
         info: {
@@ -14854,7 +14854,7 @@ export const Data = [
         type: ['IP камера уличная', 'ip', 'outdoor'],
         description: 'Видеокамера IP уличная цилиндрическая 4Мп 1/3" CMOS, ICR, фикс. объектив; сжатие H.265+/H.265/H.264+/H.264, разрешение и скорость трансляции видео: 4Мп(1~20к\с); дальность ИК: 30м; питание: DC12В PoE IP67; Рабочая температура: -40 -+60 С.',
         pic_brand: ez_ip_brand,
-        inStock_outStock: 2,
+        inStock_outStock: 1,
         // rasprodaja: false,
         coast: 6290,
         old_coast: false,
@@ -15064,7 +15064,7 @@ export const Data = [
         type: ['IP камера ', 'ip', 'outdoor'],
         description: 'Видеокамера IP купольная, 1/3" 4 Мп КМОП @ 25 к/с, 30м ИК, 0.03 Лк @F2.0, объектив 2.8 мм, 120 дБ WDR, 3D DNR, H.265+/H.265/H.264/H.264+, 2 потока, Детекция движения, IP67, металл+пластик, -40~+60°C',
         pic_brand: ez_ip_brand,
-        inStock_outStock: 2,
+        inStock_outStock: 1,
         // rasprodaja: false,
         coast: 6590,
         old_coast: false,
@@ -15148,9 +15148,9 @@ export const Data = [
         type: ['IP камера ', 'ip', 'indoor'],
         description: 'Видеокамера IP кубическая, 1/2.7" 2 Мп КМОП @ 25 к/с, 10м ИК, объектив 2.8 мм, DWDR, 3D DNR, H.265+/H.265/H.264/H.264+, 2 потока, Детекция движения и превышения заданного уровня звука, ИК-датчик, динамик, микрофон, -10~+45°C, поддержка IMOU APP, PoE',
         pic_brand: ez_ip_brand,
-        inStock_outStock: 2,
+        inStock_outStock: 1,
         // rasprodaja: false,
-        coast: 5990,
+        coast: 6390,
         old_coast: false,
         info: {
             text: ['Разрешение: ', '2 MP'],
@@ -15189,9 +15189,9 @@ export const Data = [
         type: ['IP камера ', 'ip', 'indoor'],
         description: 'Видеокамера IP кубическая, 1/2.7" 2 Мп КМОП @ 25 к/с, 10м ИК, объектив 2.8 мм, DWDR, 3D DNR, H.265+/H.265/H.264/H.264+, 2 потока, Детекция движения и превышения заданного уровня звука, ИК-датчик, динамик, микрофон, -10~+45°C, поддержка IMOU APP, Wi-Fi:IEEE802.11b/g/n 50 м в прямой видимости',
         pic_brand: ez_ip_brand,
-        inStock_outStock: 2,
+        inStock_outStock: 1,
         // rasprodaja: false,
-        coast: 5990,
+        coast: 6390,
         old_coast: false,
         info: {
             text: ['Разрешение: ', '2 MP'],
@@ -15232,7 +15232,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 2,
         // rasprodaja: false,
-        coast: 6590,
+        coast: 6990,
         old_coast: false,
         info: {
             text: ['Разрешение: ', '4 MP'],
@@ -15277,7 +15277,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 2,
         // rasprodaja: false,
-        coast: 6090,
+        coast: 6390,
         old_coast: false,
         info: {
             text: ['Разрешение: ', '2 MP'],
@@ -15318,7 +15318,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 2,
         // rasprodaja: false,
-        coast: 6090,
+        coast: 6390,
         old_coast: false,
         info: {
             text: ['Разрешение: ', '2 MP'],
@@ -15357,9 +15357,9 @@ export const Data = [
         type: ['IP камера ', 'ip', 'outdoor'],
         description: 'Видеокамера IP цилиндрическая, 1/2.7" 2 Мп КМОП @ 25 к/с, Full Color, 15м LED-подсветка, 0.005 Лк @F1.6, объектив 2.8 мм, DWDR, 3D DNR, H.265+/H.265/H.264/H.264+, 2 потока, Детекция движения, IP67, металл+пластик, -40~+60°C',
         pic_brand: ez_ip_brand,
-        inStock_outStock: 2,
+        inStock_outStock: 1,
         // rasprodaja: false,
-        coast: 5590,
+        coast: 6390,
         old_coast: false,
         info: {
             text: ['Разрешение: ', '2 MP'],
@@ -15400,7 +15400,7 @@ export const Data = [
         pic_brand: ez_ip_brand,
         inStock_outStock: 2,
         // rasprodaja: false,
-        coast: 5590,
+        coast: 6390,
         old_coast: false,
         info: {
             text: ['Разрешение: ', '2 MP'],
@@ -15600,7 +15600,7 @@ export const Data = [
             text31: ['Вес:', '170 г'],
             text32: ['Комплект поставки:', 'Wi-Fi камера, адаптер питания, инструкция'],
         },
-        coast: 6590,
+        coast: 6990,
         old_coast: false,
         download: {
             link1: ['Паспорт Паспорт EZ-IPC-C1B40P-POE', 'https://videoglaz.ru/upload/manuals/EZ-IP/EZ-IPC-C1B40P-POE.pdf'],
@@ -15757,7 +15757,7 @@ export const Data = [
         pic_akciya: shar,
 
 
-        inStock_outStock: 1,
+        inStock_outStock: 0,
         picture: 1,
         info: {
             text: ['Разрешение:', '2 Мп'],
@@ -17875,7 +17875,7 @@ export const Data = [
         type: ['Регистратор', 'reg', 'xvr'],
         description: '4-канальный XVR-видеорегистратор с поддержкой HDCVI/AHD/TVI/CVBS/IP видеовходов; H.265+/H.265/H.264+/H.264; Разрешение и скорость записи: 1080N/720P/960H/D1/CIF 30к/с на канал; Поддержка IP камер: 4+1 до 2MP; Входящий поток: 20 Мб/с; HDMI / VGA ; Поддержка 1 жесткого дисков SATA до 6 Тб, 2 USB 2.0; Передача данных по коаксиальному кабелю на большое расстояние; ONVIF версия 16.12; Поддержка мультибрендовых сетевых камер: Hikvision, ATIS, Dahua, Arecont Vision, Axis, Bosch, Brickcom, Canon, CP Plus, Dynacolor, Honeywell, Panasonic, Pelco, Samsung, Sanyo, Sony, Videotec, Vivotek и др. ',
         pic_brand: dahua_brand,
-        inStock_outStock: 1,
+        inStock_outStock: 0,
         // rasprodaja: false,
         coast: 5490,
         old_coast: false,

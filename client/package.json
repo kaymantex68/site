@@ -19,7 +19,7 @@
     "react-scripts": "4.0.0",
     "react-to-print": "^2.12.2",
     "redux": "^4.0.5",
-    "swiper": "^6.3.5"
+    "swiper": "^6.5.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -47,7 +47,6 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "devDependencies": {},
   "author": "",
   "license": "ISC",
   "keywords": []
