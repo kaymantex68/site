@@ -1285,7 +1285,7 @@ export const Data = [
         path: '/',
         // pic: imou_cue_2,
         pic_brand: paritet_brand,
-        coast: 26,
+        coast: 27,
         old_coast: false,
         inStock_outStock: 1,
         picture: 1,
@@ -4960,17 +4960,17 @@ export const Data = [
      *  DAHUA DH-IPC-HDW2230TP-AS-0280B
      */
     {
-        model: 'DH-IPC-HDW2230TP',
-        id: 'DH_IPC_HDW2230TP',
+        model: 'DH-IPC-HDW2230TP-AS-0280B',
+        id: 'DH-IPC-HDW2230TP-AS-0280B',
         brand: 'Dahua',
         type: ['IP камера купольная', 'ip', 'outdoor'],
         description: 'Легкая настройка. Четкое изображение. Высокая чувствительность при низкой освещенности, ан улице почти ночь, а картинка цветная и яркая. Ночная подсветка выше всяких похвал, светит равномерно и далеко. Возможность записи на флешку SD до 256Gb. Корпус камеры металл. Есть возможность быстрого демонтажа камеры на защелке. Легко настроить в приложении. Отправка сообщения на e-mail при детекции движения.',
         path: '/',
         // pic: imou_cue_2,
         pic_brand: dahua_brand,
-        coast: 7190,
+        coast: 7690,
         old_coast: false,
-        lider: false,
+        lider: true,
         new: true,
         inStock_outStock: 1,
         small_item: '0.68rem',
@@ -9154,7 +9154,7 @@ export const Data = [
         //  rasprodaja: true,
         // small_item: '0.67rem',
         new: true,
-        inStock_outStock: 0,
+        inStock_outStock: 1,
         // small_item: '0.69rem',
         picture: 1,
         info: {
@@ -10238,8 +10238,8 @@ export const Data = [
         pic_brand: st_brand,
         inStock_outStock: 1,
         rasprodaja: true,
-        coast: 1360,
-        old_coast: 1700,
+        coast: 1700,
+        old_coast: false,
         new: false,
         picture: 1,
         info: {
@@ -10286,8 +10286,8 @@ export const Data = [
         pic_brand: st_brand,
         inStock_outStock: 1,
         rasprodaja: true,
-        coast: 1480,
-        old_coast: 1850,
+        coast: 1850,
+        old_coast: false,
         new: false,
         picture: 1,
         info: {
@@ -12762,7 +12762,7 @@ export const Data = [
         type: ['Аналоговая камера', 'analog', 'outdoor'],
         description: 'Макс. 30 к/с при 720P; Переключаемый выход HD и SD; Фиксированный объектив 2,8 мм; Макс. дальность ИК-подсветки 20 м, Smart IR; IP67, DC 12 В',
         pic_brand: ez_ip_brand,
-        inStock_outStock: 2,
+        inStock_outStock: 1,
         // rasprodaja: false,
         coast: 1590,
         old_coast: false,
@@ -13965,7 +13965,7 @@ export const Data = [
         type: ['Регистратор', 'reg', 'xvr'],
         description: '1080N/720P @25к/с, кодек H.265+/H.265. 1 HDMI/1 VGA, 8 вх. видео, 1 вх./1 вых. аудио, 1 RJ45(100Мбит/с), 2 USB, мультиформатный (CVBS/HDCVI/AHD/TVI/IP) самонастраивающийся, 8+2 IP вх. до 6Мп.',
         pic_brand: ez_ip_brand,
-        inStock_outStock: 2,
+        inStock_outStock: 1,
         // rasprodaja: false,
         coast: 7090,
         old_coast: false,
@@ -14347,7 +14347,7 @@ export const Data = [
         type: ['IP камера купольная', 'ip', 'indoor'],
         description: 'Видеокамера IP купольная 2Мп 1/2,7" CMOS, ICR, фикс. Объектив 3,6 мм; Сжатие H.265+/H.265/H.264+/H.264, разрешение и скорость трансляции видео: 2Мп(1~30к\с); дальность ИК: 20м; питание: DC12В, PoE; Рабочая температура: -40 -+60 С.',
         pic_brand: ez_ip_brand,
-        inStock_outStock: 2,
+        inStock_outStock: 1,
         // rasprodaja: false,
         coast: 5990,
         old_coast: false,
@@ -14728,7 +14728,7 @@ export const Data = [
         type: ['IP камера антивандальная', 'ip', 'outdoor'],
         description: 'Видеокамера IP купольная антивандальная, 1/2.7" 2 Мп КМОП @ 25 к/с, 30м ИК, 0.01 Лк @F2.0, объектив 2.8 мм, DWDR, 3D DNR, H.265+/H.265/H.264/H.264+, 2 потока, Детекция движения, IP67, IK10, металл, -40~+60°C',
         pic_brand: ez_ip_brand,
-        inStock_outStock: 0,
+        inStock_outStock: 1,
         // rasprodaja: false,
         coast: 6990,
         old_coast: false,
@@ -15757,7 +15757,7 @@ export const Data = [
         pic_akciya: shar,
 
 
-        inStock_outStock: 0,
+        inStock_outStock: 1,
         picture: 1,
         info: {
             text: ['Разрешение:', '2 Мп'],
@@ -17463,11 +17463,11 @@ export const Data = [
 
     },
     /**
-     *  Atis H ANH-B12-Pro
+     *  Atis H ANH-B12-2.8-Pro
     */
     {
-        model: 'Atis H ANH-B12-Pro',
-        id: 'Atis_H_ANH_B12_Pro',
+        model: 'Atis H ANH-B12-2.8-Pro',
+        id: 'Atis H ANH-B12-2.8-Pro',
         brand: 'Atis',
         type: ['Уличная IP камера', 'ip', 'outdoor'],
         description: 'IP видеокамера уличная - Разрешение 2Мп (1920×1080) real time - H.265+/ H.265/H.264+/ H.264/MJPEG - Фиксированный объектив 2.8мм - Поддержка DWDR - ИК-подсветка 30м (механический ИК-фильтр) - Слот microSD до 128Гб - Обнаружение движения, вторжения в область и пересечения линии - Питание 12В, PoE',
@@ -17476,7 +17476,7 @@ export const Data = [
         pic_brand: atis_brand,
         coast: 5500,
         old_coast: false,
-        lider: true,
+        lider: false,
         new: false,
         inStock_outStock: 1,
         picture: 1,
@@ -17875,7 +17875,7 @@ export const Data = [
         type: ['Регистратор', 'reg', 'xvr'],
         description: '4-канальный XVR-видеорегистратор с поддержкой HDCVI/AHD/TVI/CVBS/IP видеовходов; H.265+/H.265/H.264+/H.264; Разрешение и скорость записи: 1080N/720P/960H/D1/CIF 30к/с на канал; Поддержка IP камер: 4+1 до 2MP; Входящий поток: 20 Мб/с; HDMI / VGA ; Поддержка 1 жесткого дисков SATA до 6 Тб, 2 USB 2.0; Передача данных по коаксиальному кабелю на большое расстояние; ONVIF версия 16.12; Поддержка мультибрендовых сетевых камер: Hikvision, ATIS, Dahua, Arecont Vision, Axis, Bosch, Brickcom, Canon, CP Plus, Dynacolor, Honeywell, Panasonic, Pelco, Samsung, Sanyo, Sony, Videotec, Vivotek и др. ',
         pic_brand: dahua_brand,
-        inStock_outStock: 0,
+        inStock_outStock: 2,
         // rasprodaja: false,
         coast: 5490,
         old_coast: false,
@@ -17917,7 +17917,7 @@ export const Data = [
         type: ['Регистратор', 'reg', 'xvr'],
         description: '4-канальный XVR-видеорегистратор с поддержкой HDCVI/AHD/TVI/CVBS/IP видеовходов; H.265+/H.265/H.264+/H.264; Разрешение и скорость записи: 1-ый канал 5M-N 10к/с, остальные каналы 4M-N/1080P 15к/с; 1080N/720P/960H/D1/CIF 30к/с на канал; Поддержка IP камер: 4+2 до 6MP; Входящий поток: 24 Мб/с; HDMI / VGA ; Поддержка 1 жесткого дисков SATA до 6 Тб, 2 USB 2.0; Передача данных по коаксиальному кабелю на большое расстояние; ONVIF версия 16.12; Поддержка мультибрендовых сетевых камер: Hikvision, ATIS, Dahua, Arecont Vision, Axis, Bosch, Brickcom, Canon, CP Plus, Dynacolor, Honeywell, Panasonic, Pelco, Samsung, Sanyo, Sony, Videotec, Vivotek и др. ',
         pic_brand: dahua_brand,
-        inStock_outStock: 1,
+        inStock_outStock: 2,
         // rasprodaja: false,
         coast: 6290,
         old_coast: false,
